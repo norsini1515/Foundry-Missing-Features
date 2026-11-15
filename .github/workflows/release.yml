@@ -1,0 +1,45 @@
+# Push a tag like v1.2.0 to build the packs and publish a release.
+# Foundry installs from: https://github.com/<owner>/<repo>/releases/latest/download/module.json
+name: Release
+
+on:
+  push:
+    tags: ["v*"]
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Build packs
+        run: |
+          npm install
+          node build.mjs
+
+      - name: Stamp version and URLs into module.json
+        run: |
+          VERSION="${GITHUB_REF_NAME#v}"
+          REPO="https://github.com/${GITHUB_REPOSITORY}"
+          jq --arg v "$VERSION" --arg repo "$REPO" --arg tag "$GITHUB_REF_NAME" '
+            .version = $v
+            | .url = $repo
+            | .manifest = ($repo + "/releases/latest/download/module.json")
+            | .download = ($repo + "/releases/download/" + $tag + "/module.zip")
+          ' module.json > module.tmp && mv module.tmp module.json
+
+      - name: Package
+        run: zip -r module.zip module.json packs README.md
+
+      - uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            module.json
+            module.zip
