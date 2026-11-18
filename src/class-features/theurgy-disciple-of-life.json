@@ -1,0 +1,41 @@
+{
+  "_id": "2fac9db1a2ba441e",
+  "name": "Arcane Acolyte: Disciple of Life",
+  "type": "feat",
+  "img": "icons/magic/life/heart-cross-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p><strong>Arcane Acolyte (wizard 6th level) — Life Domain 1st-level benefit.</strong></p>\n<p>Whenever you use a spell of 1st level or higher to restore hit points to a creature, that creature regains extra hit points equal to <strong>2 + the spell's level</strong>.</p>\n<p>Per the Theurgy tradition, you do <em>not</em> gain the Life Domain's heavy armor proficiency.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "UA: Wizard Revisited / Life Domain",
+      "book": "UA33"
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "requirements": "Wizard (Theurgy: Life) 6",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "prerequisites": {
+      "level": 6
+    }
+  },
+  "flags": {},
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "coreVersion": "12.331"
+  },
+  "_key": "!items!2fac9db1a2ba441e"
+}

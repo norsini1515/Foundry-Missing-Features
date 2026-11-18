@@ -1,0 +1,51 @@
+{
+  "_id": "a99bd25b94a44ea3",
+  "name": "Channel Arcana",
+  "type": "feat",
+  "img": "icons/magic/life/heart-cross-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>At 2nd level, you channel arcane energy from your deity to fuel magical effects. You begin with two options: <em>Divine Arcana</em> and <em>Channel Divinity: Preserve Life</em> (the Life Domain's 2nd-level Channel Divinity). You use these through this feature.</p>\n<p>Choose one effect when you use Channel Arcana, then finish a short or long rest before using it again. Effects requiring a save use your wizard spell save DC.</p>\n<p>You may use it twice between rests at 6th level, and three times at 18th level, regaining all uses on a short or long rest.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "UA: Wizard Revisited / Life Domain",
+      "book": "UA33"
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "requirements": "Wizard (Theurgy: Life) 2",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "prerequisites": {
+      "level": 2
+    },
+    "uses": {
+      "spent": 0,
+      "max": "@scale.theurgy-life.channel-arcana",
+      "recovery": [
+        {
+          "period": "sr",
+          "type": "recoverAll"
+        }
+      ]
+    }
+  },
+  "flags": {},
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "coreVersion": "12.331"
+  },
+  "_key": "!items!a99bd25b94a44ea3"
+}

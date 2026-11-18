@@ -7,7 +7,7 @@ import { tmpdir } from "node:os";
 import { join } from "node:path";
 
 const MODULE_ID = "missing-features";
-const CATEGORIES = ["subclasses", "spells", "items", "backgrounds", "feats"];
+const CATEGORIES = ["subclasses", "class-features", "spells", "items", "backgrounds", "feats"];
 const ID_RE = /^[A-Za-z0-9]{16}$/;
 
 const errors = [];

@@ -1,0 +1,41 @@
+{
+  "_id": "4d6cc82f60f7497d",
+  "name": "Arcane Initiate",
+  "type": "feat",
+  "img": "icons/magic/life/heart-cross-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>Starting at 2nd level, each time you gain a wizard level you may swap one wizard spell you would add to your spellbook for a <strong>Life Domain spell</strong>, provided it's of a level for which you have spell slots.</p>\n<p>Once every Life Domain spell is in your spellbook, you may instead add any spell from the cleric list (still of a castable level). Cleric spells gained this way count as wizard spells for you, but other wizards cannot copy them from your book.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "UA: Wizard Revisited / Life Domain",
+      "book": "UA33"
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "requirements": "Wizard (Theurgy: Life) 2",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "prerequisites": {
+      "level": 2
+    }
+  },
+  "flags": {},
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "coreVersion": "12.331"
+  },
+  "_key": "!items!4d6cc82f60f7497d"
+}

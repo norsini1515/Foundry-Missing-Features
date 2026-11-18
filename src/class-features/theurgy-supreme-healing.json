@@ -1,0 +1,41 @@
+{
+  "_id": "941636a9b06741db",
+  "name": "Arcane High Priest: Supreme Healing",
+  "type": "feat",
+  "img": "icons/magic/life/heart-cross-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p><strong>Arcane High Priest (wizard 14th level) — Life Domain 17th-level benefit.</strong></p>\n<p>When you would normally roll dice to restore hit points with a spell or with Channel Arcana, you instead use the <strong>highest number possible</strong> for each die. For example, a 2d6 heal restores 12 instead of a roll.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "UA: Wizard Revisited / Life Domain",
+      "book": "UA33"
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "requirements": "Wizard (Theurgy: Life) 14",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "prerequisites": {
+      "level": 14
+    }
+  },
+  "flags": {},
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "coreVersion": "12.331"
+  },
+  "_key": "!items!941636a9b06741db"
+}

@@ -1,0 +1,41 @@
+{
+  "_id": "8df2e7cfbeaf432e",
+  "name": "Arcane Priest: Blessed Healer",
+  "type": "feat",
+  "img": "icons/magic/life/heart-cross-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p><strong>Arcane Priest (wizard 10th level) — Life Domain 6th-level benefit.</strong></p>\n<p>When you cast a spell of 1st level or higher that restores hit points to a creature other than you, <strong>you regain hit points equal to 2 + the spell's level</strong>.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "UA: Wizard Revisited / Life Domain",
+      "book": "UA33"
+    },
+    "type": {
+      "value": "class",
+      "subtype": ""
+    },
+    "requirements": "Wizard (Theurgy: Life) 10",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "prerequisites": {
+      "level": 10
+    }
+  },
+  "flags": {},
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "coreVersion": "12.331"
+  },
+  "_key": "!items!8df2e7cfbeaf432e"
+}

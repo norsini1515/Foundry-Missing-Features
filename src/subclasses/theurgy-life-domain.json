@@ -1,0 +1,150 @@
+{
+  "_id": "691ba429323e4d03",
+  "name": "Theurgy (Life Domain)",
+  "type": "subclass",
+  "img": "icons/magic/life/heart-cross-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>A theurgist devoted to a deity of life and healing. Blends wizardry with the Life Domain, channeling divine restorative power through arcane study.</em></p><p>Domain features are granted at the theurgist's levels: Preserve Life at 2nd (via Channel Arcana), Disciple of Life at 6th, Blessed Healer at 10th, and Supreme Healing at 14th.</p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "UA: Wizard Revisited / Life Domain",
+      "book": "UA33"
+    },
+    "identifier": "theurgy-life",
+    "classIdentifier": "wizard",
+    "advancement": [
+      {
+        "_id": "90f306045f6946d3",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.missing-features.class-features.Item.9486dd977a224a5e",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.missing-features.class-features.Item.4d6cc82f60f7497d",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.missing-features.class-features.Item.a99bd25b94a44ea3",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.missing-features.class-features.Item.0268ba77adf34874",
+              "optional": false
+            },
+            {
+              "uuid": "Compendium.missing-features.class-features.Item.e381c72fd6984e53",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 2,
+        "title": "Theurgy (Life) Features",
+        "icon": ""
+      },
+      {
+        "_id": "89b5993c6488424b",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.missing-features.class-features.Item.2fac9db1a2ba441e",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 6,
+        "title": "Arcane Acolyte: Disciple of Life",
+        "icon": ""
+      },
+      {
+        "_id": "29332c0503a84d7a",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.missing-features.class-features.Item.8df2e7cfbeaf432e",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 10,
+        "title": "Arcane Priest: Blessed Healer",
+        "icon": ""
+      },
+      {
+        "_id": "1d91509d75464181",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.missing-features.class-features.Item.941636a9b06741db",
+              "optional": false
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "level": 14,
+        "title": "Arcane High Priest: Supreme Healing",
+        "icon": ""
+      },
+      {
+        "_id": "80pmhO1Ss5Mj2cnF",
+        "type": "ScaleValue",
+        "configuration": {
+          "identifier": "channel-arcana",
+          "type": "number",
+          "distance": {
+            "units": ""
+          },
+          "scale": {
+            "2": {
+              "value": 1
+            },
+            "6": {
+              "value": 2
+            },
+            "18": {
+              "value": 3
+            }
+          }
+        },
+        "value": {},
+        "title": "Channel Arcana Uses",
+        "hint": "Uses of Channel Arcana per short or long rest.",
+        "icon": ""
+      }
+    ],
+    "spellcasting": {
+      "progression": "none",
+      "ability": ""
+    }
+  },
+  "flags": {},
+  "effects": [],
+  "folder": null,
+  "sort": 100,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "coreVersion": "12.331"
+  },
+  "_key": "!items!691ba429323e4d03"
+}
