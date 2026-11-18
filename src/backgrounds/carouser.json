@@ -1,0 +1,99 @@
+{
+  "_id": "Sc25UjIKn1OmLTqi",
+  "name": "Carouser",
+  "type": "background",
+  "img": "icons/skills/social/diplomacy-handshake.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Source: Astarion's Book of Hungers</em></p><p><strong>Ability Scores:</strong> Dexterity, Intelligence, Charisma</p><p><strong>Feat:</strong> Tireless Reveler</p><p><strong>Skill Proficiencies:</strong> Deception and Persuasion</p><p><strong>Tool Proficiency:</strong> Choose one kind of Gaming Set</p><p><strong>Equipment:</strong> Choose A or B: (A) Dagger, Gaming Set (same as above), Fine Clothes, Glass Bottle, Mirror, Perfume, Pouch, Tinderbox, 19 GP; or (B) 50 GP</p><p>You grew to adulthood in the beating heart of a large city, such as Baldur's Gate. You spent countless evenings in taverns, playhouses, parlors, and gambling dens, savoring all the city had to offer. You're a natural at interacting with people to learn their secrets, whether over a high-stakes game or at a high-class soiree. You might have been thrown out of an establishment or ten, but only by people who don't know how to party.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "Astarion's Book of Hungers",
+      "custom": "Astarion's Book of Hungers"
+    },
+    "advancement": [
+      {
+        "_id": "5NcS4EypXOaIy2AB",
+        "type": "AbilityScoreImprovement",
+        "configuration": {
+          "points": 3,
+          "fixed": {
+            "str": 0,
+            "dex": 0,
+            "con": 0,
+            "int": 0,
+            "wis": 0,
+            "cha": 0
+          },
+          "cap": 2,
+          "locked": {
+            "str": true,
+            "con": true,
+            "wis": true
+          }
+        },
+        "value": {},
+        "title": "Ability Scores (Dex, Int, Cha)"
+      },
+      {
+        "_id": "hPGGcxSknGIkwtsF",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [
+            "skills:dec",
+            "skills:per"
+          ],
+          "choices": []
+        },
+        "value": {},
+        "title": "Skill Proficiencies"
+      },
+      {
+        "_id": "JGBaKSrByAywbtVu",
+        "type": "Trait",
+        "configuration": {
+          "mode": "default",
+          "allowReplacements": false,
+          "grants": [],
+          "choices": [
+            {
+              "count": 1,
+              "pool": [
+                "tool:game:*"
+              ]
+            }
+          ]
+        },
+        "value": {},
+        "title": "Tool Proficiency"
+      },
+      {
+        "_id": "XV9PL5M7zp4IVZGs",
+        "type": "ItemGrant",
+        "configuration": {
+          "items": [
+            {
+              "uuid": "Compendium.missing-features.feats.Item.sdeauEJT6zJBtN8R"
+            }
+          ],
+          "optional": false,
+          "spell": null
+        },
+        "value": {},
+        "title": "Origin Feat",
+        "hint": "You gain the Tireless Reveler feat."
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "dnd5e",
+    "coreVersion": "12.331"
+  },
+  "_key": "!items!Sc25UjIKn1OmLTqi"
+}

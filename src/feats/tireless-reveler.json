@@ -1,0 +1,73 @@
+{
+  "_id": "sdeauEJT6zJBtN8R",
+  "name": "Tireless Reveler",
+  "type": "feat",
+  "img": "icons/skills/social/wave-halt-stop.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Source: Astarion's Book of Hungers</em></p><p><em>Origin Feat</em></p><p>When an ally you can see within 60 feet of yourself expends Heroic Inspiration, you can gain Heroic Inspiration if you lack it. You can use this benefit a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Short or Long Rest.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "Astarion's Book of Hungers",
+      "custom": "Astarion's Book of Hungers"
+    },
+    "type": {
+      "value": "feat",
+      "subtype": ""
+    },
+    "properties": [],
+    "activation": {
+      "type": "special",
+      "cost": null,
+      "condition": "When an ally you can see within 60 feet expends Heroic Inspiration"
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "range": {
+      "value": 60,
+      "long": null,
+      "units": "ft"
+    },
+    "target": {
+      "affects": {
+        "count": "",
+        "type": "self"
+      },
+      "template": {
+        "type": ""
+      }
+    },
+    "uses": {
+      "spent": 0,
+      "max": "@prof",
+      "recovery": [
+        {
+          "period": "sr",
+          "type": "recoverAll"
+        },
+        {
+          "period": "lr",
+          "type": "recoverAll"
+        }
+      ]
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {
+    "dnd5e": {
+      "type": {
+        "value": "feat",
+        "subtype": "origin"
+      }
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "coreVersion": "12.331"
+  },
+  "_key": "!items!sdeauEJT6zJBtN8R"
+}

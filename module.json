@@ -3,20 +3,95 @@
   "title": "Missing Features",
   "description": "Homebrew and Unearthed Arcana content missing from the dnd5e system compendiums: subclasses, spells, items, backgrounds, and feats.",
   "version": "0.0.0",
-  "authors": [{ "name": "Nick" }],
-  "compatibility": { "minimum": "12", "verified": "14" },
+  "authors": [
+    {
+      "name": "Nick"
+    }
+  ],
+  "compatibility": {
+    "minimum": "12",
+    "verified": "14"
+  },
   "relationships": {
-    "systems": [{ "id": "dnd5e", "type": "system" }]
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "4.0.0"
+        }
+      }
+    ]
   },
   "packs": [
-    { "name": "subclasses",  "label": "Subclasses",  "path": "packs/subclasses",  "type": "Item", "system": "dnd5e", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
-    { "name": "spells",      "label": "Spells",      "path": "packs/spells",      "type": "Item", "system": "dnd5e", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
-    { "name": "items",       "label": "Items",       "path": "packs/items",       "type": "Item", "system": "dnd5e", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
-    { "name": "backgrounds", "label": "Backgrounds", "path": "packs/backgrounds", "type": "Item", "system": "dnd5e", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
-    { "name": "feats",       "label": "Feats",       "path": "packs/feats",       "type": "Item", "system": "dnd5e", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } }
+    {
+      "name": "subclasses",
+      "label": "Subclasses",
+      "path": "packs/subclasses",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "spells",
+      "label": "Spells",
+      "path": "packs/spells",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "items",
+      "label": "Items",
+      "path": "packs/items",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "backgrounds",
+      "label": "Backgrounds",
+      "path": "packs/backgrounds",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "feats",
+      "label": "Feats",
+      "path": "packs/feats",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
   ],
   "packFolders": [
-    { "name": "Missing Features", "sorting": "m", "packs": ["subclasses", "spells", "items", "backgrounds", "feats"] }
+    {
+      "name": "Missing Features",
+      "sorting": "m",
+      "packs": [
+        "subclasses",
+        "spells",
+        "items",
+        "backgrounds",
+        "feats"
+      ]
+    }
   ],
   "url": "",
   "manifest": "",

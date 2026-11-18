@@ -1,0 +1,75 @@
+{
+  "_id": "6VYU3tXr9Aq4cHRq",
+  "name": "Silvery Barbs",
+  "type": "spell",
+  "img": "icons/magic/control/debuff-chains-star-purple.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Source: Strixhaven: A Curriculum of Chaos</em></p><p>You magically distract the triggering creature and turn its momentary uncertainty into encouragement for another creature. The triggering creature must reroll the d20 and use the lower roll.</p><p>You can then choose a different creature you can see within range (you can choose yourself). The chosen creature has advantage on the next attack roll, ability check, or saving throw it makes within 1 minute. A creature can be empowered by only one use of this spell at a time.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "Strixhaven: A Curriculum of Chaos",
+      "custom": "Strixhaven: A Curriculum of Chaos"
+    },
+    "level": 1,
+    "school": "enc",
+    "properties": [
+      "vocal"
+    ],
+    "materials": {
+      "value": "",
+      "consumed": false,
+      "cost": 0,
+      "supply": 0
+    },
+    "preparation": {
+      "mode": "prepared",
+      "prepared": false
+    },
+    "activation": {
+      "type": "reaction",
+      "cost": 1,
+      "condition": "Which you take when a creature you can see within 60 feet of yourself succeeds on an attack roll, an ability check, or a saving throw"
+    },
+    "duration": {
+      "value": "",
+      "units": "inst"
+    },
+    "range": {
+      "value": 60,
+      "long": null,
+      "units": "ft"
+    },
+    "target": {
+      "template": {
+        "count": "",
+        "contiguous": false,
+        "type": "",
+        "size": "",
+        "width": "",
+        "height": "",
+        "units": ""
+      },
+      "affects": {
+        "count": "1",
+        "type": "creature",
+        "choice": false,
+        "special": ""
+      }
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "recovery": []
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "dnd5e",
+    "coreVersion": "12.331"
+  },
+  "_key": "!items!6VYU3tXr9Aq4cHRq"
+}

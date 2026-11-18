@@ -1,0 +1,57 @@
+{
+  "_id": "JFZ1cwsmoaBNxyRH",
+  "name": "Cartomancer",
+  "type": "feat",
+  "img": "icons/sundries/gaming/playing-cards.webp",
+  "system": {
+    "description": {
+      "value": "<p><em>Source: The Book of Many Things</em></p><p><em>Prerequisite: 4th Level, Spellcasting Feature</em></p><p>You have learned to channel your magic through a deck of cards. You can use a card deck as your spellcasting focus, and you gain the following benefits:</p><p><strong>Card Tricks.</strong> You learn the @UUID[Compendium.dnd5e.spells.Item.prestidigitation]{Prestidigitation} cantrip and can use it to create illusions that duplicate the effects of stage magic. When you use Prestidigitation in this way, you can conceal the verbal and somatic components of the spell as ordinary conversation and card handling.</p><p><strong>Hidden Ace.</strong> When you finish a long rest, you can choose one spell from your class's spell list and imbue that spell into a card. The chosen spell must have a casting time of 1 action, and it must be a level for which you have spell slots. The card remains imbued with this spell for 8 hours. While the card is imbued with the spell, you can use a bonus action to flourish the card and cast the spell within. The card then immediately loses its magic.</p>",
+      "chat": ""
+    },
+    "source": {
+      "book": "The Book of Many Things",
+      "custom": "The Book of Many Things"
+    },
+    "type": {
+      "value": "feat",
+      "subtype": ""
+    },
+    "prerequisites": {
+      "level": 4
+    },
+    "requirements": "4th Level, Spellcasting Feature",
+    "activation": {
+      "type": "",
+      "cost": null,
+      "condition": ""
+    },
+    "duration": {
+      "value": "",
+      "units": ""
+    },
+    "target": {
+      "value": null,
+      "units": "",
+      "type": ""
+    },
+    "range": {
+      "value": null,
+      "long": null,
+      "units": ""
+    },
+    "uses": {
+      "value": null,
+      "max": "",
+      "per": null,
+      "recovery": ""
+    }
+  },
+  "effects": [],
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "systemId": "dnd5e",
+    "coreVersion": "12.331"
+  },
+  "_key": "!items!JFZ1cwsmoaBNxyRH"
+}
