@@ -1,0 +1,82 @@
+{
+  "_id": "Ai0E3nGNGHorPA2C",
+  "name": "Hunter 1 - Sea (d4)",
+  "img": "icons/svg/d20-black.svg",
+  "description": "",
+  "formula": "1d4",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "_id": "aadF9SUtgWxRaO7T",
+      "type": "text",
+      "text": "Anomalocaris (fast)",
+      "description": "Anomalocaris (fast)",
+      "name": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!Ai0E3nGNGHorPA2C.aadF9SUtgWxRaO7T"
+    },
+    {
+      "_id": "GfI0tXXzSZBcmX7F",
+      "type": "text",
+      "text": "Opabinia (fast)",
+      "description": "Opabinia (fast)",
+      "name": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!Ai0E3nGNGHorPA2C.GfI0tXXzSZBcmX7F"
+    },
+    {
+      "_id": "yI8w0t5c8yP8oxha",
+      "type": "text",
+      "text": "Orthocone (tank)",
+      "description": "Orthocone (tank)",
+      "name": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!Ai0E3nGNGHorPA2C.yI8w0t5c8yP8oxha"
+    },
+    {
+      "_id": "mfYeGP7t8AAANSAE",
+      "type": "text",
+      "text": "Sea-Lily Thicket (tank)",
+      "description": "Sea-Lily Thicket (tank)",
+      "name": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!Ai0E3nGNGHorPA2C.mfYeGP7t8AAANSAE"
+    }
+  ],
+  "folder": null,
+  "sort": 600000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!tables!Ai0E3nGNGHorPA2C"
+}

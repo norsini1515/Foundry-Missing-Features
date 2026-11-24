@@ -1,0 +1,15 @@
+{
+  "_id": "jw65llNntczUNPJ0",
+  "name": "Tag: Fold",
+  "type": "script",
+  "img": "icons/magic/symbols/ring-circle-smoke-blue.webp",
+  "scope": "global",
+  "command": "// Tag: Fold\n// Run when someone steps into a fold. On a 7 or 8 it also rolls the vision, privately, for you to describe.\nconst table = name => game.tables.getName(name);\nconst glitch = table(\"Tag - Fold Glitch (d8)\");\nif (!glitch) return ui.notifications.error(\"Missing tables. Run Tag: Set Up the Meadow first.\");\nconst { roll } = await glitch.draw();\nconst vision = { 7: \"Fold Vision - The Record (d4)\", 8: \"Fold Vision - The Hunt (d4)\" }[roll.total];\nif (vision) await table(vision)?.draw({ rollMode: CONST.DICE_ROLL_MODES.PRIVATE });\n",
+  "folder": null,
+  "sort": 300000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!macros!jw65llNntczUNPJ0"
+}

@@ -1,0 +1,406 @@
+{
+  "_id": "Rcnk16FRp2ZtFfRJ",
+  "name": "Glyptodont",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 17,
+        "proficient": 0
+      },
+      "dex": {
+        "value": 10,
+        "proficient": 0
+      },
+      "con": {
+        "value": 14,
+        "proficient": 0
+      },
+      "int": {
+        "value": 2,
+        "proficient": 0
+      },
+      "wis": {
+        "value": 10,
+        "proficient": 0
+      },
+      "cha": {
+        "value": 4,
+        "proficient": 0
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 15,
+        "calc": "flat",
+        "formula": ""
+      },
+      "hp": {
+        "value": 45,
+        "max": 45,
+        "temp": null,
+        "tempmax": null,
+        "formula": "6d10 + 12"
+      },
+      "movement": {
+        "walk": 25,
+        "fly": 0,
+        "swim": 0,
+        "climb": 0,
+        "burrow": 0,
+        "units": "ft",
+        "hover": false
+      },
+      "senses": {
+        "darkvision": 0,
+        "blindsight": 0,
+        "tremorsense": 0,
+        "truesight": 0,
+        "units": "ft",
+        "special": ""
+      }
+    },
+    "details": {
+      "biography": {
+        "value": "<p><strong>Hunter, Meadow.</strong> Slow and tanky. If your party is light on damage, drop it to 35 HP.</p>",
+        "public": ""
+      },
+      "alignment": "Unaligned",
+      "type": {
+        "value": "beast",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
+      "cr": 2,
+      "environment": ""
+    },
+    "traits": {
+      "size": "lg",
+      "di": {
+        "value": [],
+        "bypasses": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [],
+        "bypasses": [],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "bypasses": [],
+        "custom": ""
+      },
+      "ci": {
+        "value": [],
+        "custom": ""
+      },
+      "languages": {
+        "value": [],
+        "custom": ""
+      }
+    },
+    "skills": {
+      "prc": {
+        "value": 0
+      }
+    },
+    "source": {
+      "custom": "The Epoch Descent",
+      "book": "",
+      "page": "",
+      "license": "",
+      "rules": "2014",
+      "revision": 1
+    }
+  },
+  "prototypeToken": {
+    "name": "Glyptodont",
+    "displayName": 20,
+    "actorLink": false,
+    "width": 2,
+    "height": 2,
+    "disposition": -1,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "scaleX": 1,
+      "scaleY": 1,
+      "fit": "contain"
+    },
+    "sight": {
+      "enabled": false
+    }
+  },
+  "items": [
+    {
+      "_id": "ADR1WLUUL1vvRrFB",
+      "name": "Shell",
+      "img": "icons/magic/defensive/barrier-shield-dome-pink.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!Rcnk16FRp2ZtFfRJ.ADR1WLUUL1vvRrFB",
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>When it doesn't move on its turn, its AC is 18 until its next turn.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "The Epoch Descent",
+          "book": "",
+          "page": "",
+          "license": "",
+          "rules": "2014",
+          "revision": 1
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "",
+        "properties": [],
+        "activities": {},
+        "identifier": "shell"
+      }
+    },
+    {
+      "_id": "l175OJ9pnHS4jYS0",
+      "name": "Tail Sweep (Recharge 5-6)",
+      "img": "icons/creatures/abilities/tail-swipe-green.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 200000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!Rcnk16FRp2ZtFfRJ.l175OJ9pnHS4jYS0",
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>Each creature within 10 feet makes a [[/save dex 13]] or takes [[/damage 2d8+3 bludgeoning]].</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "The Epoch Descent",
+          "book": "",
+          "page": "",
+          "license": "",
+          "rules": "2014",
+          "revision": 1
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "",
+        "properties": [],
+        "activities": {},
+        "identifier": "tail-sweep-recharge-5-6"
+      }
+    },
+    {
+      "_id": "TTVdi0YlMe7xR90s",
+      "name": "Out of Time",
+      "img": "icons/magic/symbols/ring-circle-smoke-blue.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 300000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!Rcnk16FRp2ZtFfRJ.TTVdi0YlMe7xR90s",
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>Only the creature it hunts, and anyone who shares that creature's home epoch, can see it, unless the field roll matches its epoch. Creatures that can't see it attack it with disadvantage and deal half damage. It sinks back into its epoch at the end of its second round. Killing it clears one curse step for the creature it was hunting.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "The Epoch Descent",
+          "book": "",
+          "page": "",
+          "license": "",
+          "rules": "2014",
+          "revision": 1
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "",
+        "properties": [],
+        "activities": {},
+        "identifier": "out-of-time"
+      }
+    },
+    {
+      "_id": "bE5d8U42UophNsOn",
+      "name": "Tail Club",
+      "img": "icons/creatures/abilities/tail-strike-bone-orange.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 400000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!Rcnk16FRp2ZtFfRJ.bE5d8U42UophNsOn",
+      "type": "weapon",
+      "system": {
+        "description": {
+          "value": "<p>[[/attack extended]]. [[/damage extended]].</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "The Epoch Descent",
+          "book": "",
+          "page": "",
+          "license": "",
+          "rules": "2014",
+          "revision": 1
+        },
+        "quantity": 1,
+        "identified": true,
+        "equipped": true,
+        "proficient": null,
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "ft",
+          "reach": null
+        },
+        "damage": {
+          "base": {
+            "number": 2,
+            "denomination": 8,
+            "bonus": "",
+            "types": [
+              "bludgeoning"
+            ],
+            "custom": {
+              "enabled": false,
+              "formula": ""
+            },
+            "scaling": {
+              "mode": "",
+              "number": null,
+              "formula": ""
+            }
+          }
+        },
+        "properties": [],
+        "type": {
+          "value": "natural",
+          "baseItem": ""
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "identifier": "tail-club",
+        "activities": {
+          "ktpVxxqSg0NrFrBO": {
+            "_id": "ktpVxxqSg0NrFrBO",
+            "type": "attack",
+            "name": "",
+            "sort": 100000,
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "range": {
+              "value": "5",
+              "units": "ft",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "affects": {
+                "count": "",
+                "type": "",
+                "choice": false,
+                "special": ""
+              },
+              "override": false,
+              "prompt": true
+            },
+            "attack": {
+              "ability": "",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "uses": {
+              "spent": 0,
+              "max": "",
+              "recovery": []
+            }
+          }
+        }
+      }
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!actors!Rcnk16FRp2ZtFfRJ"
+}

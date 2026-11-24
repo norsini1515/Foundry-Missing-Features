@@ -1,0 +1,82 @@
+{
+  "_id": "mHgQwfMO54vnXISD",
+  "name": "Hunter 4 - First Forest (d4)",
+  "img": "icons/svg/d20-black.svg",
+  "description": "",
+  "formula": "1d4",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "_id": "Wj7v6ejTSOJ6tsER",
+      "type": "text",
+      "text": "Shear-Jaw (fast)",
+      "description": "Shear-Jaw (fast)",
+      "name": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!mHgQwfMO54vnXISD.Wj7v6ejTSOJ6tsER"
+    },
+    {
+      "_id": "1AllVglEBMbH51xZ",
+      "type": "text",
+      "text": "Trigonotarbid (fast)",
+      "description": "Trigonotarbid (fast)",
+      "name": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!mHgQwfMO54vnXISD.1AllVglEBMbH51xZ"
+    },
+    {
+      "_id": "QfJBQilk7rlc6DBD",
+      "type": "text",
+      "text": "Trunk-Walker (tank)",
+      "description": "Trunk-Walker (tank)",
+      "name": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!mHgQwfMO54vnXISD.QfJBQilk7rlc6DBD"
+    },
+    {
+      "_id": "BfDvE6AG91pKUFjB",
+      "type": "text",
+      "text": "Mud-Walker (tank)",
+      "description": "Mud-Walker (tank)",
+      "name": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!mHgQwfMO54vnXISD.BfDvE6AG91pKUFjB"
+    }
+  ],
+  "folder": null,
+  "sort": 900000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!tables!mHgQwfMO54vnXISD"
+}

@@ -1,0 +1,367 @@
+{
+  "_id": "YXCE2bL836wfeGIh",
+  "name": "Terror Bird",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 14,
+        "proficient": 0
+      },
+      "dex": {
+        "value": 16,
+        "proficient": 0
+      },
+      "con": {
+        "value": 9,
+        "proficient": 0
+      },
+      "int": {
+        "value": 2,
+        "proficient": 0
+      },
+      "wis": {
+        "value": 12,
+        "proficient": 0
+      },
+      "cha": {
+        "value": 4,
+        "proficient": 0
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 13,
+        "calc": "flat",
+        "formula": ""
+      },
+      "hp": {
+        "value": 18,
+        "max": 18,
+        "temp": null,
+        "tempmax": null,
+        "formula": "4d10 - 4"
+      },
+      "movement": {
+        "walk": 50,
+        "fly": 0,
+        "swim": 0,
+        "climb": 0,
+        "burrow": 0,
+        "units": "ft",
+        "hover": false
+      },
+      "senses": {
+        "darkvision": 0,
+        "blindsight": 0,
+        "tremorsense": 0,
+        "truesight": 0,
+        "units": "ft",
+        "special": ""
+      }
+    },
+    "details": {
+      "biography": {
+        "value": "<p><strong>Hunter, Meadow.</strong> Fast and fragile. Rolled from the Meadow hunter table when whoever is it has the Meadow as their home epoch.</p>",
+        "public": ""
+      },
+      "alignment": "Unaligned",
+      "type": {
+        "value": "beast",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
+      "cr": 1,
+      "environment": ""
+    },
+    "traits": {
+      "size": "lg",
+      "di": {
+        "value": [],
+        "bypasses": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [],
+        "bypasses": [],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "bypasses": [],
+        "custom": ""
+      },
+      "ci": {
+        "value": [],
+        "custom": ""
+      },
+      "languages": {
+        "value": [],
+        "custom": ""
+      }
+    },
+    "skills": {
+      "prc": {
+        "value": 1
+      }
+    },
+    "source": {
+      "custom": "The Epoch Descent",
+      "book": "",
+      "page": "",
+      "license": "",
+      "rules": "2014",
+      "revision": 1
+    }
+  },
+  "prototypeToken": {
+    "name": "Terror Bird",
+    "displayName": 20,
+    "actorLink": false,
+    "width": 2,
+    "height": 2,
+    "disposition": -1,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "scaleX": 1,
+      "scaleY": 1,
+      "fit": "contain"
+    },
+    "sight": {
+      "enabled": false
+    }
+  },
+  "items": [
+    {
+      "_id": "dInp9yuMjIbDiWIy",
+      "name": "In the Grass",
+      "img": "icons/commodities/bones/beak-hooked-red.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!YXCE2bL836wfeGIh.dInp9yuMjIbDiWIy",
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>If it is unseen at the start of its turn, its next attack has advantage and deals an extra [[/damage 1d6 piercing]].</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "The Epoch Descent",
+          "book": "",
+          "page": "",
+          "license": "",
+          "rules": "2014",
+          "revision": 1
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "",
+        "properties": [],
+        "activities": {},
+        "identifier": "in-the-grass"
+      }
+    },
+    {
+      "_id": "Jh4Gs1tcDISOyU7W",
+      "name": "Out of Time",
+      "img": "icons/magic/symbols/ring-circle-smoke-blue.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 200000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!YXCE2bL836wfeGIh.Jh4Gs1tcDISOyU7W",
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>Only the creature it hunts, and anyone who shares that creature's home epoch, can see it, unless the field roll matches its epoch. Creatures that can't see it attack it with disadvantage and deal half damage. It sinks back into its epoch at the end of its second round. Killing it clears one curse step for the creature it was hunting.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "The Epoch Descent",
+          "book": "",
+          "page": "",
+          "license": "",
+          "rules": "2014",
+          "revision": 1
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "",
+        "properties": [],
+        "activities": {},
+        "identifier": "out-of-time"
+      }
+    },
+    {
+      "_id": "oAjSH3JBaCwfkuNq",
+      "name": "Beak",
+      "img": "icons/commodities/bones/beak-hooked-red.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 300000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!YXCE2bL836wfeGIh.oAjSH3JBaCwfkuNq",
+      "type": "weapon",
+      "system": {
+        "description": {
+          "value": "<p>[[/attack extended]]. [[/damage extended]].</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "The Epoch Descent",
+          "book": "",
+          "page": "",
+          "license": "",
+          "rules": "2014",
+          "revision": 1
+        },
+        "quantity": 1,
+        "identified": true,
+        "equipped": true,
+        "proficient": null,
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "ft",
+          "reach": null
+        },
+        "damage": {
+          "base": {
+            "number": 1,
+            "denomination": 10,
+            "bonus": "",
+            "types": [
+              "piercing"
+            ],
+            "custom": {
+              "enabled": false,
+              "formula": ""
+            },
+            "scaling": {
+              "mode": "",
+              "number": null,
+              "formula": ""
+            }
+          }
+        },
+        "properties": [
+          "fin"
+        ],
+        "type": {
+          "value": "natural",
+          "baseItem": ""
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "identifier": "beak",
+        "activities": {
+          "zBDEnkzQDf57Qe6H": {
+            "_id": "zBDEnkzQDf57Qe6H",
+            "type": "attack",
+            "name": "",
+            "sort": 100000,
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "range": {
+              "value": "5",
+              "units": "ft",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "affects": {
+                "count": "",
+                "type": "",
+                "choice": false,
+                "special": ""
+              },
+              "override": false,
+              "prompt": true
+            },
+            "attack": {
+              "ability": "",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "uses": {
+              "spent": 0,
+              "max": "",
+              "recovery": []
+            }
+          }
+        }
+      }
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!actors!YXCE2bL836wfeGIh"
+}

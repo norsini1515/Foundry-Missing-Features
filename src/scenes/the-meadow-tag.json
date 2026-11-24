@@ -1,0 +1,43 @@
+{
+  "_id": "2tU0GZUgRFPjrgQC",
+  "name": "The Meadow: Tag",
+  "navigation": true,
+  "navName": "",
+  "active": false,
+  "background": {
+    "src": "modules/missing-features/assets/maps/tag-meadow.jpg"
+  },
+  "backgroundColor": "#dfe2d6",
+  "width": 2800,
+  "height": 2800,
+  "padding": 0,
+  "initial": null,
+  "grid": {
+    "type": 1,
+    "size": 100,
+    "distance": 5,
+    "units": "ft",
+    "alpha": 0.15,
+    "color": "#000000"
+  },
+  "tokenVision": false,
+  "fog": {
+    "exploration": false
+  },
+  "tokens": [],
+  "drawings": [],
+  "notes": [],
+  "walls": [],
+  "lights": [],
+  "sounds": [],
+  "templates": [],
+  "tiles": [],
+  "regions": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!scenes!2tU0GZUgRFPjrgQC"
+}

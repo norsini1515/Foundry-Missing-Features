@@ -1,0 +1,82 @@
+{
+  "_id": "n1Zqcr4sl2FLncE5",
+  "name": "Fold Vision - The Record (d4)",
+  "img": "icons/svg/d20-black.svg",
+  "description": "",
+  "formula": "1d4",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "_id": "GttiIy8XGtKVtaHI",
+      "type": "text",
+      "text": "A dark room far below. Something enormous lies in it, turning slowly, as if in sleep or in pain. Gold falls around it like snow.",
+      "description": "A dark room far below. Something enormous lies in it, turning slowly, as if in sleep or in pain. Gold falls around it like snow.",
+      "name": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!n1Zqcr4sl2FLncE5.GttiIy8XGtKVtaHI"
+    },
+    {
+      "_id": "lUesi6yvopS96GZ0",
+      "type": "text",
+      "text": "A dressing room with no walls. Robes laid out, far too large for any body. One sleeve hangs flat and empty, as if whoever wore it is gone, or not here yet.",
+      "description": "A dressing room with no walls. Robes laid out, far too large for any body. One sleeve hangs flat and empty, as if whoever wore it is gone, or not here yet.",
+      "name": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!n1Zqcr4sl2FLncE5.lUesi6yvopS96GZ0"
+    },
+    {
+      "_id": "N3coQ7gkVFRm2QK3",
+      "type": "text",
+      "text": "A stair spiraling down through stone in bands of red, grey and gold. Halfway down, part of the gold band has been pried out. The wound in the rock is fresh.",
+      "description": "A stair spiraling down through stone in bands of red, grey and gold. Halfway down, part of the gold band has been pried out. The wound in the rock is fresh.",
+      "name": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!n1Zqcr4sl2FLncE5.N3coQ7gkVFRm2QK3"
+    },
+    {
+      "_id": "lIiPbEvgb2NqsPjH",
+      "type": "text",
+      "text": "A small boy and a tall man sit on these same roots. The man says, 'When you're grown, you'll do this too.' The boy asks, 'Does it hurt?' The vision ends before the answer.",
+      "description": "A small boy and a tall man sit on these same roots. The man says, 'When you're grown, you'll do this too.' The boy asks, 'Does it hurt?' The vision ends before the answer.",
+      "name": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!n1Zqcr4sl2FLncE5.lIiPbEvgb2NqsPjH"
+    }
+  ],
+  "folder": null,
+  "sort": 300000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!tables!n1Zqcr4sl2FLncE5"
+}

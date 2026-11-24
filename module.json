@@ -1,7 +1,7 @@
 {
   "id": "missing-features",
   "title": "Missing Features",
-  "description": "Homebrew and Unearthed Arcana content missing from the dnd5e system compendiums: subclasses, spells, items, backgrounds, and feats.",
+  "description": "Homebrew and Unearthed Arcana content missing from the dnd5e system compendiums: subclasses, spells, items, backgrounds, and feats. Also The Epoch Descent's monsters, NPCs, roll tables, scenes and macros.",
   "version": "0.0.0",
   "authors": [
     {
@@ -89,6 +89,58 @@
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       }
+    },
+    {
+      "name": "monsters",
+      "label": "Monsters",
+      "path": "packs/monsters",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e"
+    },
+    {
+      "name": "npcs",
+      "label": "NPCs",
+      "path": "packs/npcs",
+      "type": "Actor",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e"
+    },
+    {
+      "name": "tables",
+      "label": "Roll Tables",
+      "path": "packs/tables",
+      "type": "RollTable",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "scenes",
+      "label": "Scenes",
+      "path": "packs/scenes",
+      "type": "Scene",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "macros",
+      "label": "Macros",
+      "path": "packs/macros",
+      "type": "Macro",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
     }
   ],
   "packFolders": [
@@ -102,6 +154,17 @@
         "items",
         "backgrounds",
         "feats"
+      ]
+    },
+    {
+      "name": "The Epoch Descent",
+      "sorting": "m",
+      "packs": [
+        "monsters",
+        "npcs",
+        "tables",
+        "scenes",
+        "macros"
       ]
     }
   ],

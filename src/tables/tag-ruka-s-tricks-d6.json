@@ -1,0 +1,114 @@
+{
+  "_id": "4izbjWTWxDHdhETg",
+  "name": "Tag - Ruka's Tricks (d6)",
+  "img": "icons/svg/d20-black.svg",
+  "description": "",
+  "formula": "1d6",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "_id": "ApNBSqlOhgMdbpFc",
+      "type": "text",
+      "text": "Base! Touches the tree. Safe until her next turn.",
+      "description": "Base! Touches the tree. Safe until her next turn.",
+      "name": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!4izbjWTWxDHdhETg.ApNBSqlOhgMdbpFc"
+    },
+    {
+      "_id": "S5xj4UYGjMdgKqpG",
+      "type": "text",
+      "text": "New rule! 'Now it's freeze tag!' Anyone she tags this round can't move next round.",
+      "description": "New rule! 'Now it's freeze tag!' Anyone she tags this round can't move next round.",
+      "name": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!4izbjWTWxDHdhETg.S5xj4UYGjMdgKqpG"
+    },
+    {
+      "_id": "qPFMxBBadlvuhkQn",
+      "type": "text",
+      "text": "Switch! Tags whoever is it back, and they swap.",
+      "description": "Switch! Tags whoever is it back, and they swap.",
+      "name": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!4izbjWTWxDHdhETg.qPFMxBBadlvuhkQn"
+    },
+    {
+      "_id": "lVWQVbn6MEtmoVyL",
+      "type": "text",
+      "text": "Behind Papa! Hides behind the Grandfather. Chasers must get past him while he talks about the weather.",
+      "description": "Behind Papa! Hides behind the Grandfather. Chasers must get past him while he talks about the weather.",
+      "name": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!4izbjWTWxDHdhETg.lVWQVbn6MEtmoVyL"
+    },
+    {
+      "_id": "9omojSm43KpyfxAb",
+      "type": "text",
+      "text": "Double tag! Two players are it at once, until one passes it.",
+      "description": "Double tag! Two players are it at once, until one passes it.",
+      "name": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!4izbjWTWxDHdhETg.9omojSm43KpyfxAb"
+    },
+    {
+      "_id": "tkgA6vioUOhSQal6",
+      "type": "text",
+      "text": "Wrong girl! She and Syraa swap places. The next tag attempt hits Syraa unless the tagger makes DC 13 Perception.",
+      "description": "Wrong girl! She and Syraa swap places. The next tag attempt hits Syraa unless the tagger makes DC 13 Perception.",
+      "name": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!4izbjWTWxDHdhETg.tkgA6vioUOhSQal6"
+    }
+  ],
+  "folder": null,
+  "sort": 500000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!tables!4izbjWTWxDHdhETg"
+}

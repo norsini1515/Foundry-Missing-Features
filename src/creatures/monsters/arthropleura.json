@@ -1,0 +1,406 @@
+{
+  "_id": "DVOraYdSfItuyq6N",
+  "name": "Arthropleura",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 15,
+        "proficient": 0
+      },
+      "dex": {
+        "value": 10,
+        "proficient": 0
+      },
+      "con": {
+        "value": 14,
+        "proficient": 0
+      },
+      "int": {
+        "value": 1,
+        "proficient": 0
+      },
+      "wis": {
+        "value": 10,
+        "proficient": 0
+      },
+      "cha": {
+        "value": 3,
+        "proficient": 0
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 15,
+        "calc": "flat",
+        "formula": ""
+      },
+      "hp": {
+        "value": 30,
+        "max": 30,
+        "temp": null,
+        "tempmax": null,
+        "formula": "4d10 + 8"
+      },
+      "movement": {
+        "walk": 30,
+        "fly": 0,
+        "swim": 0,
+        "climb": 30,
+        "burrow": 0,
+        "units": "ft",
+        "hover": false
+      },
+      "senses": {
+        "darkvision": 0,
+        "blindsight": 0,
+        "tremorsense": 30,
+        "truesight": 0,
+        "units": "ft",
+        "special": ""
+      }
+    },
+    "details": {
+      "biography": {
+        "value": "<p><strong>Swamp Crossing.</strong> From the Danger table. Survive or escape, not clear.</p>",
+        "public": ""
+      },
+      "alignment": "Unaligned",
+      "type": {
+        "value": "beast",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
+      "cr": 1,
+      "environment": ""
+    },
+    "traits": {
+      "size": "lg",
+      "di": {
+        "value": [],
+        "bypasses": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [],
+        "bypasses": [],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "bypasses": [],
+        "custom": ""
+      },
+      "ci": {
+        "value": [],
+        "custom": ""
+      },
+      "languages": {
+        "value": [],
+        "custom": ""
+      }
+    },
+    "skills": {
+      "prc": {
+        "value": 0
+      }
+    },
+    "source": {
+      "custom": "The Epoch Descent",
+      "book": "",
+      "page": "",
+      "license": "",
+      "rules": "2014",
+      "revision": 1
+    }
+  },
+  "prototypeToken": {
+    "name": "Arthropleura",
+    "displayName": 20,
+    "actorLink": false,
+    "width": 2,
+    "height": 2,
+    "disposition": -1,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "scaleX": 1,
+      "scaleY": 1,
+      "fit": "contain"
+    },
+    "sight": {
+      "enabled": false
+    }
+  },
+  "items": [
+    {
+      "_id": "nsLdZRaBRgk2iJNG",
+      "name": "Not Hunting",
+      "img": "icons/creatures/invertebrates/spider-mandibles-brown.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!DVOraYdSfItuyq6N.nsLdZRaBRgk2iJNG",
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>It only fights if blocked or attacked. Otherwise it spends 2 rounds crossing, blocking the path.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "The Epoch Descent",
+          "book": "",
+          "page": "",
+          "license": "",
+          "rules": "2014",
+          "revision": 1
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "",
+        "properties": [],
+        "activities": {},
+        "identifier": "not-hunting"
+      }
+    },
+    {
+      "_id": "zNBmIgtrkS8z8irt",
+      "name": "Bite",
+      "img": "icons/creatures/abilities/mouth-teeth-rows-red.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 200000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!DVOraYdSfItuyq6N.zNBmIgtrkS8z8irt",
+      "type": "weapon",
+      "system": {
+        "description": {
+          "value": "<p>[[/attack extended]]. [[/damage extended]].</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "The Epoch Descent",
+          "book": "",
+          "page": "",
+          "license": "",
+          "rules": "2014",
+          "revision": 1
+        },
+        "quantity": 1,
+        "identified": true,
+        "equipped": true,
+        "proficient": null,
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "ft",
+          "reach": null
+        },
+        "damage": {
+          "base": {
+            "number": 1,
+            "denomination": 8,
+            "bonus": "",
+            "types": [
+              "piercing"
+            ],
+            "custom": {
+              "enabled": false,
+              "formula": ""
+            },
+            "scaling": {
+              "mode": "",
+              "number": null,
+              "formula": ""
+            }
+          }
+        },
+        "properties": [],
+        "type": {
+          "value": "natural",
+          "baseItem": ""
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "identifier": "bite",
+        "activities": {
+          "N0MmboZ990w1cQv4": {
+            "_id": "N0MmboZ990w1cQv4",
+            "type": "attack",
+            "name": "",
+            "sort": 100000,
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "range": {
+              "value": "5",
+              "units": "ft",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "affects": {
+                "count": "",
+                "type": "",
+                "choice": false,
+                "special": ""
+              },
+              "override": false,
+              "prompt": true
+            },
+            "attack": {
+              "ability": "",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "uses": {
+              "spent": 0,
+              "max": "",
+              "recovery": []
+            }
+          }
+        }
+      }
+    },
+    {
+      "_id": "tGuKpLEmNrewqbFP",
+      "name": "Defensive Spray (Recharge 5-6)",
+      "img": "icons/magic/acid/projectile-faceted-glob.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 300000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!DVOraYdSfItuyq6N.tGuKpLEmNrewqbFP",
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>10-foot cone. Each creature in it makes a [[/save con 12]], taking [[/damage 2d6 poison]] and becoming &Reference[poisoned] until the end of its next turn on a failure, or half as much damage on a success.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "The Epoch Descent",
+          "book": "",
+          "page": "",
+          "license": "",
+          "rules": "2014",
+          "revision": 1
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "",
+        "properties": [],
+        "activities": {},
+        "identifier": "defensive-spray-recharge-5-6"
+      }
+    },
+    {
+      "_id": "rOCLBWNWSsJzCaRg",
+      "name": "Curl (Reaction)",
+      "img": "icons/magic/defensive/barrier-shield-dome-pink.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 400000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!DVOraYdSfItuyq6N.rOCLBWNWSsJzCaRg",
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>When hit by an attack, it curls up. Its AC becomes 18 until the start of its next turn, and its speed is 0.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "The Epoch Descent",
+          "book": "",
+          "page": "",
+          "license": "",
+          "rules": "2014",
+          "revision": 1
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "",
+        "properties": [],
+        "activities": {},
+        "identifier": "curl-reaction"
+      }
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!actors!DVOraYdSfItuyq6N"
+}

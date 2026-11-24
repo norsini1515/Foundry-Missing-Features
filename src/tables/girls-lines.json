@@ -1,0 +1,162 @@
+{
+  "_id": "boeFzKWNBIrAk0E0",
+  "name": "Girls - Lines",
+  "img": "icons/svg/d20-black.svg",
+  "description": "",
+  "formula": "1d9",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "_id": "XV3qqCCZkdIQT2qx",
+      "type": "text",
+      "text": "Want to play with us?",
+      "description": "Want to play with us?",
+      "name": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!boeFzKWNBIrAk0E0.XV3qqCCZkdIQT2qx"
+    },
+    {
+      "_id": "aS5yjBTT1gXEdNQd",
+      "type": "text",
+      "text": "Do you think you'll be remembered when you're gone from here?",
+      "description": "Do you think you'll be remembered when you're gone from here?",
+      "name": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!boeFzKWNBIrAk0E0.aS5yjBTT1gXEdNQd"
+    },
+    {
+      "_id": "TMIZA8KxFePa2LZM",
+      "type": "text",
+      "text": "We used to be four. Or two. Do you know?",
+      "description": "We used to be four. Or two. Do you know?",
+      "name": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!boeFzKWNBIrAk0E0.TMIZA8KxFePa2LZM"
+    },
+    {
+      "_id": "yDhezuCjQOFB2P8V",
+      "type": "text",
+      "text": "You smell like the bells.",
+      "description": "You smell like the bells.",
+      "name": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!boeFzKWNBIrAk0E0.yDhezuCjQOFB2P8V"
+    },
+    {
+      "_id": "irgr0ZSbbg451f2c",
+      "type": "text",
+      "text": "If you forget your name, can we have it?",
+      "description": "If you forget your name, can we have it?",
+      "name": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!boeFzKWNBIrAk0E0.irgr0ZSbbg451f2c"
+    },
+    {
+      "_id": "UaxA64DZrwOs840w",
+      "type": "text",
+      "text": "The tree is older than you. It's older than him too.",
+      "description": "The tree is older than you. It's older than him too.",
+      "name": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!boeFzKWNBIrAk0E0.UaxA64DZrwOs840w"
+    },
+    {
+      "_id": "UoernN1aUtBors7t",
+      "type": "text",
+      "text": "Everyone who comes here is from later.",
+      "description": "Everyone who comes here is from later.",
+      "name": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!boeFzKWNBIrAk0E0.UoernN1aUtBors7t"
+    },
+    {
+      "_id": "rnVc4JekIk27WBF1",
+      "type": "text",
+      "text": "Papa is getting ready for the big party. He's taking a while.",
+      "description": "Papa is getting ready for the big party. He's taking a while.",
+      "name": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!boeFzKWNBIrAk0E0.rnVc4JekIk27WBF1"
+    },
+    {
+      "_id": "p7MqjZ8NK3706ntU",
+      "type": "text",
+      "text": "Papa made our dresses. This one isn't mine.",
+      "description": "Papa made our dresses. This one isn't mine.",
+      "name": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!boeFzKWNBIrAk0E0.p7MqjZ8NK3706ntU"
+    }
+  ],
+  "folder": null,
+  "sort": 1400000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!tables!boeFzKWNBIrAk0E0"
+}

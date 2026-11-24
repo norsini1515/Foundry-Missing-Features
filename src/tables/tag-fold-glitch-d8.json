@@ -1,0 +1,146 @@
+{
+  "_id": "noyxduOjKdSPkbMg",
+  "name": "Tag - Fold Glitch (d8)",
+  "img": "icons/svg/d20-black.svg",
+  "description": "",
+  "formula": "1d8",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "_id": "8PY72yPn7Mwifxor",
+      "type": "text",
+      "text": "Late. You vanish and reappear at the start of your next turn.",
+      "description": "Late. You vanish and reappear at the start of your next turn.",
+      "name": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!noyxduOjKdSPkbMg.8PY72yPn7Mwifxor"
+    },
+    {
+      "_id": "nZwtGzRGevhj6aar",
+      "type": "text",
+      "text": "Wrong eyes. You arrive, but see someone else's home epoch until your next turn (GM picks whose).",
+      "description": "Wrong eyes. You arrive, but see someone else's home epoch until your next turn (GM picks whose).",
+      "name": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!noyxduOjKdSPkbMg.nZwtGzRGevhj6aar"
+    },
+    {
+      "_id": "frgLuI0aJ7KiT9YB",
+      "type": "text",
+      "text": "Echo. An after-image of you stays where you started until your next turn. Ruka or the hunter picks one of you at random.",
+      "description": "Echo. An after-image of you stays where you started until your next turn. Ruka or the hunter picks one of you at random.",
+      "name": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!noyxduOjKdSPkbMg.frgLuI0aJ7KiT9YB"
+    },
+    {
+      "_id": "HGaFlsRzRcFMSpMy",
+      "type": "text",
+      "text": "Swap. You trade places with the nearest creature. It could be Ruka, or the hunter.",
+      "description": "Swap. You trade places with the nearest creature. It could be Ruka, or the hunter.",
+      "name": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!noyxduOjKdSPkbMg.HGaFlsRzRcFMSpMy"
+    },
+    {
+      "_id": "x9PNthDUS8ITSztV",
+      "type": "text",
+      "text": "Clean. You arrive exactly where you meant to.",
+      "description": "Clean. You arrive exactly where you meant to.",
+      "name": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!noyxduOjKdSPkbMg.x9PNthDUS8ITSztV"
+    },
+    {
+      "_id": "AeWlHlCTHkGmxPnu",
+      "type": "text",
+      "text": "Rewind. You arrive where you started your last turn.",
+      "description": "Rewind. You arrive where you started your last turn.",
+      "name": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!noyxduOjKdSPkbMg.AeWlHlCTHkGmxPnu"
+    },
+    {
+      "_id": "E6SQtH2srWF89CW4",
+      "type": "text",
+      "text": "The Record. A hum in your chest, like the bells, and for a breath you are somewhere else (roll Fold Vision - The Record). You arrive 30 ft toward the tree and have advantage on your next check.",
+      "description": "The Record. A hum in your chest, like the bells, and for a breath you are somewhere else (roll Fold Vision - The Record). You arrive 30 ft toward the tree and have advantage on your next check.",
+      "name": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!noyxduOjKdSPkbMg.E6SQtH2srWF89CW4"
+    },
+    {
+      "_id": "mHUliHRoLz0htmZK",
+      "type": "text",
+      "text": "The Hunt. The fold opens far too high (roll Fold Vision - The Hunt). You arrive 30 ft in the direction the titan looked. Take 1d4 psychic, but the wisps lose you until your next turn.",
+      "description": "The Hunt. The fold opens far too high (roll Fold Vision - The Hunt). You arrive 30 ft in the direction the titan looked. Take 1d4 psychic, but the wisps lose you until your next turn.",
+      "name": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!noyxduOjKdSPkbMg.mHUliHRoLz0htmZK"
+    }
+  ],
+  "folder": null,
+  "sort": 200000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!tables!noyxduOjKdSPkbMg"
+}

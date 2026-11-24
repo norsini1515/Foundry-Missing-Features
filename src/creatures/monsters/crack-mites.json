@@ -1,0 +1,408 @@
+{
+  "_id": "9EVQbBzUh0dnP6oa",
+  "name": "Crack-Mites",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 14,
+        "proficient": 0
+      },
+      "dex": {
+        "value": 16,
+        "proficient": 0
+      },
+      "con": {
+        "value": 10,
+        "proficient": 0
+      },
+      "int": {
+        "value": 2,
+        "proficient": 0
+      },
+      "wis": {
+        "value": 12,
+        "proficient": 0
+      },
+      "cha": {
+        "value": 4,
+        "proficient": 0
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 13,
+        "calc": "flat",
+        "formula": ""
+      },
+      "hp": {
+        "value": 18,
+        "max": 18,
+        "temp": null,
+        "tempmax": null,
+        "formula": "4d8"
+      },
+      "movement": {
+        "walk": 50,
+        "fly": 0,
+        "swim": 0,
+        "climb": 30,
+        "burrow": 0,
+        "units": "ft",
+        "hover": false
+      },
+      "senses": {
+        "darkvision": 0,
+        "blindsight": 0,
+        "tremorsense": 30,
+        "truesight": 0,
+        "units": "ft",
+        "special": ""
+      }
+    },
+    "details": {
+      "biography": {
+        "value": "<p><strong>Hunter, Bare Stone.</strong> Fast and fragile. Rolled from the Bare Stone hunter table when whoever is it has the Bare Stone as their home epoch.</p>",
+        "public": ""
+      },
+      "alignment": "Unaligned",
+      "type": {
+        "value": "beast",
+        "subtype": "",
+        "swarm": "tiny",
+        "custom": ""
+      },
+      "cr": 1,
+      "environment": ""
+    },
+    "traits": {
+      "size": "med",
+      "di": {
+        "value": [],
+        "bypasses": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [],
+        "bypasses": [],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "bypasses": [],
+        "custom": ""
+      },
+      "ci": {
+        "value": [],
+        "custom": ""
+      },
+      "languages": {
+        "value": [],
+        "custom": ""
+      }
+    },
+    "skills": {
+      "prc": {
+        "value": 0
+      }
+    },
+    "source": {
+      "custom": "The Epoch Descent",
+      "book": "",
+      "page": "",
+      "license": "",
+      "rules": "2014",
+      "revision": 1
+    }
+  },
+  "prototypeToken": {
+    "name": "Crack-Mites",
+    "displayName": 20,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "disposition": -1,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "scaleX": 1,
+      "scaleY": 1,
+      "fit": "contain"
+    },
+    "sight": {
+      "enabled": false
+    }
+  },
+  "items": [
+    {
+      "_id": "8RBPyEWLxdWlv157",
+      "name": "Swarm",
+      "img": "icons/creatures/invertebrates/wasp-swarm-tan.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!9EVQbBzUh0dnP6oa.8RBPyEWLxdWlv157",
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>It can occupy another creature's space. It takes half damage from attacks that target a single creature.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "The Epoch Descent",
+          "book": "",
+          "page": "",
+          "license": "",
+          "rules": "2014",
+          "revision": 1
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "",
+        "properties": [],
+        "activities": {},
+        "identifier": "swarm"
+      }
+    },
+    {
+      "_id": "dz2pRyLoHgVa3ac9",
+      "name": "Crowding",
+      "img": "icons/creatures/invertebrates/wasp-swarm-tan.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 200000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!9EVQbBzUh0dnP6oa.dz2pRyLoHgVa3ac9",
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>Its bites deal an extra [[/damage 1d4 piercing]] when two or more of its enemies are within 10 feet of each other.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "The Epoch Descent",
+          "book": "",
+          "page": "",
+          "license": "",
+          "rules": "2014",
+          "revision": 1
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "",
+        "properties": [],
+        "activities": {},
+        "identifier": "crowding"
+      }
+    },
+    {
+      "_id": "Bvy1nFOuJYbdmmDY",
+      "name": "Out of Time",
+      "img": "icons/magic/symbols/ring-circle-smoke-blue.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 300000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!9EVQbBzUh0dnP6oa.Bvy1nFOuJYbdmmDY",
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>Only the creature it hunts, and anyone who shares that creature's home epoch, can see it, unless the field roll matches its epoch. Creatures that can't see it attack it with disadvantage and deal half damage. It sinks back into its epoch at the end of its second round. Killing it clears one curse step for the creature it was hunting.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "The Epoch Descent",
+          "book": "",
+          "page": "",
+          "license": "",
+          "rules": "2014",
+          "revision": 1
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "",
+        "properties": [],
+        "activities": {},
+        "identifier": "out-of-time"
+      }
+    },
+    {
+      "_id": "xJE3qtNQtoKkzPaW",
+      "name": "Bites",
+      "img": "icons/creatures/abilities/mouth-teeth-rows-red.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 400000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!9EVQbBzUh0dnP6oa.xJE3qtNQtoKkzPaW",
+      "type": "weapon",
+      "system": {
+        "description": {
+          "value": "<p>[[/attack extended]]. [[/damage extended]].</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "The Epoch Descent",
+          "book": "",
+          "page": "",
+          "license": "",
+          "rules": "2014",
+          "revision": 1
+        },
+        "quantity": 1,
+        "identified": true,
+        "equipped": true,
+        "proficient": null,
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "ft",
+          "reach": null
+        },
+        "damage": {
+          "base": {
+            "number": 1,
+            "denomination": 10,
+            "bonus": "",
+            "types": [
+              "piercing"
+            ],
+            "custom": {
+              "enabled": false,
+              "formula": ""
+            },
+            "scaling": {
+              "mode": "",
+              "number": null,
+              "formula": ""
+            }
+          }
+        },
+        "properties": [
+          "fin"
+        ],
+        "type": {
+          "value": "natural",
+          "baseItem": ""
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "identifier": "bites",
+        "activities": {
+          "hejYVzsp8CbmvKBP": {
+            "_id": "hejYVzsp8CbmvKBP",
+            "type": "attack",
+            "name": "",
+            "sort": 100000,
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "range": {
+              "value": "5",
+              "units": "ft",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "affects": {
+                "count": "",
+                "type": "",
+                "choice": false,
+                "special": ""
+              },
+              "override": false,
+              "prompt": true
+            },
+            "attack": {
+              "ability": "",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "uses": {
+              "spent": 0,
+              "max": "",
+              "recovery": []
+            }
+          }
+        }
+      }
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!actors!9EVQbBzUh0dnP6oa"
+}

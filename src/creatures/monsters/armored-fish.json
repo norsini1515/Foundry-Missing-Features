@@ -1,0 +1,406 @@
+{
+  "_id": "bXTss3wwmsIPsyrI",
+  "name": "Armored Fish",
+  "type": "npc",
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "abilities": {
+      "str": {
+        "value": 16,
+        "proficient": 0
+      },
+      "dex": {
+        "value": 12,
+        "proficient": 0
+      },
+      "con": {
+        "value": 13,
+        "proficient": 0
+      },
+      "int": {
+        "value": 1,
+        "proficient": 0
+      },
+      "wis": {
+        "value": 10,
+        "proficient": 0
+      },
+      "cha": {
+        "value": 3,
+        "proficient": 0
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": 15,
+        "calc": "flat",
+        "formula": ""
+      },
+      "hp": {
+        "value": 32,
+        "max": 32,
+        "temp": null,
+        "tempmax": null,
+        "formula": "5d10 + 5"
+      },
+      "movement": {
+        "walk": 0,
+        "fly": 0,
+        "swim": 40,
+        "climb": 0,
+        "burrow": 0,
+        "units": "ft",
+        "hover": false
+      },
+      "senses": {
+        "darkvision": 0,
+        "blindsight": 0,
+        "tremorsense": 0,
+        "truesight": 0,
+        "units": "ft",
+        "special": ""
+      }
+    },
+    "details": {
+      "biography": {
+        "value": "<p><strong>Swamp Crossing.</strong> From the Danger table. Survive or escape, not clear.</p>",
+        "public": ""
+      },
+      "alignment": "Unaligned",
+      "type": {
+        "value": "beast",
+        "subtype": "",
+        "swarm": "",
+        "custom": ""
+      },
+      "cr": 2,
+      "environment": ""
+    },
+    "traits": {
+      "size": "lg",
+      "di": {
+        "value": [],
+        "bypasses": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [],
+        "bypasses": [],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "bypasses": [],
+        "custom": ""
+      },
+      "ci": {
+        "value": [],
+        "custom": ""
+      },
+      "languages": {
+        "value": [],
+        "custom": ""
+      }
+    },
+    "skills": {
+      "prc": {
+        "value": 0
+      }
+    },
+    "source": {
+      "custom": "The Epoch Descent",
+      "book": "",
+      "page": "",
+      "license": "",
+      "rules": "2014",
+      "revision": 1
+    }
+  },
+  "prototypeToken": {
+    "name": "Armored Fish",
+    "displayName": 20,
+    "actorLink": false,
+    "width": 2,
+    "height": 2,
+    "disposition": -1,
+    "displayBars": 20,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "scaleX": 1,
+      "scaleY": 1,
+      "fit": "contain"
+    },
+    "sight": {
+      "enabled": false
+    }
+  },
+  "items": [
+    {
+      "_id": "y7JKBYajSiFljSUx",
+      "name": "Water Breathing",
+      "img": "icons/magic/water/orb-water-bubbles.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 100000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!bXTss3wwmsIPsyrI.y7JKBYajSiFljSUx",
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>It can breathe only underwater.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "The Epoch Descent",
+          "book": "",
+          "page": "",
+          "license": "",
+          "rules": "2014",
+          "revision": 1
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "",
+        "properties": [],
+        "activities": {},
+        "identifier": "water-breathing"
+      }
+    },
+    {
+      "_id": "GLYmGAfSRwgIl2nv",
+      "name": "Unseen Strike",
+      "img": "icons/magic/water/orb-water-bubbles.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 200000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!bXTss3wwmsIPsyrI.GLYmGAfSRwgIl2nv",
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>It has advantage on its first attack from under the surface. Afterward, a DC 13 Wisdom (Perception) check spots its wake.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "The Epoch Descent",
+          "book": "",
+          "page": "",
+          "license": "",
+          "rules": "2014",
+          "revision": 1
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "",
+        "properties": [],
+        "activities": {},
+        "identifier": "unseen-strike"
+      }
+    },
+    {
+      "_id": "J5RzFP3SYiENGh8K",
+      "name": "Gives Up",
+      "img": "icons/magic/water/orb-water-bubbles.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 300000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!bXTss3wwmsIPsyrI.J5RzFP3SYiENGh8K",
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>It leaves once it has taken 15 or more damage.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "The Epoch Descent",
+          "book": "",
+          "page": "",
+          "license": "",
+          "rules": "2014",
+          "revision": 1
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "",
+        "properties": [],
+        "activities": {},
+        "identifier": "gives-up"
+      }
+    },
+    {
+      "_id": "eB7QD6q2LH0Yhivu",
+      "name": "Shear Bite",
+      "img": "icons/creatures/abilities/mouth-teeth-rows-red.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 400000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!bXTss3wwmsIPsyrI.eB7QD6q2LH0Yhivu",
+      "type": "weapon",
+      "system": {
+        "description": {
+          "value": "<p>[[/attack extended]]. [[/damage extended]].</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "The Epoch Descent",
+          "book": "",
+          "page": "",
+          "license": "",
+          "rules": "2014",
+          "revision": 1
+        },
+        "quantity": 1,
+        "identified": true,
+        "equipped": true,
+        "proficient": null,
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "ft",
+          "reach": null
+        },
+        "damage": {
+          "base": {
+            "number": 2,
+            "denomination": 8,
+            "bonus": "",
+            "types": [
+              "slashing"
+            ],
+            "custom": {
+              "enabled": false,
+              "formula": ""
+            },
+            "scaling": {
+              "mode": "",
+              "number": null,
+              "formula": ""
+            }
+          }
+        },
+        "properties": [],
+        "type": {
+          "value": "natural",
+          "baseItem": ""
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "identifier": "shear-bite",
+        "activities": {
+          "EWgUVHUSUuhlqfMS": {
+            "_id": "EWgUVHUSUuhlqfMS",
+            "type": "attack",
+            "name": "",
+            "sort": 100000,
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "range": {
+              "value": "5",
+              "units": "ft",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "affects": {
+                "count": "",
+                "type": "",
+                "choice": false,
+                "special": ""
+              },
+              "override": false,
+              "prompt": true
+            },
+            "attack": {
+              "ability": "",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "uses": {
+              "spent": 0,
+              "max": "",
+              "recovery": []
+            }
+          }
+        }
+      }
+    }
+  ],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!actors!bXTss3wwmsIPsyrI"
+}
