@@ -10,8 +10,8 @@
     {
       "_id": "xwSIGxw4u7wWu79N",
       "type": "text",
-      "text": "Skitterfrost (fast)",
-      "description": "Skitterfrost (fast)",
+      "text": "Skitterfrost [fast]",
+      "description": "Skitterfrost [fast]",
       "name": "",
       "img": "icons/svg/d20-black.svg",
       "weight": 1,
@@ -26,8 +26,8 @@
     {
       "_id": "CDFnq22733ubT9G3",
       "type": "text",
-      "text": "Rime-Hound (fast)",
-      "description": "Rime-Hound (fast)",
+      "text": "Rime-Hound [fast]",
+      "description": "Rime-Hound [fast]",
       "name": "",
       "img": "icons/svg/d20-black.svg",
       "weight": 1,
@@ -42,8 +42,8 @@
     {
       "_id": "4zLV0X9yvBIX8kAj",
       "type": "text",
-      "text": "Hands Under the Ice (tank)",
-      "description": "Hands Under the Ice (tank)",
+      "text": "Hands Under the Ice (Single Hand) [tank]",
+      "description": "Hands Under the Ice (Single Hand) [tank]",
       "name": "",
       "img": "icons/svg/d20-black.svg",
       "weight": 1,
@@ -58,8 +58,8 @@
     {
       "_id": "CPuQ6QFvb5NKXZDl",
       "type": "text",
-      "text": "The Frozen Wave (tank)",
-      "description": "The Frozen Wave (tank)",
+      "text": "The Frozen Wave [tank]",
+      "description": "The Frozen Wave [tank]",
       "name": "",
       "img": "icons/svg/d20-black.svg",
       "weight": 1,

@@ -6,45 +6,45 @@
   "system": {
     "abilities": {
       "str": {
-        "value": 17,
-        "proficient": 0
-      },
-      "dex": {
-        "value": 10,
-        "proficient": 0
-      },
-      "con": {
         "value": 14,
         "proficient": 0
       },
-      "int": {
-        "value": 2,
+      "dex": {
+        "value": 6,
         "proficient": 0
       },
-      "wis": {
+      "con": {
         "value": 10,
         "proficient": 0
       },
+      "int": {
+        "value": 1,
+        "proficient": 0
+      },
+      "wis": {
+        "value": 8,
+        "proficient": 0
+      },
       "cha": {
-        "value": 4,
+        "value": 1,
         "proficient": 0
       }
     },
     "attributes": {
       "ac": {
-        "flat": 15,
+        "flat": 12,
         "calc": "flat",
         "formula": ""
       },
       "hp": {
-        "value": 45,
-        "max": 45,
+        "value": 33,
+        "max": 33,
         "temp": null,
         "tempmax": null,
-        "formula": "6d10 + 12"
+        "formula": "6d10"
       },
       "movement": {
-        "walk": 20,
+        "walk": 5,
         "fly": 0,
         "swim": 0,
         "climb": 0,
@@ -63,17 +63,17 @@
     },
     "details": {
       "biography": {
-        "value": "<p><strong>Shallow Sea.</strong> A forest of crinoid stalks and feathered arms that moves by withering behind and growing ahead.</p>",
+        "value": "<p><strong>Shallow Sea.</strong> A forest of crinoids: stalks topped with feathered arms. It moves by withering behind and growing ahead.</p>",
         "public": ""
       },
       "alignment": "Unaligned",
       "type": {
-        "value": "plant",
+        "value": "beast",
         "subtype": "",
         "swarm": "",
         "custom": ""
       },
-      "cr": 2,
+      "cr": 0.5,
       "environment": "Shallow Sea"
     },
     "traits": {
@@ -142,8 +142,8 @@
   },
   "items": [
     {
-      "_id": "rBP72hCLBFo9vRIO",
-      "name": "Stalks",
+      "_id": "G9SNB2THw16XhWka",
+      "name": "False Appearance",
       "img": "icons/magic/water/orb-water-bubbles.webp",
       "effects": [],
       "folder": null,
@@ -152,11 +152,52 @@
         "default": 0
       },
       "flags": {},
+      "_key": "!actors.items!YM6rdSA16FbEgrev.G9SNB2THw16XhWka",
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>While motionless, it is indistinguishable from an ordinary bed of sea lilies.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "The Epoch Descent",
+          "book": "",
+          "page": "",
+          "license": "",
+          "rules": "2014",
+          "revision": 1
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "",
+        "properties": [],
+        "activities": {},
+        "identifier": "false-appearance"
+      }
+    },
+    {
+      "_id": "rBP72hCLBFo9vRIO",
+      "name": "Stalks",
+      "img": "icons/magic/water/orb-water-bubbles.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 200000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
       "_key": "!actors.items!YM6rdSA16FbEgrev.rBP72hCLBFo9vRIO",
       "type": "feat",
       "system": {
         "description": {
-          "value": "<p>The ground within 15 feet of the thicket is difficult terrain.</p>",
+          "value": "<p>The ground within 15 feet of it is difficult terrain.</p>",
           "chat": ""
         },
         "source": {
@@ -183,47 +224,6 @@
       }
     },
     {
-      "_id": "YAbqq2ch6XJ22UIk",
-      "name": "Regrowth",
-      "img": "icons/magic/water/orb-water-bubbles.webp",
-      "effects": [],
-      "folder": null,
-      "sort": 200000,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_key": "!actors.items!YM6rdSA16FbEgrev.YAbqq2ch6XJ22UIk",
-      "type": "feat",
-      "system": {
-        "description": {
-          "value": "<p>It moves by withering behind and growing ahead.</p>",
-          "chat": ""
-        },
-        "source": {
-          "custom": "The Epoch Descent",
-          "book": "",
-          "page": "",
-          "license": "",
-          "rules": "2014",
-          "revision": 1
-        },
-        "uses": {
-          "max": "",
-          "spent": 0,
-          "recovery": []
-        },
-        "type": {
-          "value": "monster",
-          "subtype": ""
-        },
-        "requirements": "",
-        "properties": [],
-        "activities": {},
-        "identifier": "regrowth"
-      }
-    },
-    {
       "_id": "i8lRSAi4jdUgEcbJ",
       "name": "Wrap",
       "img": "icons/creatures/abilities/tail-swipe-green.webp",
@@ -238,7 +238,7 @@
       "type": "weapon",
       "system": {
         "description": {
-          "value": "<p>[[/attack extended]]. [[/damage extended]]. The target is &Reference[restrained] (escape DC 13).</p>",
+          "value": "<p>[[/attack extended]]. [[/damage extended]]. The target is &Reference[restrained] (escape DC 12).</p>",
           "chat": ""
         },
         "source": {
@@ -261,8 +261,8 @@
         },
         "damage": {
           "base": {
-            "number": 2,
-            "denomination": 8,
+            "number": 1,
+            "denomination": 6,
             "bonus": "",
             "types": [
               "bludgeoning"

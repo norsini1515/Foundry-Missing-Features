@@ -6,7 +6,7 @@
   "system": {
     "abilities": {
       "str": {
-        "value": 17,
+        "value": 15,
         "proficient": 0
       },
       "dex": {
@@ -18,7 +18,7 @@
         "proficient": 0
       },
       "int": {
-        "value": 2,
+        "value": 1,
         "proficient": 0
       },
       "wis": {
@@ -26,25 +26,25 @@
         "proficient": 0
       },
       "cha": {
-        "value": 4,
+        "value": 3,
         "proficient": 0
       }
     },
     "attributes": {
       "ac": {
-        "flat": 15,
+        "flat": 12,
         "calc": "flat",
         "formula": ""
       },
       "hp": {
-        "value": 45,
-        "max": 45,
+        "value": 32,
+        "max": 32,
         "temp": null,
         "tempmax": null,
-        "formula": "6d10 + 12"
+        "formula": "5d8 + 10"
       },
       "movement": {
-        "walk": 25,
+        "walk": 20,
         "fly": 0,
         "swim": 30,
         "climb": 0,
@@ -63,7 +63,7 @@
     },
     "details": {
       "biography": {
-        "value": "<p><strong>First Forest.</strong> A heavy amphibian, half fish, that ambushes from the mud.</p>",
+        "value": "<p><strong>First Forest.</strong> A heavy amphibian, half fish, the length of a man. It waits in the mud with only its eyes showing.</p>",
         "public": ""
       },
       "alignment": "Unaligned",
@@ -73,11 +73,11 @@
         "swarm": "",
         "custom": ""
       },
-      "cr": 2,
+      "cr": 1,
       "environment": "First Forest"
     },
     "traits": {
-      "size": "lg",
+      "size": "med",
       "di": {
         "value": [],
         "bypasses": [],
@@ -105,6 +105,9 @@
     "skills": {
       "prc": {
         "value": 0
+      },
+      "ste": {
+        "value": 1
       }
     },
     "source": {
@@ -120,8 +123,8 @@
     "name": "Mud-Walker",
     "displayName": 20,
     "actorLink": false,
-    "width": 2,
-    "height": 2,
+    "width": 1,
+    "height": 1,
     "disposition": -1,
     "displayBars": 20,
     "bar1": {
@@ -183,12 +186,53 @@
       }
     },
     {
+      "_id": "GBJsWgwyRx6yia1F",
+      "name": "Mud Ambush",
+      "img": "icons/creatures/amphibians/treefrog-underneath-teal.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 200000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!YpMoBjlOWbBuYNSl.GBJsWgwyRx6yia1F",
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>It has advantage on Dexterity (Stealth) checks made in mud or shallow water.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "The Epoch Descent",
+          "book": "",
+          "page": "",
+          "license": "",
+          "rules": "2014",
+          "revision": 1
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "",
+        "properties": [],
+        "activities": {},
+        "identifier": "mud-ambush"
+      }
+    },
+    {
       "_id": "H1X9WrbhxRyr4ujA",
       "name": "Bite",
       "img": "icons/creatures/abilities/mouth-teeth-rows-red.webp",
       "effects": [],
       "folder": null,
-      "sort": 200000,
+      "sort": 300000,
       "ownership": {
         "default": 0
       },
@@ -197,7 +241,7 @@
       "type": "weapon",
       "system": {
         "description": {
-          "value": "<p>[[/attack extended]]. [[/damage extended]]. The target is knocked &Reference[prone] and dragged into the mud (&Reference[restrained], escape with a [[/skill ath 12]] check).</p>",
+          "value": "<p>[[/attack extended]]. [[/damage extended]]. The target makes a [[/save str 12]] or is knocked &Reference[prone] and dragged into the mud (&Reference[restrained], escape DC 12).</p>",
           "chat": ""
         },
         "source": {
@@ -220,8 +264,8 @@
         },
         "damage": {
           "base": {
-            "number": 2,
-            "denomination": 8,
+            "number": 1,
+            "denomination": 10,
             "bonus": "",
             "types": [
               "piercing"

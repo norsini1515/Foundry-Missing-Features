@@ -1,24 +1,24 @@
 {
-  "_id": "ryZXigXjkCBVwC1T",
-  "name": "Orthocone",
+  "_id": "eRQyEkOxAFkA8GZ1",
+  "name": "Sea Scorpion (Jaekelopterus)",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
   "system": {
     "abilities": {
       "str": {
-        "value": 17,
+        "value": 20,
         "proficient": 0
       },
       "dex": {
-        "value": 10,
-        "proficient": 0
-      },
-      "con": {
         "value": 14,
         "proficient": 0
       },
+      "con": {
+        "value": 16,
+        "proficient": 0
+      },
       "int": {
-        "value": 2,
+        "value": 1,
         "proficient": 0
       },
       "wis": {
@@ -26,27 +26,27 @@
         "proficient": 0
       },
       "cha": {
-        "value": 4,
+        "value": 3,
         "proficient": 0
       }
     },
     "attributes": {
       "ac": {
-        "flat": 15,
+        "flat": 16,
         "calc": "flat",
         "formula": ""
       },
       "hp": {
-        "value": 45,
-        "max": 45,
+        "value": 95,
+        "max": 95,
         "temp": null,
         "tempmax": null,
-        "formula": "6d10 + 12"
+        "formula": "10d12 + 30"
       },
       "movement": {
-        "walk": 5,
-        "fly": 25,
-        "swim": 0,
+        "walk": 30,
+        "fly": 0,
+        "swim": 50,
         "climb": 0,
         "burrow": 0,
         "units": "ft",
@@ -54,7 +54,7 @@
       },
       "senses": {
         "darkvision": 0,
-        "blindsight": 0,
+        "blindsight": 30,
         "tremorsense": 0,
         "truesight": 0,
         "units": "ft",
@@ -63,7 +63,7 @@
     },
     "details": {
       "biography": {
-        "value": "<p><strong>Shallow Sea.</strong> A squid in a long, straight shell, longer than a rowboat. From the shallow seas.</p>",
+        "value": "<p><strong>Swamp.</strong> The largest arthropod that ever lived: eight feet of plate, with spiked claws that can close on a man's waist.</p>",
         "public": ""
       },
       "alignment": "Unaligned",
@@ -73,11 +73,11 @@
         "swarm": "",
         "custom": ""
       },
-      "cr": 2,
-      "environment": "Shallow Sea"
+      "cr": 5,
+      "environment": "Swamp"
     },
     "traits": {
-      "size": "lg",
+      "size": "huge",
       "di": {
         "value": [],
         "bypasses": [],
@@ -117,11 +117,11 @@
     }
   },
   "prototypeToken": {
-    "name": "Orthocone",
+    "name": "Sea Scorpion",
     "displayName": 20,
     "actorLink": false,
-    "width": 2,
-    "height": 2,
+    "width": 3,
+    "height": 3,
     "disposition": -1,
     "displayBars": 20,
     "bar1": {
@@ -142,8 +142,8 @@
   },
   "items": [
     {
-      "_id": "V4rIcuXMnznzQZep",
-      "name": "Air Swimmer",
+      "_id": "kPuFZNpyiWBOAdts",
+      "name": "Amphibious",
       "img": "icons/magic/water/orb-water-bubbles.webp",
       "effects": [],
       "folder": null,
@@ -152,11 +152,11 @@
         "default": 0
       },
       "flags": {},
-      "_key": "!actors.items!ryZXigXjkCBVwC1T.V4rIcuXMnznzQZep",
+      "_key": "!actors.items!eRQyEkOxAFkA8GZ1.kPuFZNpyiWBOAdts",
       "type": "feat",
       "system": {
         "description": {
-          "value": "<p>It swims through the air as if it were water.</p>",
+          "value": "<p>It can breathe air and water.</p>",
           "chat": ""
         },
         "source": {
@@ -179,13 +179,13 @@
         "requirements": "",
         "properties": [],
         "activities": {},
-        "identifier": "air-swimmer"
+        "identifier": "amphibious"
       }
     },
     {
-      "_id": "zwdX0PBfD4oArbku",
-      "name": "Tentacles",
-      "img": "icons/creatures/abilities/tail-swipe-green.webp",
+      "_id": "P7d41UClANsgNRTa",
+      "name": "Multiattack",
+      "img": "icons/creatures/claws/claw-talons-yellow-red.webp",
       "effects": [],
       "folder": null,
       "sort": 200000,
@@ -193,11 +193,52 @@
         "default": 0
       },
       "flags": {},
-      "_key": "!actors.items!ryZXigXjkCBVwC1T.zwdX0PBfD4oArbku",
+      "_key": "!actors.items!eRQyEkOxAFkA8GZ1.P7d41UClANsgNRTa",
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>It makes two Claw attacks and one Tail attack.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "The Epoch Descent",
+          "book": "",
+          "page": "",
+          "license": "",
+          "rules": "2014",
+          "revision": 1
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "",
+        "properties": [],
+        "activities": {},
+        "identifier": "multiattack"
+      }
+    },
+    {
+      "_id": "35zwR2gczVBqcWv2",
+      "name": "Claw",
+      "img": "icons/creatures/claws/claw-talons-yellow-red.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 300000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!eRQyEkOxAFkA8GZ1.35zwR2gczVBqcWv2",
       "type": "weapon",
       "system": {
         "description": {
-          "value": "<p>[[/attack extended]]. [[/damage extended]]. The target is pulled up to 10 feet toward the orthocone.</p>",
+          "value": "<p>[[/attack extended]]. [[/damage extended]]. The target is &Reference[grappled] (escape DC 15). It has two claws, each of which can grapple one target.</p>",
           "chat": ""
         },
         "source": {
@@ -216,7 +257,7 @@
           "value": null,
           "long": null,
           "units": "ft",
-          "reach": 15
+          "reach": 10
         },
         "damage": {
           "base": {
@@ -224,7 +265,7 @@
             "denomination": 8,
             "bonus": "",
             "types": [
-              "bludgeoning"
+              "piercing"
             ],
             "custom": {
               "enabled": false,
@@ -249,10 +290,10 @@
           "spent": 0,
           "recovery": []
         },
-        "identifier": "tentacles",
+        "identifier": "claw",
         "activities": {
-          "rq5UxJLYZgVhdeZm": {
-            "_id": "rq5UxJLYZgVhdeZm",
+          "8QiwHTrhsqMOV29N": {
+            "_id": "8QiwHTrhsqMOV29N",
             "type": "attack",
             "name": "",
             "sort": 100000,
@@ -263,7 +304,137 @@
               "override": false
             },
             "range": {
-              "value": "15",
+              "value": "10",
+              "units": "ft",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "affects": {
+                "count": "",
+                "type": "",
+                "choice": false,
+                "special": ""
+              },
+              "override": false,
+              "prompt": true
+            },
+            "attack": {
+              "ability": "",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "uses": {
+              "spent": 0,
+              "max": "",
+              "recovery": []
+            }
+          }
+        }
+      }
+    },
+    {
+      "_id": "jZcY9l6rPoJbk4UQ",
+      "name": "Tail",
+      "img": "icons/creatures/abilities/tail-strike-bone-orange.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 400000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!eRQyEkOxAFkA8GZ1.jZcY9l6rPoJbk4UQ",
+      "type": "weapon",
+      "system": {
+        "description": {
+          "value": "<p>[[/attack extended]]. [[/damage extended]].</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "The Epoch Descent",
+          "book": "",
+          "page": "",
+          "license": "",
+          "rules": "2014",
+          "revision": 1
+        },
+        "quantity": 1,
+        "identified": true,
+        "equipped": true,
+        "proficient": null,
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "ft",
+          "reach": null
+        },
+        "damage": {
+          "base": {
+            "number": 2,
+            "denomination": 6,
+            "bonus": "",
+            "types": [
+              "piercing"
+            ],
+            "custom": {
+              "enabled": false,
+              "formula": ""
+            },
+            "scaling": {
+              "mode": "",
+              "number": null,
+              "formula": ""
+            }
+          }
+        },
+        "properties": [],
+        "type": {
+          "value": "natural",
+          "baseItem": ""
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "identifier": "tail",
+        "activities": {
+          "S5LSW0U8sWCwrZoO": {
+            "_id": "S5LSW0U8sWCwrZoO",
+            "type": "attack",
+            "name": "",
+            "sort": 100000,
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "range": {
+              "value": "5",
               "units": "ft",
               "special": "",
               "override": false
@@ -316,11 +487,11 @@
     }
   ],
   "effects": [],
-  "folder": null,
+  "folder": "qIztsSrUtWQFjaaH",
   "sort": 0,
   "ownership": {
     "default": 0
   },
   "flags": {},
-  "_key": "!actors!ryZXigXjkCBVwC1T"
+  "_key": "!actors!eRQyEkOxAFkA8GZ1"
 }

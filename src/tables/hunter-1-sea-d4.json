@@ -10,8 +10,8 @@
     {
       "_id": "aadF9SUtgWxRaO7T",
       "type": "text",
-      "text": "Anomalocaris (fast)",
-      "description": "Anomalocaris (fast)",
+      "text": "Anomalocaris [fast]",
+      "description": "Anomalocaris [fast]",
       "name": "",
       "img": "icons/svg/d20-black.svg",
       "weight": 1,
@@ -26,8 +26,8 @@
     {
       "_id": "GfI0tXXzSZBcmX7F",
       "type": "text",
-      "text": "Opabinia (fast)",
-      "description": "Opabinia (fast)",
+      "text": "Opabinia (Swarm) [fast]",
+      "description": "Opabinia (Swarm) [fast]",
       "name": "",
       "img": "icons/svg/d20-black.svg",
       "weight": 1,
@@ -42,8 +42,8 @@
     {
       "_id": "yI8w0t5c8yP8oxha",
       "type": "text",
-      "text": "Orthocone (tank)",
-      "description": "Orthocone (tank)",
+      "text": "Orthocone [tank]",
+      "description": "Orthocone [tank]",
       "name": "",
       "img": "icons/svg/d20-black.svg",
       "weight": 1,
@@ -58,8 +58,8 @@
     {
       "_id": "mfYeGP7t8AAANSAE",
       "type": "text",
-      "text": "Sea-Lily Thicket (tank)",
-      "description": "Sea-Lily Thicket (tank)",
+      "text": "Sea-Lily Thicket [tank]",
+      "description": "Sea-Lily Thicket [tank]",
       "name": "",
       "img": "icons/svg/d20-black.svg",
       "weight": 1,

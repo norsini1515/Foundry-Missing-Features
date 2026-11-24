@@ -1,52 +1,52 @@
 {
-  "_id": "YXCE2bL836wfeGIh",
-  "name": "Terror Bird",
+  "_id": "JD6zDOcEE2kLPhoS",
+  "name": "Armored Fish (Dunkleosteus)",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
   "system": {
     "abilities": {
       "str": {
-        "value": 14,
+        "value": 23,
         "proficient": 0
       },
       "dex": {
-        "value": 16,
+        "value": 10,
         "proficient": 0
       },
       "con": {
-        "value": 9,
+        "value": 18,
         "proficient": 0
       },
       "int": {
-        "value": 2,
+        "value": 1,
         "proficient": 0
       },
       "wis": {
-        "value": 12,
+        "value": 10,
         "proficient": 0
       },
       "cha": {
-        "value": 4,
+        "value": 3,
         "proficient": 0
       }
     },
     "attributes": {
       "ac": {
-        "flat": 13,
+        "flat": 17,
         "calc": "flat",
         "formula": ""
       },
       "hp": {
-        "value": 18,
-        "max": 18,
+        "value": 115,
+        "max": 115,
         "temp": null,
         "tempmax": null,
-        "formula": "4d10 - 4"
+        "formula": "11d12 + 44"
       },
       "movement": {
-        "walk": 50,
+        "walk": 0,
         "fly": 0,
-        "swim": 0,
+        "swim": 40,
         "climb": 0,
         "burrow": 0,
         "units": "ft",
@@ -63,7 +63,7 @@
     },
     "details": {
       "biography": {
-        "value": "<p><strong>Meadow.</strong> A flightless predator taller than a man, with a beak like a hooked axe. It hunts in tall grass.</p>",
+        "value": "<p><strong>Swamp.</strong> The great armored fish: as long as a ship's boat, its head plated like a fortress gate, its jaws self-sharpening blades.</p>",
         "public": ""
       },
       "alignment": "Unaligned",
@@ -73,11 +73,11 @@
         "swarm": "",
         "custom": ""
       },
-      "cr": 1,
-      "environment": "Meadow"
+      "cr": 6,
+      "environment": "Swamp"
     },
     "traits": {
-      "size": "lg",
+      "size": "huge",
       "di": {
         "value": [],
         "bypasses": [],
@@ -104,7 +104,7 @@
     },
     "skills": {
       "prc": {
-        "value": 1
+        "value": 0
       }
     },
     "source": {
@@ -117,11 +117,11 @@
     }
   },
   "prototypeToken": {
-    "name": "Terror Bird",
+    "name": "Armored Fish",
     "displayName": 20,
     "actorLink": false,
-    "width": 2,
-    "height": 2,
+    "width": 3,
+    "height": 3,
     "disposition": -1,
     "displayBars": 20,
     "bar1": {
@@ -142,9 +142,9 @@
   },
   "items": [
     {
-      "_id": "dInp9yuMjIbDiWIy",
-      "name": "In the Grass",
-      "img": "icons/commodities/bones/beak-hooked-red.webp",
+      "_id": "iZDrkgLfmTgXuGTj",
+      "name": "Water Breathing",
+      "img": "icons/magic/water/orb-water-bubbles.webp",
       "effects": [],
       "folder": null,
       "sort": 100000,
@@ -152,11 +152,11 @@
         "default": 0
       },
       "flags": {},
-      "_key": "!actors.items!YXCE2bL836wfeGIh.dInp9yuMjIbDiWIy",
+      "_key": "!actors.items!JD6zDOcEE2kLPhoS.iZDrkgLfmTgXuGTj",
       "type": "feat",
       "system": {
         "description": {
-          "value": "<p>If it is unseen at the start of its turn, its next attack has advantage and deals an extra [[/damage 1d6 piercing]].</p>",
+          "value": "<p>It can breathe only underwater.</p>",
           "chat": ""
         },
         "source": {
@@ -179,13 +179,13 @@
         "requirements": "",
         "properties": [],
         "activities": {},
-        "identifier": "in-the-grass"
+        "identifier": "water-breathing"
       }
     },
     {
-      "_id": "oAjSH3JBaCwfkuNq",
-      "name": "Beak",
-      "img": "icons/commodities/bones/beak-hooked-red.webp",
+      "_id": "RWEBUrhhlvG48yrS",
+      "name": "Unseen Strike",
+      "img": "icons/magic/water/orb-water-bubbles.webp",
       "effects": [],
       "folder": null,
       "sort": 200000,
@@ -193,11 +193,93 @@
         "default": 0
       },
       "flags": {},
-      "_key": "!actors.items!YXCE2bL836wfeGIh.oAjSH3JBaCwfkuNq",
+      "_key": "!actors.items!JD6zDOcEE2kLPhoS.RWEBUrhhlvG48yrS",
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>It has advantage on its first attack from under the surface.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "The Epoch Descent",
+          "book": "",
+          "page": "",
+          "license": "",
+          "rules": "2014",
+          "revision": 1
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "",
+        "properties": [],
+        "activities": {},
+        "identifier": "unseen-strike"
+      }
+    },
+    {
+      "_id": "46lMj70E2KqxqjTZ",
+      "name": "Armored Head",
+      "img": "icons/magic/defensive/barrier-shield-dome-pink.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 300000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!JD6zDOcEE2kLPhoS.46lMj70E2KqxqjTZ",
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>Attacks against it from the front have disadvantage unless the attacker is underwater.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "The Epoch Descent",
+          "book": "",
+          "page": "",
+          "license": "",
+          "rules": "2014",
+          "revision": 1
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "",
+        "properties": [],
+        "activities": {},
+        "identifier": "armored-head"
+      }
+    },
+    {
+      "_id": "RdmbBuw0qFdKMChg",
+      "name": "Shear Bite",
+      "img": "icons/creatures/abilities/mouth-teeth-rows-red.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 400000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!JD6zDOcEE2kLPhoS.RdmbBuw0qFdKMChg",
       "type": "weapon",
       "system": {
         "description": {
-          "value": "<p>[[/attack extended]]. [[/damage extended]].</p>",
+          "value": "<p>[[/attack extended]]. [[/damage extended]]. If the target is Medium or smaller, it is &Reference[grappled] (escape DC 17), and the fish can't bite another target.</p>",
           "chat": ""
         },
         "source": {
@@ -220,11 +302,11 @@
         },
         "damage": {
           "base": {
-            "number": 1,
+            "number": 4,
             "denomination": 10,
             "bonus": "",
             "types": [
-              "piercing"
+              "slashing"
             ],
             "custom": {
               "enabled": false,
@@ -237,9 +319,7 @@
             }
           }
         },
-        "properties": [
-          "fin"
-        ],
+        "properties": [],
         "type": {
           "value": "natural",
           "baseItem": ""
@@ -249,10 +329,10 @@
           "spent": 0,
           "recovery": []
         },
-        "identifier": "beak",
+        "identifier": "shear-bite",
         "activities": {
-          "zBDEnkzQDf57Qe6H": {
-            "_id": "zBDEnkzQDf57Qe6H",
+          "lOHkLWrZmcOniEzO": {
+            "_id": "lOHkLWrZmcOniEzO",
             "type": "attack",
             "name": "",
             "sort": 100000,
@@ -313,14 +393,55 @@
           }
         }
       }
+    },
+    {
+      "_id": "AJImKqK3hRvyA2Yg",
+      "name": "Thrash",
+      "img": "icons/magic/water/orb-water-bubbles.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 500000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!JD6zDOcEE2kLPhoS.AJImKqK3hRvyA2Yg",
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>As a bonus action, it deals [[/damage 2d10 slashing]] to a creature it is grappling.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "The Epoch Descent",
+          "book": "",
+          "page": "",
+          "license": "",
+          "rules": "2014",
+          "revision": 1
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "",
+        "properties": [],
+        "activities": {},
+        "identifier": "thrash"
+      }
     }
   ],
   "effects": [],
-  "folder": null,
+  "folder": "hFvCKF2v8w0K7HSy",
   "sort": 0,
   "ownership": {
     "default": 0
   },
   "flags": {},
-  "_key": "!actors!YXCE2bL836wfeGIh"
+  "_key": "!actors!JD6zDOcEE2kLPhoS"
 }

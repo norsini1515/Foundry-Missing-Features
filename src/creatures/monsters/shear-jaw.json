@@ -6,27 +6,27 @@
   "system": {
     "abilities": {
       "str": {
-        "value": 14,
+        "value": 18,
         "proficient": 0
       },
       "dex": {
-        "value": 16,
+        "value": 13,
         "proficient": 0
       },
       "con": {
-        "value": 10,
+        "value": 16,
         "proficient": 0
       },
       "int": {
-        "value": 2,
+        "value": 1,
         "proficient": 0
       },
       "wis": {
-        "value": 12,
+        "value": 10,
         "proficient": 0
       },
       "cha": {
-        "value": 4,
+        "value": 3,
         "proficient": 0
       }
     },
@@ -37,16 +37,16 @@
         "formula": ""
       },
       "hp": {
-        "value": 18,
-        "max": 18,
+        "value": 59,
+        "max": 59,
         "temp": null,
         "tempmax": null,
-        "formula": "4d8"
+        "formula": "7d10 + 21"
       },
       "movement": {
-        "walk": 50,
+        "walk": 10,
         "fly": 0,
-        "swim": 50,
+        "swim": 40,
         "climb": 0,
         "burrow": 0,
         "units": "ft",
@@ -63,7 +63,7 @@
     },
     "details": {
       "biography": {
-        "value": "<p><strong>First Forest.</strong> A lobe-finned fish with shearing jaws that lunges out of mud channels.</p>",
+        "value": "<p><strong>First Forest.</strong> A lobe-finned fish as long as a canoe, with shearing jaws. It lunges from mud channels onto the bank and slides back.</p>",
         "public": ""
       },
       "alignment": "Unaligned",
@@ -73,11 +73,11 @@
         "swarm": "",
         "custom": ""
       },
-      "cr": 1,
+      "cr": 3,
       "environment": "First Forest"
     },
     "traits": {
-      "size": "med",
+      "size": "lg",
       "di": {
         "value": [],
         "bypasses": [],
@@ -104,7 +104,7 @@
     },
     "skills": {
       "prc": {
-        "value": 1
+        "value": 0
       }
     },
     "source": {
@@ -120,8 +120,8 @@
     "name": "Shear-Jaw",
     "displayName": 20,
     "actorLink": false,
-    "width": 1,
-    "height": 1,
+    "width": 2,
+    "height": 2,
     "disposition": -1,
     "displayBars": 20,
     "bar1": {
@@ -156,7 +156,7 @@
       "type": "feat",
       "system": {
         "description": {
-          "value": "<p>If it moves at least 20 feet straight toward a target before attacking, it has advantage on the attack.</p>",
+          "value": "<p>If it moves at least 20 feet straight toward a target, it can leap up to 20 feet out of water or mud, and its next attack this turn has advantage.</p>",
           "chat": ""
         },
         "source": {
@@ -183,12 +183,53 @@
       }
     },
     {
+      "_id": "FuxTbrjunvSmtUDB",
+      "name": "Hold Breath",
+      "img": "icons/magic/water/orb-water-bubbles.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 200000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!ONR9nhNDPZvJfgkn.FuxTbrjunvSmtUDB",
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>It can hold its breath for 10 minutes.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "The Epoch Descent",
+          "book": "",
+          "page": "",
+          "license": "",
+          "rules": "2014",
+          "revision": 1
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "",
+        "properties": [],
+        "activities": {},
+        "identifier": "hold-breath"
+      }
+    },
+    {
       "_id": "SiS7ixsbS2jEi4ZC",
       "name": "Shear Bite",
       "img": "icons/creatures/abilities/mouth-teeth-rows-red.webp",
       "effects": [],
       "folder": null,
-      "sort": 200000,
+      "sort": 300000,
       "ownership": {
         "default": 0
       },
@@ -220,7 +261,7 @@
         },
         "damage": {
           "base": {
-            "number": 1,
+            "number": 2,
             "denomination": 10,
             "bonus": "",
             "types": [
@@ -237,9 +278,7 @@
             }
           }
         },
-        "properties": [
-          "fin"
-        ],
+        "properties": [],
         "type": {
           "value": "natural",
           "baseItem": ""

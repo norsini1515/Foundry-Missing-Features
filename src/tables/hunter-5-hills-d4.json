@@ -10,8 +10,8 @@
     {
       "_id": "l9uc2rDbHFIiprqU",
       "type": "text",
-      "text": "Gorgonopsid (fast)",
-      "description": "Gorgonopsid (fast)",
+      "text": "Gorgonopsid [fast]",
+      "description": "Gorgonopsid [fast]",
       "name": "",
       "img": "icons/svg/d20-black.svg",
       "weight": 1,
@@ -26,8 +26,8 @@
     {
       "_id": "XWJERYRyBIaJIwee",
       "type": "text",
-      "text": "Gliding Lizard (fast, pair)",
-      "description": "Gliding Lizard (fast, pair)",
+      "text": "Gliding Lizard (Flock) [fast]",
+      "description": "Gliding Lizard (Flock) [fast]",
       "name": "",
       "img": "icons/svg/d20-black.svg",
       "weight": 1,
@@ -42,8 +42,8 @@
     {
       "_id": "RfOYvFqml2yVRg0R",
       "type": "text",
-      "text": "Scutosaur (tank)",
-      "description": "Scutosaur (tank)",
+      "text": "Scutosaur [tank]",
+      "description": "Scutosaur [tank]",
       "name": "",
       "img": "icons/svg/d20-black.svg",
       "weight": 1,
@@ -58,8 +58,8 @@
     {
       "_id": "1GAS8V0r7dYKRgmo",
       "type": "text",
-      "text": "Dimetrodon (tank)",
-      "description": "Dimetrodon (tank)",
+      "text": "Dimetrodon [tank]",
+      "description": "Dimetrodon [tank]",
       "name": "",
       "img": "icons/svg/d20-black.svg",
       "weight": 1,

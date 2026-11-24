@@ -10,7 +10,7 @@
         "proficient": 0
       },
       "dex": {
-        "value": 10,
+        "value": 12,
         "proficient": 0
       },
       "con": {
@@ -22,7 +22,7 @@
         "proficient": 0
       },
       "wis": {
-        "value": 10,
+        "value": 12,
         "proficient": 0
       },
       "cha": {
@@ -32,19 +32,19 @@
     },
     "attributes": {
       "ac": {
-        "flat": 15,
+        "flat": 13,
         "calc": "flat",
         "formula": ""
       },
       "hp": {
-        "value": 45,
-        "max": 45,
+        "value": 52,
+        "max": 52,
         "temp": null,
         "tempmax": null,
-        "formula": "6d10 + 12"
+        "formula": "7d10 + 14"
       },
       "movement": {
-        "walk": 25,
+        "walk": 30,
         "fly": 0,
         "swim": 0,
         "climb": 0,
@@ -63,7 +63,7 @@
     },
     "details": {
       "biography": {
-        "value": "<p><strong>Rolling Hills.</strong> A sail-backed predator that basks in the sun before it hunts.</p>",
+        "value": "<p><strong>Rolling Hills.</strong> A sail-backed predator as long as a rowboat. It basks in the sun to warm its blood before it hunts.</p>",
         "public": ""
       },
       "alignment": "Unaligned",
@@ -156,7 +156,7 @@
       "type": "feat",
       "system": {
         "description": {
-          "value": "<p>On its first round it doesn't move or attack. After that it has advantage on every attack roll.</p>",
+          "value": "<p>If it spends its whole turn in sunlight without moving, then until the end of its next turn it has advantage on attack rolls and its speed increases by 10 feet.</p>",
           "chat": ""
         },
         "source": {
@@ -221,7 +221,7 @@
         "damage": {
           "base": {
             "number": 2,
-            "denomination": 8,
+            "denomination": 10,
             "bonus": "",
             "types": [
               "piercing"

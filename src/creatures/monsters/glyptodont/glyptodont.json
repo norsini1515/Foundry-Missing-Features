@@ -1,20 +1,20 @@
 {
-  "_id": "0NVDJMiae5Rzenqt",
-  "name": "Opabinia",
+  "_id": "Rcnk16FRp2ZtFfRJ",
+  "name": "Glyptodont",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
   "system": {
     "abilities": {
       "str": {
-        "value": 14,
+        "value": 18,
         "proficient": 0
       },
       "dex": {
-        "value": 16,
+        "value": 6,
         "proficient": 0
       },
       "con": {
-        "value": 10,
+        "value": 18,
         "proficient": 0
       },
       "int": {
@@ -22,7 +22,7 @@
         "proficient": 0
       },
       "wis": {
-        "value": 12,
+        "value": 10,
         "proficient": 0
       },
       "cha": {
@@ -32,38 +32,38 @@
     },
     "attributes": {
       "ac": {
-        "flat": 13,
+        "flat": 18,
         "calc": "flat",
         "formula": ""
       },
       "hp": {
-        "value": 18,
-        "max": 18,
+        "value": 76,
+        "max": 76,
         "temp": null,
         "tempmax": null,
-        "formula": "4d8"
+        "formula": "8d10 + 32"
       },
       "movement": {
-        "walk": 10,
-        "fly": 50,
+        "walk": 20,
+        "fly": 0,
         "swim": 0,
         "climb": 0,
         "burrow": 0,
         "units": "ft",
-        "hover": true
+        "hover": false
       },
       "senses": {
         "darkvision": 0,
         "blindsight": 0,
         "tremorsense": 0,
-        "truesight": 60,
+        "truesight": 0,
         "units": "ft",
         "special": ""
       }
     },
     "details": {
       "biography": {
-        "value": "<p><strong>Shallow Sea.</strong> Five stalked eyes and a long nozzle that ends in a claw. Small, strange, and from the first seas.</p>",
+        "value": "<p><strong>Meadow.</strong> A giant armadillo the size of a cart, in a domed shell, with a club at the end of its tail.</p>",
         "public": ""
       },
       "alignment": "Unaligned",
@@ -73,11 +73,11 @@
         "swarm": "",
         "custom": ""
       },
-      "cr": 1,
-      "environment": "Shallow Sea"
+      "cr": 3,
+      "environment": "Meadow"
     },
     "traits": {
-      "size": "med",
+      "size": "lg",
       "di": {
         "value": [],
         "bypasses": [],
@@ -104,7 +104,7 @@
     },
     "skills": {
       "prc": {
-        "value": 2
+        "value": 0
       }
     },
     "source": {
@@ -117,11 +117,11 @@
     }
   },
   "prototypeToken": {
-    "name": "Opabinia",
+    "name": "Glyptodont",
     "displayName": 20,
     "actorLink": false,
-    "width": 1,
-    "height": 1,
+    "width": 2,
+    "height": 2,
     "disposition": -1,
     "displayBars": 20,
     "bar1": {
@@ -142,9 +142,9 @@
   },
   "items": [
     {
-      "_id": "8HeBcdCVpUZTgnQE",
-      "name": "Air Swimmer",
-      "img": "icons/magic/water/orb-water-bubbles.webp",
+      "_id": "DCEeZ4DGCzgSjJCY",
+      "name": "Withdraw",
+      "img": "icons/magic/defensive/barrier-shield-dome-pink.webp",
       "effects": [],
       "folder": null,
       "sort": 100000,
@@ -152,11 +152,11 @@
         "default": 0
       },
       "flags": {},
-      "_key": "!actors.items!0NVDJMiae5Rzenqt.8HeBcdCVpUZTgnQE",
+      "_key": "!actors.items!Rcnk16FRp2ZtFfRJ.DCEeZ4DGCzgSjJCY",
       "type": "feat",
       "system": {
         "description": {
-          "value": "<p>It swims through the air as if it were water.</p>",
+          "value": "<p>As an action, it pulls into its shell. Until the start of its next turn its AC is 23, it has resistance to all damage, and its speed is 0.</p>",
           "chat": ""
         },
         "source": {
@@ -179,13 +179,13 @@
         "requirements": "",
         "properties": [],
         "activities": {},
-        "identifier": "air-swimmer"
+        "identifier": "withdraw"
       }
     },
     {
-      "_id": "z45uzrk4AOHcJbI4",
-      "name": "Five Eyes",
-      "img": "icons/creatures/eyes/lizard-single-slit-blue.webp",
+      "_id": "bE5d8U42UophNsOn",
+      "name": "Tail Club",
+      "img": "icons/creatures/abilities/tail-strike-bone-orange.webp",
       "effects": [],
       "folder": null,
       "sort": 200000,
@@ -193,48 +193,7 @@
         "default": 0
       },
       "flags": {},
-      "_key": "!actors.items!0NVDJMiae5Rzenqt.z45uzrk4AOHcJbI4",
-      "type": "feat",
-      "system": {
-        "description": {
-          "value": "<p>It can't be surprised, and it sees invisible creatures and through illusions within 60 feet.</p>",
-          "chat": ""
-        },
-        "source": {
-          "custom": "The Epoch Descent",
-          "book": "",
-          "page": "",
-          "license": "",
-          "rules": "2014",
-          "revision": 1
-        },
-        "uses": {
-          "max": "",
-          "spent": 0,
-          "recovery": []
-        },
-        "type": {
-          "value": "monster",
-          "subtype": ""
-        },
-        "requirements": "",
-        "properties": [],
-        "activities": {},
-        "identifier": "five-eyes"
-      }
-    },
-    {
-      "_id": "3CNt4iPU8JDrBVsV",
-      "name": "Nozzle Claw",
-      "img": "icons/creatures/claws/claw-talons-yellow-red.webp",
-      "effects": [],
-      "folder": null,
-      "sort": 300000,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_key": "!actors.items!0NVDJMiae5Rzenqt.3CNt4iPU8JDrBVsV",
+      "_key": "!actors.items!Rcnk16FRp2ZtFfRJ.bE5d8U42UophNsOn",
       "type": "weapon",
       "system": {
         "description": {
@@ -257,15 +216,15 @@
           "value": null,
           "long": null,
           "units": "ft",
-          "reach": 10
+          "reach": null
         },
         "damage": {
           "base": {
-            "number": 1,
-            "denomination": 10,
+            "number": 2,
+            "denomination": 8,
             "bonus": "",
             "types": [
-              "piercing"
+              "bludgeoning"
             ],
             "custom": {
               "enabled": false,
@@ -278,10 +237,7 @@
             }
           }
         },
-        "properties": [
-          "fin",
-          "rch"
-        ],
+        "properties": [],
         "type": {
           "value": "natural",
           "baseItem": ""
@@ -291,10 +247,10 @@
           "spent": 0,
           "recovery": []
         },
-        "identifier": "nozzle-claw",
+        "identifier": "tail-club",
         "activities": {
-          "8svtnycfKgWnWdhG": {
-            "_id": "8svtnycfKgWnWdhG",
+          "ktpVxxqSg0NrFrBO": {
+            "_id": "ktpVxxqSg0NrFrBO",
             "type": "attack",
             "name": "",
             "sort": 100000,
@@ -305,7 +261,7 @@
               "override": false
             },
             "range": {
-              "value": "10",
+              "value": "5",
               "units": "ft",
               "special": "",
               "override": false
@@ -355,14 +311,55 @@
           }
         }
       }
+    },
+    {
+      "_id": "l175OJ9pnHS4jYS0",
+      "name": "Tail Sweep (Recharge 5-6)",
+      "img": "icons/creatures/abilities/tail-swipe-green.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 300000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!Rcnk16FRp2ZtFfRJ.l175OJ9pnHS4jYS0",
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>Each creature within 10 feet makes a [[/save dex 14]] or takes [[/damage 2d8+4 bludgeoning]] and is knocked &Reference[prone].</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "The Epoch Descent",
+          "book": "",
+          "page": "",
+          "license": "",
+          "rules": "2014",
+          "revision": 1
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "",
+        "properties": [],
+        "activities": {},
+        "identifier": "tail-sweep-recharge-5-6"
+      }
     }
   ],
   "effects": [],
-  "folder": null,
+  "folder": "CWG7ALCDejB6WkI0",
   "sort": 0,
   "ownership": {
     "default": 0
   },
   "flags": {},
-  "_key": "!actors!0NVDJMiae5Rzenqt"
+  "_key": "!actors!Rcnk16FRp2ZtFfRJ"
 }

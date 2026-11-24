@@ -10,8 +10,8 @@
     {
       "_id": "Wj7v6ejTSOJ6tsER",
       "type": "text",
-      "text": "Shear-Jaw (fast)",
-      "description": "Shear-Jaw (fast)",
+      "text": "Shear-Jaw [fast]",
+      "description": "Shear-Jaw [fast]",
       "name": "",
       "img": "icons/svg/d20-black.svg",
       "weight": 1,
@@ -26,8 +26,8 @@
     {
       "_id": "1AllVglEBMbH51xZ",
       "type": "text",
-      "text": "Trigonotarbid (fast)",
-      "description": "Trigonotarbid (fast)",
+      "text": "Trigonotarbid [fast]",
+      "description": "Trigonotarbid [fast]",
       "name": "",
       "img": "icons/svg/d20-black.svg",
       "weight": 1,
@@ -42,8 +42,8 @@
     {
       "_id": "QfJBQilk7rlc6DBD",
       "type": "text",
-      "text": "Trunk-Walker (tank)",
-      "description": "Trunk-Walker (tank)",
+      "text": "Trunk-Walker [tank]",
+      "description": "Trunk-Walker [tank]",
       "name": "",
       "img": "icons/svg/d20-black.svg",
       "weight": 1,
@@ -58,8 +58,8 @@
     {
       "_id": "BfDvE6AG91pKUFjB",
       "type": "text",
-      "text": "Mud-Walker (tank)",
-      "description": "Mud-Walker (tank)",
+      "text": "Mud-Walker [tank]",
+      "description": "Mud-Walker [tank]",
       "name": "",
       "img": "icons/svg/d20-black.svg",
       "weight": 1,

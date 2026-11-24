@@ -371,7 +371,7 @@
       "type": "feat",
       "system": {
         "description": {
-          "value": "<p>It makes one bite attack against a Small or smaller target it is grappling. On a hit the target is swallowed: &Reference[blinded], &Reference[restrained], and takes [[/damage 1d4 acid]] at the start of each of the frog's turns. The frog spits it out if it takes damage.</p>",
+          "value": "<p>It makes one Bite against a Small or smaller creature it is grappling. On a hit, the target is swallowed: &Reference[blinded], &Reference[restrained], and takes [[/damage 1d4 acid]] at the start of each of the frog's turns. The frog spits it out if it takes damage.</p>",
           "chat": ""
         },
         "source": {

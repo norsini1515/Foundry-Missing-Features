@@ -1,24 +1,24 @@
 {
-  "_id": "33MjpUBEc0JFpFa6",
-  "name": "Gorgonopsid",
+  "_id": "4JqiWCqCnvclR45c",
+  "name": "Hands Under the Ice",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
   "system": {
     "abilities": {
       "str": {
-        "value": 14,
+        "value": 20,
         "proficient": 0
       },
       "dex": {
-        "value": 16,
-        "proficient": 0
-      },
-      "con": {
         "value": 10,
         "proficient": 0
       },
+      "con": {
+        "value": 16,
+        "proficient": 0
+      },
       "int": {
-        "value": 2,
+        "value": 3,
         "proficient": 0
       },
       "wis": {
@@ -26,36 +26,36 @@
         "proficient": 0
       },
       "cha": {
-        "value": 4,
+        "value": 5,
         "proficient": 0
       }
     },
     "attributes": {
       "ac": {
-        "flat": 13,
+        "flat": 14,
         "calc": "flat",
         "formula": ""
       },
       "hp": {
-        "value": 18,
-        "max": 18,
+        "value": 95,
+        "max": 95,
         "temp": null,
         "tempmax": null,
-        "formula": "4d8"
+        "formula": "10d12 + 30"
       },
       "movement": {
-        "walk": 50,
+        "walk": 0,
         "fly": 0,
         "swim": 0,
         "climb": 0,
-        "burrow": 0,
+        "burrow": 30,
         "units": "ft",
         "hover": false
       },
       "senses": {
         "darkvision": 0,
         "blindsight": 0,
-        "tremorsense": 0,
+        "tremorsense": 60,
         "truesight": 0,
         "units": "ft",
         "special": ""
@@ -63,23 +63,25 @@
     },
     "details": {
       "biography": {
-        "value": "<p><strong>Rolling Hills.</strong> A sabre-toothed predator, low to the ground, from the worn hills.</p>",
+        "value": "<p><strong>Ice.</strong> Something huge lives beneath the ice. Only the hands ever surface, and they always come in pairs.</p>",
         "public": ""
       },
       "alignment": "Unaligned",
       "type": {
-        "value": "beast",
+        "value": "monstrosity",
         "subtype": "",
         "swarm": "",
         "custom": ""
       },
-      "cr": 1,
-      "environment": "Rolling Hills"
+      "cr": 5,
+      "environment": "Ice"
     },
     "traits": {
-      "size": "med",
+      "size": "huge",
       "di": {
-        "value": [],
+        "value": [
+          "cold"
+        ],
         "bypasses": [],
         "custom": ""
       },
@@ -89,7 +91,9 @@
         "custom": ""
       },
       "dv": {
-        "value": [],
+        "value": [
+          "fire"
+        ],
         "bypasses": [],
         "custom": ""
       },
@@ -104,7 +108,7 @@
     },
     "skills": {
       "prc": {
-        "value": 1
+        "value": 0
       }
     },
     "source": {
@@ -117,11 +121,11 @@
     }
   },
   "prototypeToken": {
-    "name": "Gorgonopsid",
+    "name": "Hands Under the Ice",
     "displayName": 20,
     "actorLink": false,
-    "width": 1,
-    "height": 1,
+    "width": 3,
+    "height": 3,
     "disposition": -1,
     "displayBars": 20,
     "bar1": {
@@ -142,9 +146,9 @@
   },
   "items": [
     {
-      "_id": "CxLE7FLLEOnthHx6",
-      "name": "Pounce",
-      "img": "icons/creatures/abilities/paw-print-orange.webp",
+      "_id": "FuhhZzCJeIrbhSx4",
+      "name": "From Below",
+      "img": "icons/magic/water/orb-ice-opaque.webp",
       "effects": [],
       "folder": null,
       "sort": 100000,
@@ -152,11 +156,11 @@
         "default": 0
       },
       "flags": {},
-      "_key": "!actors.items!33MjpUBEc0JFpFa6.CxLE7FLLEOnthHx6",
+      "_key": "!actors.items!4JqiWCqCnvclR45c.FuhhZzCJeIrbhSx4",
       "type": "feat",
       "system": {
         "description": {
-          "value": "<p>If it moves at least 20 feet straight toward a creature and then hits it, the target makes a [[/save str 13]] or is knocked &Reference[prone].</p>",
+          "value": "<p>It stays beneath the surface. Only a creature it is grappling, or one adjacent to that creature, can target it.</p>",
           "chat": ""
         },
         "source": {
@@ -179,13 +183,13 @@
         "requirements": "",
         "properties": [],
         "activities": {},
-        "identifier": "pounce"
+        "identifier": "from-below"
       }
     },
     {
-      "_id": "XOLxJCae9i157iIi",
-      "name": "Sabre Bite",
-      "img": "icons/creatures/abilities/mouth-teeth-rows-red.webp",
+      "_id": "UZvUxbngCS4kcDzw",
+      "name": "Multiattack",
+      "img": "icons/skills/melee/unarmed-punch-fist-yellow-red.webp",
       "effects": [],
       "folder": null,
       "sort": 200000,
@@ -193,11 +197,52 @@
         "default": 0
       },
       "flags": {},
-      "_key": "!actors.items!33MjpUBEc0JFpFa6.XOLxJCae9i157iIi",
+      "_key": "!actors.items!4JqiWCqCnvclR45c.UZvUxbngCS4kcDzw",
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>It makes two Grab attacks.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "The Epoch Descent",
+          "book": "",
+          "page": "",
+          "license": "",
+          "rules": "2014",
+          "revision": 1
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "",
+        "properties": [],
+        "activities": {},
+        "identifier": "multiattack"
+      }
+    },
+    {
+      "_id": "yCvexm2aWhzPYusc",
+      "name": "Grab",
+      "img": "icons/skills/melee/unarmed-punch-fist-yellow-red.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 300000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!4JqiWCqCnvclR45c.yCvexm2aWhzPYusc",
       "type": "weapon",
       "system": {
         "description": {
-          "value": "<p>[[/attack extended]]. [[/damage extended]].</p>",
+          "value": "<p>[[/attack extended]]. [[/damage extended]]. The target is &Reference[grappled] (escape DC 15) and &Reference[restrained]. It can grapple two creatures.</p>",
           "chat": ""
         },
         "source": {
@@ -216,15 +261,15 @@
           "value": null,
           "long": null,
           "units": "ft",
-          "reach": null
+          "reach": 10
         },
         "damage": {
           "base": {
-            "number": 1,
-            "denomination": 10,
+            "number": 2,
+            "denomination": 8,
             "bonus": "",
             "types": [
-              "piercing"
+              "bludgeoning"
             ],
             "custom": {
               "enabled": false,
@@ -238,7 +283,7 @@
           }
         },
         "properties": [
-          "fin"
+          "rch"
         ],
         "type": {
           "value": "natural",
@@ -249,10 +294,10 @@
           "spent": 0,
           "recovery": []
         },
-        "identifier": "sabre-bite",
+        "identifier": "grab",
         "activities": {
-          "rplO67n24Xh6WUZN": {
-            "_id": "rplO67n24Xh6WUZN",
+          "UoE9b7HbENIpCapv": {
+            "_id": "UoE9b7HbENIpCapv",
             "type": "attack",
             "name": "",
             "sort": 100000,
@@ -263,7 +308,7 @@
               "override": false
             },
             "range": {
-              "value": "5",
+              "value": "10",
               "units": "ft",
               "special": "",
               "override": false
@@ -313,14 +358,55 @@
           }
         }
       }
+    },
+    {
+      "_id": "YKPOc6GkxBrQ5JWy",
+      "name": "Pull Under",
+      "img": "icons/magic/water/orb-ice-opaque.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 400000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!4JqiWCqCnvclR45c.YKPOc6GkxBrQ5JWy",
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>One creature it is grappling makes a [[/save str 15]] or is dragged beneath the surface. There it can't breathe and takes [[/damage 2d6 cold]] at the start of each of its turns until it escapes the grapple.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "The Epoch Descent",
+          "book": "",
+          "page": "",
+          "license": "",
+          "rules": "2014",
+          "revision": 1
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "",
+        "properties": [],
+        "activities": {},
+        "identifier": "pull-under"
+      }
     }
   ],
   "effects": [],
-  "folder": null,
+  "folder": "H8aYoT4shBFJi7pn",
   "sort": 0,
   "ownership": {
     "default": 0
   },
   "flags": {},
-  "_key": "!actors!33MjpUBEc0JFpFa6"
+  "_key": "!actors!4JqiWCqCnvclR45c"
 }

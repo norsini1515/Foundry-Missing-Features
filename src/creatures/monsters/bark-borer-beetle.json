@@ -183,12 +183,53 @@
       }
     },
     {
+      "_id": "NqBAVtt4XOHmXzMR",
+      "name": "Bore",
+      "img": "icons/creatures/invertebrates/spider-mandibles-brown.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 200000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!kGJovrmeRUZtreBE.NqBAVtt4XOHmXzMR",
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>As an action, it tunnels into an adjacent trunk and is hidden until it bursts out on its next turn, making its next attack with advantage.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "The Epoch Descent",
+          "book": "",
+          "page": "",
+          "license": "",
+          "rules": "2014",
+          "revision": 1
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "",
+        "properties": [],
+        "activities": {},
+        "identifier": "bore"
+      }
+    },
+    {
       "_id": "6Lj3Kn6k6aSgeM11",
       "name": "Mandibles",
       "img": "icons/creatures/invertebrates/spider-mandibles-brown.webp",
       "effects": [],
       "folder": null,
-      "sort": 200000,
+      "sort": 300000,
       "ownership": {
         "default": 0
       },
@@ -310,47 +351,6 @@
             }
           }
         }
-      }
-    },
-    {
-      "_id": "NqBAVtt4XOHmXzMR",
-      "name": "Bore",
-      "img": "icons/creatures/invertebrates/spider-mandibles-brown.webp",
-      "effects": [],
-      "folder": null,
-      "sort": 300000,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_key": "!actors.items!kGJovrmeRUZtreBE.NqBAVtt4XOHmXzMR",
-      "type": "feat",
-      "system": {
-        "description": {
-          "value": "<p>As an action, it tunnels into an adjacent trunk and is hidden until it bursts out on its next turn, making its next attack with advantage.</p>",
-          "chat": ""
-        },
-        "source": {
-          "custom": "The Epoch Descent",
-          "book": "",
-          "page": "",
-          "license": "",
-          "rules": "2014",
-          "revision": 1
-        },
-        "uses": {
-          "max": "",
-          "spent": 0,
-          "recovery": []
-        },
-        "type": {
-          "value": "monster",
-          "subtype": ""
-        },
-        "requirements": "",
-        "properties": [],
-        "activities": {},
-        "identifier": "bore"
       }
     }
   ],

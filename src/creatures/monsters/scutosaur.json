@@ -6,15 +6,15 @@
   "system": {
     "abilities": {
       "str": {
-        "value": 17,
+        "value": 19,
         "proficient": 0
       },
       "dex": {
-        "value": 10,
+        "value": 8,
         "proficient": 0
       },
       "con": {
-        "value": 14,
+        "value": 18,
         "proficient": 0
       },
       "int": {
@@ -37,11 +37,11 @@
         "formula": ""
       },
       "hp": {
-        "value": 45,
-        "max": 45,
+        "value": 66,
+        "max": 66,
         "temp": null,
         "tempmax": null,
-        "formula": "6d10 + 12"
+        "formula": "7d10 + 28"
       },
       "movement": {
         "walk": 25,
@@ -63,7 +63,7 @@
     },
     "details": {
       "biography": {
-        "value": "<p><strong>Rolling Hills.</strong> A squat, armored plant-eater covered in bony knobs. It charges when cornered.</p>",
+        "value": "<p><strong>Rolling Hills.</strong> A squat plant-eater the size of an ox, covered in bony knobs. Calm until cornered, then a battering ram.</p>",
         "public": ""
       },
       "alignment": "Unaligned",
@@ -156,7 +156,7 @@
       "type": "feat",
       "system": {
         "description": {
-          "value": "<p>It can move up to 20 feet in a straight line through creatures. Each creature in the line makes a [[/save dex 13]] or takes [[/damage 2d6 bludgeoning]] and is pushed 10 feet.</p>",
+          "value": "<p>It moves up to 20 feet in a straight line through creatures. Each creature in the line makes a [[/save dex 14]] or takes [[/damage 2d8 bludgeoning]] and is pushed 10 feet and knocked &Reference[prone].</p>",
           "chat": ""
         },
         "source": {
@@ -183,9 +183,9 @@
       }
     },
     {
-      "_id": "l8mQlFS66zuHC2RR",
-      "name": "Bite",
-      "img": "icons/creatures/abilities/mouth-teeth-rows-red.webp",
+      "_id": "Ont7A5z7gZS8xs7D",
+      "name": "Ram",
+      "img": "icons/creatures/mammals/bull-horns-eyes-glowin-orange.webp",
       "effects": [],
       "folder": null,
       "sort": 200000,
@@ -193,7 +193,7 @@
         "default": 0
       },
       "flags": {},
-      "_key": "!actors.items!0AwCFmLgUz5I6Mfp.l8mQlFS66zuHC2RR",
+      "_key": "!actors.items!0AwCFmLgUz5I6Mfp.Ont7A5z7gZS8xs7D",
       "type": "weapon",
       "system": {
         "description": {
@@ -247,10 +247,10 @@
           "spent": 0,
           "recovery": []
         },
-        "identifier": "bite",
+        "identifier": "ram",
         "activities": {
-          "2U0COncwkaQqmnfI": {
-            "_id": "2U0COncwkaQqmnfI",
+          "YezqqEGf8E9ohImA": {
+            "_id": "YezqqEGf8E9ohImA",
             "type": "attack",
             "name": "",
             "sort": 100000,

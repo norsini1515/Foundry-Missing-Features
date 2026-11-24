@@ -1,6 +1,6 @@
 {
-  "_id": "Q0REl0acKVTHmX5b",
-  "name": "Giant Sloth",
+  "_id": "YXCE2bL836wfeGIh",
+  "name": "Terror Bird",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
   "system": {
@@ -10,7 +10,7 @@
         "proficient": 0
       },
       "dex": {
-        "value": 10,
+        "value": 15,
         "proficient": 0
       },
       "con": {
@@ -18,33 +18,33 @@
         "proficient": 0
       },
       "int": {
-        "value": 2,
+        "value": 3,
         "proficient": 0
       },
       "wis": {
-        "value": 10,
+        "value": 12,
         "proficient": 0
       },
       "cha": {
-        "value": 4,
+        "value": 6,
         "proficient": 0
       }
     },
     "attributes": {
       "ac": {
-        "flat": 15,
+        "flat": 13,
         "calc": "flat",
         "formula": ""
       },
       "hp": {
-        "value": 45,
-        "max": 45,
+        "value": 52,
+        "max": 52,
         "temp": null,
         "tempmax": null,
-        "formula": "6d12 + 12"
+        "formula": "7d10 + 14"
       },
       "movement": {
-        "walk": 25,
+        "walk": 50,
         "fly": 0,
         "swim": 0,
         "climb": 0,
@@ -63,7 +63,7 @@
     },
     "details": {
       "biography": {
-        "value": "<p><strong>Meadow.</strong> A ground sloth the size of an elephant. It rears up on its hind legs to swing its claws.</p>",
+        "value": "<p><strong>Meadow.</strong> A flightless predator taller than a man, with a hooked beak like an axe. It hunts in tall grass.</p>",
         "public": ""
       },
       "alignment": "Unaligned",
@@ -73,11 +73,11 @@
         "swarm": "",
         "custom": ""
       },
-      "cr": 2,
+      "cr": 3,
       "environment": "Meadow"
     },
     "traits": {
-      "size": "huge",
+      "size": "lg",
       "di": {
         "value": [],
         "bypasses": [],
@@ -104,7 +104,7 @@
     },
     "skills": {
       "prc": {
-        "value": 0
+        "value": 1
       }
     },
     "source": {
@@ -117,11 +117,11 @@
     }
   },
   "prototypeToken": {
-    "name": "Giant Sloth",
+    "name": "Terror Bird",
     "displayName": 20,
     "actorLink": false,
-    "width": 3,
-    "height": 3,
+    "width": 2,
+    "height": 2,
     "disposition": -1,
     "displayBars": 20,
     "bar1": {
@@ -142,9 +142,9 @@
   },
   "items": [
     {
-      "_id": "hwqBNgjI0Ksc6o3P",
-      "name": "Rear Up",
-      "img": "icons/creatures/mammals/bull-horns-eyes-glowin-orange.webp",
+      "_id": "dInp9yuMjIbDiWIy",
+      "name": "In the Grass",
+      "img": "icons/commodities/bones/beak-hooked-red.webp",
       "effects": [],
       "folder": null,
       "sort": 100000,
@@ -152,11 +152,11 @@
         "default": 0
       },
       "flags": {},
-      "_key": "!actors.items!Q0REl0acKVTHmX5b.hwqBNgjI0Ksc6o3P",
+      "_key": "!actors.items!YXCE2bL836wfeGIh.dInp9yuMjIbDiWIy",
       "type": "feat",
       "system": {
         "description": {
-          "value": "<p>It rears up the turn before it swings. That's the telegraph.</p>",
+          "value": "<p>If it is unseen at the start of its turn, its first attack this turn has advantage and deals an extra [[/damage 1d10 piercing]].</p>",
           "chat": ""
         },
         "source": {
@@ -179,13 +179,13 @@
         "requirements": "",
         "properties": [],
         "activities": {},
-        "identifier": "rear-up"
+        "identifier": "in-the-grass"
       }
     },
     {
-      "_id": "PtT4RvRi0q9YTBIR",
-      "name": "Claws",
-      "img": "icons/creatures/claws/claw-talons-yellow-red.webp",
+      "_id": "HKLKdhtAVPZTQyyy",
+      "name": "Multiattack",
+      "img": "icons/commodities/bones/beak-hooked-red.webp",
       "effects": [],
       "folder": null,
       "sort": 200000,
@@ -193,11 +193,52 @@
         "default": 0
       },
       "flags": {},
-      "_key": "!actors.items!Q0REl0acKVTHmX5b.PtT4RvRi0q9YTBIR",
+      "_key": "!actors.items!YXCE2bL836wfeGIh.HKLKdhtAVPZTQyyy",
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>It makes one Beak attack and one Talons attack.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "The Epoch Descent",
+          "book": "",
+          "page": "",
+          "license": "",
+          "rules": "2014",
+          "revision": 1
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "",
+        "properties": [],
+        "activities": {},
+        "identifier": "multiattack"
+      }
+    },
+    {
+      "_id": "oAjSH3JBaCwfkuNq",
+      "name": "Beak",
+      "img": "icons/commodities/bones/beak-hooked-red.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 300000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!YXCE2bL836wfeGIh.oAjSH3JBaCwfkuNq",
       "type": "weapon",
       "system": {
         "description": {
-          "value": "<p>[[/attack extended]]. [[/damage extended]]. The target is knocked &Reference[prone] and pushed 10 feet.</p>",
+          "value": "<p>[[/attack extended]]. [[/damage extended]].</p>",
           "chat": ""
         },
         "source": {
@@ -216,11 +257,141 @@
           "value": null,
           "long": null,
           "units": "ft",
-          "reach": 10
+          "reach": null
         },
         "damage": {
           "base": {
             "number": 2,
+            "denomination": 10,
+            "bonus": "",
+            "types": [
+              "piercing"
+            ],
+            "custom": {
+              "enabled": false,
+              "formula": ""
+            },
+            "scaling": {
+              "mode": "",
+              "number": null,
+              "formula": ""
+            }
+          }
+        },
+        "properties": [],
+        "type": {
+          "value": "natural",
+          "baseItem": ""
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "identifier": "beak",
+        "activities": {
+          "zBDEnkzQDf57Qe6H": {
+            "_id": "zBDEnkzQDf57Qe6H",
+            "type": "attack",
+            "name": "",
+            "sort": 100000,
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "range": {
+              "value": "5",
+              "units": "ft",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "affects": {
+                "count": "",
+                "type": "",
+                "choice": false,
+                "special": ""
+              },
+              "override": false,
+              "prompt": true
+            },
+            "attack": {
+              "ability": "",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "uses": {
+              "spent": 0,
+              "max": "",
+              "recovery": []
+            }
+          }
+        }
+      }
+    },
+    {
+      "_id": "AalULuq3pt7ny3lV",
+      "name": "Talons",
+      "img": "icons/creatures/claws/claw-talons-glowing-orange.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 400000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!YXCE2bL836wfeGIh.AalULuq3pt7ny3lV",
+      "type": "weapon",
+      "system": {
+        "description": {
+          "value": "<p>[[/attack extended]]. [[/damage extended]]. The target makes a [[/save str 13]] or is knocked &Reference[prone].</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "The Epoch Descent",
+          "book": "",
+          "page": "",
+          "license": "",
+          "rules": "2014",
+          "revision": 1
+        },
+        "quantity": 1,
+        "identified": true,
+        "equipped": true,
+        "proficient": null,
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "ft",
+          "reach": null
+        },
+        "damage": {
+          "base": {
+            "number": 1,
             "denomination": 8,
             "bonus": "",
             "types": [
@@ -237,9 +408,7 @@
             }
           }
         },
-        "properties": [
-          "rch"
-        ],
+        "properties": [],
         "type": {
           "value": "natural",
           "baseItem": ""
@@ -249,10 +418,10 @@
           "spent": 0,
           "recovery": []
         },
-        "identifier": "claws",
+        "identifier": "talons",
         "activities": {
-          "Durs79h777zoGk8V": {
-            "_id": "Durs79h777zoGk8V",
+          "1cFFPGhMQAPWZaAA": {
+            "_id": "1cFFPGhMQAPWZaAA",
             "type": "attack",
             "name": "",
             "sort": 100000,
@@ -263,7 +432,7 @@
               "override": false
             },
             "range": {
-              "value": "10",
+              "value": "5",
               "units": "ft",
               "special": "",
               "override": false
@@ -316,11 +485,11 @@
     }
   ],
   "effects": [],
-  "folder": null,
+  "folder": "vLZjk4UJXiP6DaZ4",
   "sort": 0,
   "ownership": {
     "default": 0
   },
   "flags": {},
-  "_key": "!actors!Q0REl0acKVTHmX5b"
+  "_key": "!actors!YXCE2bL836wfeGIh"
 }

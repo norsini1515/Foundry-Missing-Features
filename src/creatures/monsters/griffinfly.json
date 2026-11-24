@@ -183,8 +183,8 @@
       }
     },
     {
-      "_id": "D2MNPr93lx8hLA5J",
-      "name": "Fog Skittish",
+      "_id": "hnWGy4tDBWj12Rqx",
+      "name": "Skittish",
       "img": "icons/magic/air/fog-gas-smoke-dense-gray.webp",
       "effects": [],
       "folder": null,
@@ -193,11 +193,11 @@
         "default": 0
       },
       "flags": {},
-      "_key": "!actors.items!DBrgvFn2R4fYa1qH.D2MNPr93lx8hLA5J",
+      "_key": "!actors.items!DBrgvFn2R4fYa1qH.hnWGy4tDBWj12Rqx",
       "type": "feat",
       "system": {
         "description": {
-          "value": "<p>It flees into the fog when reduced to half its hit points or fewer.</p>",
+          "value": "<p>It flees when reduced to half its hit points or fewer.</p>",
           "chat": ""
         },
         "source": {
@@ -220,7 +220,7 @@
         "requirements": "",
         "properties": [],
         "activities": {},
-        "identifier": "fog-skittish"
+        "identifier": "skittish"
       }
     },
     {

@@ -14,11 +14,11 @@
         "proficient": 0
       },
       "con": {
-        "value": 10,
+        "value": 14,
         "proficient": 0
       },
       "int": {
-        "value": 2,
+        "value": 4,
         "proficient": 0
       },
       "wis": {
@@ -26,7 +26,7 @@
         "proficient": 0
       },
       "cha": {
-        "value": 4,
+        "value": 6,
         "proficient": 0
       }
     },
@@ -37,11 +37,11 @@
         "formula": ""
       },
       "hp": {
-        "value": 18,
-        "max": 18,
+        "value": 39,
+        "max": 39,
         "temp": null,
         "tempmax": null,
-        "formula": "4d8"
+        "formula": "6d8 + 12"
       },
       "movement": {
         "walk": 50,
@@ -63,7 +63,7 @@
     },
     "details": {
       "biography": {
-        "value": "<p><strong>Ice.</strong> A hound-shaped gust of blowing snow with nothing inside.</p>",
+        "value": "<p><strong>Ice.</strong> A hound-shaped gust of blowing snow with nothing inside. It hunts in white-outs.</p>",
         "public": ""
       },
       "alignment": "Unaligned",
@@ -73,13 +73,16 @@
         "swarm": "",
         "custom": ""
       },
-      "cr": 1,
+      "cr": 2,
       "environment": "Ice"
     },
     "traits": {
       "size": "med",
       "di": {
-        "value": [],
+        "value": [
+          "cold",
+          "poison"
+        ],
         "bypasses": [],
         "custom": ""
       },
@@ -89,12 +92,17 @@
         "custom": ""
       },
       "dv": {
-        "value": [],
+        "value": [
+          "fire"
+        ],
         "bypasses": [],
         "custom": ""
       },
       "ci": {
-        "value": [],
+        "value": [
+          "exhaustion",
+          "poisoned"
+        ],
         "custom": ""
       },
       "languages": {
@@ -156,7 +164,7 @@
       "type": "feat",
       "system": {
         "description": {
-          "value": "<p>It is a shape of blowing snow and is hidden until it attacks. Its first attack each time it appears has advantage.</p>",
+          "value": "<p>In snow or fog it is invisible until it attacks, and its first attack each round has advantage.</p>",
           "chat": ""
         },
         "source": {
@@ -220,8 +228,8 @@
         },
         "damage": {
           "base": {
-            "number": 1,
-            "denomination": 10,
+            "number": 2,
+            "denomination": 6,
             "bonus": "",
             "types": [
               "cold"
@@ -312,6 +320,47 @@
             }
           }
         }
+      }
+    },
+    {
+      "_id": "MCva93L9auXBHefw",
+      "name": "Frost Breath (Recharge 5-6)",
+      "img": "icons/magic/water/orb-ice-opaque.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 300000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!XYqmbk16haBBuoMP.MCva93L9auXBHefw",
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>15-foot cone. Each creature in it makes a [[/save con 12]], taking [[/damage 4d6 cold]] on a failure, or half as much on a success.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "The Epoch Descent",
+          "book": "",
+          "page": "",
+          "license": "",
+          "rules": "2014",
+          "revision": 1
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "",
+        "properties": [],
+        "activities": {},
+        "identifier": "frost-breath-recharge-5-6"
       }
     }
   ],

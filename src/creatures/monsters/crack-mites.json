@@ -6,11 +6,11 @@
   "system": {
     "abilities": {
       "str": {
-        "value": 14,
+        "value": 4,
         "proficient": 0
       },
       "dex": {
-        "value": 16,
+        "value": 14,
         "proficient": 0
       },
       "con": {
@@ -18,37 +18,37 @@
         "proficient": 0
       },
       "int": {
-        "value": 2,
+        "value": 1,
         "proficient": 0
       },
       "wis": {
-        "value": 12,
+        "value": 10,
         "proficient": 0
       },
       "cha": {
-        "value": 4,
+        "value": 2,
         "proficient": 0
       }
     },
     "attributes": {
       "ac": {
-        "flat": 13,
+        "flat": 14,
         "calc": "flat",
         "formula": ""
       },
       "hp": {
-        "value": 18,
-        "max": 18,
+        "value": 22,
+        "max": 22,
         "temp": null,
         "tempmax": null,
-        "formula": "4d8"
+        "formula": "5d8"
       },
       "movement": {
-        "walk": 50,
+        "walk": 30,
         "fly": 0,
         "swim": 0,
         "climb": 30,
-        "burrow": 0,
+        "burrow": 5,
         "units": "ft",
         "hover": false
       },
@@ -63,7 +63,7 @@
     },
     "details": {
       "biography": {
-        "value": "<p><strong>Bare Stone.</strong> Armored crawlers that pour out of fissures in bare stone.</p>",
+        "value": "<p><strong>Bare Stone.</strong> Armored crawlers that pour out of fissures in bare rock, the size of thumbnails and countless.</p>",
         "public": ""
       },
       "alignment": "Unaligned",
@@ -73,7 +73,7 @@
         "swarm": "tiny",
         "custom": ""
       },
-      "cr": 1,
+      "cr": 0.5,
       "environment": "Bare Stone"
     },
     "traits": {
@@ -156,7 +156,7 @@
       "type": "feat",
       "system": {
         "description": {
-          "value": "<p>It can occupy another creature's space. It takes half damage from attacks that target a single creature.</p>",
+          "value": "<p>It can occupy another creature's space and move through any opening large enough for a Tiny creature. It can't regain hit points or gain temporary hit points.</p>",
           "chat": ""
         },
         "source": {
@@ -197,7 +197,7 @@
       "type": "feat",
       "system": {
         "description": {
-          "value": "<p>Its bites deal an extra [[/damage 1d4 piercing]] when two or more of its enemies are within 10 feet of each other.</p>",
+          "value": "<p>Its Bites deal an extra [[/damage 1d4 piercing]] when two or more of its enemies are within 10 feet of each other.</p>",
           "chat": ""
         },
         "source": {
@@ -226,7 +226,7 @@
     {
       "_id": "xJE3qtNQtoKkzPaW",
       "name": "Bites",
-      "img": "icons/creatures/abilities/mouth-teeth-rows-red.webp",
+      "img": "icons/creatures/invertebrates/wasp-swarm-tan.webp",
       "effects": [],
       "folder": null,
       "sort": 300000,
@@ -238,7 +238,7 @@
       "type": "weapon",
       "system": {
         "description": {
-          "value": "<p>[[/attack extended]]. [[/damage extended]].</p>",
+          "value": "<p>[[/attack extended]]. [[/damage extended]]. Or 1d4 + 2 if the swarm has half its hit points or fewer.</p>",
           "chat": ""
         },
         "source": {
@@ -261,8 +261,8 @@
         },
         "damage": {
           "base": {
-            "number": 1,
-            "denomination": 10,
+            "number": 2,
+            "denomination": 4,
             "bonus": "",
             "types": [
               "piercing"

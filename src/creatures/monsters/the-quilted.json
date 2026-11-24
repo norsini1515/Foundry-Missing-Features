@@ -6,7 +6,7 @@
   "system": {
     "abilities": {
       "str": {
-        "value": 17,
+        "value": 16,
         "proficient": 0
       },
       "dex": {
@@ -18,7 +18,7 @@
         "proficient": 0
       },
       "int": {
-        "value": 2,
+        "value": 1,
         "proficient": 0
       },
       "wis": {
@@ -26,36 +26,36 @@
         "proficient": 0
       },
       "cha": {
-        "value": 4,
+        "value": 1,
         "proficient": 0
       }
     },
     "attributes": {
       "ac": {
-        "flat": 15,
+        "flat": 12,
         "calc": "flat",
         "formula": ""
       },
       "hp": {
-        "value": 45,
-        "max": 45,
+        "value": 60,
+        "max": 60,
         "temp": null,
         "tempmax": null,
-        "formula": "6d10 + 12"
+        "formula": "8d10 + 16"
       },
       "movement": {
-        "walk": 20,
-        "fly": 0,
+        "walk": 10,
+        "fly": 20,
         "swim": 0,
         "climb": 0,
         "burrow": 0,
         "units": "ft",
-        "hover": false
+        "hover": true
       },
       "senses": {
         "darkvision": 0,
-        "blindsight": 0,
-        "tremorsense": 30,
+        "blindsight": 60,
+        "tremorsense": 0,
         "truesight": 0,
         "units": "ft",
         "special": ""
@@ -63,7 +63,7 @@
     },
     "details": {
       "biography": {
-        "value": "<p><strong>Bare Stone.</strong> Quilted fronds that rise like sails. No mouth and no eyes. Older than anything with either.</p>",
+        "value": "<p><strong>Bare Stone.</strong> Quilted fronds that rise like sails. No mouth, no eyes, no front or back. Older than anything with any of them.</p>",
         "public": ""
       },
       "alignment": "Unaligned",
@@ -73,18 +73,22 @@
         "swarm": "",
         "custom": ""
       },
-      "cr": 2,
+      "cr": 3,
       "environment": "Bare Stone"
     },
     "traits": {
       "size": "lg",
       "di": {
-        "value": [],
+        "value": [
+          "psychic"
+        ],
         "bypasses": [],
         "custom": ""
       },
       "dr": {
-        "value": [],
+        "value": [
+          "bludgeoning"
+        ],
         "bypasses": [],
         "custom": ""
       },
@@ -94,7 +98,12 @@
         "custom": ""
       },
       "ci": {
-        "value": [],
+        "value": [
+          "blinded",
+          "charmed",
+          "deafened",
+          "frightened"
+        ],
         "custom": ""
       },
       "languages": {
@@ -156,7 +165,7 @@
       "type": "feat",
       "system": {
         "description": {
-          "value": "<p>Quilted fronds like sails, with no mouth and no eyes.</p>",
+          "value": "<p>It has no eyes and no mind anyone can reach.</p>",
           "chat": ""
         },
         "source": {
@@ -197,7 +206,7 @@
       "type": "weapon",
       "system": {
         "description": {
-          "value": "<p>[[/attack extended]]. [[/damage extended]]. The target is &Reference[blinded] and can't speak until it or an ally succeeds on a [[/skill ath 13]] check to pull it free.</p>",
+          "value": "<p>[[/attack extended]]. [[/damage extended]]. The target is wrapped: &Reference[blinded], &Reference[restrained] and unable to speak, and takes [[/damage 2d6 bludgeoning]] at the start of each of its turns. It or an ally can pull it free with a [[/skill ath 13]] check. The Quilted can wrap one creature at a time.</p>",
           "chat": ""
         },
         "source": {

@@ -6,15 +6,15 @@
   "system": {
     "abilities": {
       "str": {
-        "value": 17,
+        "value": 18,
         "proficient": 0
       },
       "dex": {
-        "value": 10,
+        "value": 6,
         "proficient": 0
       },
       "con": {
-        "value": 14,
+        "value": 18,
         "proficient": 0
       },
       "int": {
@@ -26,7 +26,7 @@
         "proficient": 0
       },
       "cha": {
-        "value": 4,
+        "value": 3,
         "proficient": 0
       }
     },
@@ -37,11 +37,11 @@
         "formula": ""
       },
       "hp": {
-        "value": 45,
-        "max": 45,
+        "value": 57,
+        "max": 57,
         "temp": null,
         "tempmax": null,
-        "formula": "6d10 + 12"
+        "formula": "6d10 + 24"
       },
       "movement": {
         "walk": 20,
@@ -63,7 +63,7 @@
     },
     "details": {
       "biography": {
-        "value": "<p><strong>Ice.</strong> A slow wall of ice with the shapes of animals frozen inside.</p>",
+        "value": "<p><strong>Ice.</strong> A slow wall of ice with the shapes of animals frozen inside it. It grinds forward and keeps what it catches.</p>",
         "public": ""
       },
       "alignment": "Unaligned",
@@ -73,13 +73,16 @@
         "swarm": "",
         "custom": ""
       },
-      "cr": 2,
+      "cr": 3,
       "environment": "Ice"
     },
     "traits": {
       "size": "lg",
       "di": {
-        "value": [],
+        "value": [
+          "cold",
+          "poison"
+        ],
         "bypasses": [],
         "custom": ""
       },
@@ -89,12 +92,18 @@
         "custom": ""
       },
       "dv": {
-        "value": [],
+        "value": [
+          "fire"
+        ],
         "bypasses": [],
         "custom": ""
       },
       "ci": {
-        "value": [],
+        "value": [
+          "exhaustion",
+          "poisoned",
+          "prone"
+        ],
         "custom": ""
       },
       "languages": {
@@ -156,7 +165,7 @@
       "type": "feat",
       "system": {
         "description": {
-          "value": "<p>Frozen shapes of animals are visible inside the ice.</p>",
+          "value": "<p>Frozen animals are visible inside. Anything it engulfs joins them.</p>",
           "chat": ""
         },
         "source": {
@@ -197,7 +206,7 @@
       "type": "weapon",
       "system": {
         "description": {
-          "value": "<p>[[/attack extended]]. [[/damage extended]]. The target makes a [[/save str 13]] or is frozen in place (&Reference[restrained]) until it or an ally succeeds on a [[/check str 13]].</p>",
+          "value": "<p>[[/attack extended]]. [[/damage extended]]. The target makes a [[/save str 13]] or is frozen in place (&Reference[restrained]) until it or an ally succeeds on a [[/check str 13]]. A frozen creature takes [[/damage 1d6 cold]] at the start of each of its turns.</p>",
           "chat": ""
         },
         "source": {

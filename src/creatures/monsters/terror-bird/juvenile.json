@@ -1,61 +1,61 @@
 {
-  "_id": "4JqiWCqCnvclR45c",
-  "name": "Hands Under the Ice",
+  "_id": "8TCCk6hNaaEO4QuF",
+  "name": "Terror Bird (Juvenile)",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
   "system": {
     "abilities": {
       "str": {
-        "value": 17,
+        "value": 13,
         "proficient": 0
       },
       "dex": {
-        "value": 10,
+        "value": 15,
         "proficient": 0
       },
       "con": {
-        "value": 14,
+        "value": 12,
         "proficient": 0
       },
       "int": {
-        "value": 2,
+        "value": 3,
         "proficient": 0
       },
       "wis": {
-        "value": 10,
+        "value": 12,
         "proficient": 0
       },
       "cha": {
-        "value": 4,
+        "value": 6,
         "proficient": 0
       }
     },
     "attributes": {
       "ac": {
-        "flat": 15,
+        "flat": 12,
         "calc": "flat",
         "formula": ""
       },
       "hp": {
-        "value": 45,
-        "max": 45,
+        "value": 22,
+        "max": 22,
         "temp": null,
         "tempmax": null,
-        "formula": "6d12 + 12"
+        "formula": "4d8 + 4"
       },
       "movement": {
-        "walk": 0,
+        "walk": 50,
         "fly": 0,
         "swim": 0,
         "climb": 0,
-        "burrow": 25,
+        "burrow": 0,
         "units": "ft",
         "hover": false
       },
       "senses": {
         "darkvision": 0,
         "blindsight": 0,
-        "tremorsense": 60,
+        "tremorsense": 0,
         "truesight": 0,
         "units": "ft",
         "special": ""
@@ -63,21 +63,21 @@
     },
     "details": {
       "biography": {
-        "value": "<p><strong>Ice.</strong> Something huge beneath the ice. Only the hands ever surface.</p>",
+        "value": "<p><strong>Meadow.</strong> A young one, already taller than a child, and fast.</p>",
         "public": ""
       },
       "alignment": "Unaligned",
       "type": {
-        "value": "monstrosity",
+        "value": "beast",
         "subtype": "",
         "swarm": "",
         "custom": ""
       },
-      "cr": 2,
-      "environment": "Ice"
+      "cr": 0.5,
+      "environment": "Meadow"
     },
     "traits": {
-      "size": "huge",
+      "size": "med",
       "di": {
         "value": [],
         "bypasses": [],
@@ -104,7 +104,7 @@
     },
     "skills": {
       "prc": {
-        "value": 0
+        "value": 1
       }
     },
     "source": {
@@ -117,11 +117,11 @@
     }
   },
   "prototypeToken": {
-    "name": "Hands Under the Ice",
+    "name": "Terror Bird",
     "displayName": 20,
     "actorLink": false,
-    "width": 3,
-    "height": 3,
+    "width": 1,
+    "height": 1,
     "disposition": -1,
     "displayBars": 20,
     "bar1": {
@@ -142,9 +142,9 @@
   },
   "items": [
     {
-      "_id": "FuhhZzCJeIrbhSx4",
-      "name": "From Below",
-      "img": "icons/magic/water/orb-ice-opaque.webp",
+      "_id": "qhYrQoI2dJ1qH91e",
+      "name": "Beak",
+      "img": "icons/commodities/bones/beak-hooked-red.webp",
       "effects": [],
       "folder": null,
       "sort": 100000,
@@ -152,52 +152,11 @@
         "default": 0
       },
       "flags": {},
-      "_key": "!actors.items!4JqiWCqCnvclR45c.FuhhZzCJeIrbhSx4",
-      "type": "feat",
-      "system": {
-        "description": {
-          "value": "<p>It is always beneath the surface. Only a creature it is grappling, or one adjacent to that creature, can target it.</p>",
-          "chat": ""
-        },
-        "source": {
-          "custom": "The Epoch Descent",
-          "book": "",
-          "page": "",
-          "license": "",
-          "rules": "2014",
-          "revision": 1
-        },
-        "uses": {
-          "max": "",
-          "spent": 0,
-          "recovery": []
-        },
-        "type": {
-          "value": "monster",
-          "subtype": ""
-        },
-        "requirements": "",
-        "properties": [],
-        "activities": {},
-        "identifier": "from-below"
-      }
-    },
-    {
-      "_id": "J7JFiSw6zBGkaGaa",
-      "name": "Grab Ankles",
-      "img": "icons/skills/melee/unarmed-punch-fist-yellow-red.webp",
-      "effects": [],
-      "folder": null,
-      "sort": 200000,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_key": "!actors.items!4JqiWCqCnvclR45c.J7JFiSw6zBGkaGaa",
+      "_key": "!actors.items!8TCCk6hNaaEO4QuF.qhYrQoI2dJ1qH91e",
       "type": "weapon",
       "system": {
         "description": {
-          "value": "<p>[[/attack extended]]. [[/damage extended]]. The target is &Reference[grappled] (escape DC 13) and &Reference[restrained]. On its next turn the hands move beneath the target.</p>",
+          "value": "<p>[[/attack extended]]. [[/damage extended]].</p>",
           "chat": ""
         },
         "source": {
@@ -220,11 +179,11 @@
         },
         "damage": {
           "base": {
-            "number": 2,
-            "denomination": 8,
+            "number": 1,
+            "denomination": 10,
             "bonus": "",
             "types": [
-              "cold"
+              "piercing"
             ],
             "custom": {
               "enabled": false,
@@ -237,7 +196,9 @@
             }
           }
         },
-        "properties": [],
+        "properties": [
+          "fin"
+        ],
         "type": {
           "value": "natural",
           "baseItem": ""
@@ -247,10 +208,10 @@
           "spent": 0,
           "recovery": []
         },
-        "identifier": "grab-ankles",
+        "identifier": "beak",
         "activities": {
-          "ouaaFrNodNXPHWNL": {
-            "_id": "ouaaFrNodNXPHWNL",
+          "kionUN1dyALZsem8": {
+            "_id": "kionUN1dyALZsem8",
             "type": "attack",
             "name": "",
             "sort": 100000,
@@ -314,11 +275,11 @@
     }
   ],
   "effects": [],
-  "folder": null,
+  "folder": "vLZjk4UJXiP6DaZ4",
   "sort": 0,
   "ownership": {
     "default": 0
   },
   "flags": {},
-  "_key": "!actors!4JqiWCqCnvclR45c"
+  "_key": "!actors!8TCCk6hNaaEO4QuF"
 }

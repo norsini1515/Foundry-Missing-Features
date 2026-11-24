@@ -6,19 +6,19 @@
   "system": {
     "abilities": {
       "str": {
-        "value": 14,
+        "value": 12,
         "proficient": 0
       },
       "dex": {
-        "value": 16,
+        "value": 15,
         "proficient": 0
       },
       "con": {
-        "value": 10,
+        "value": 12,
         "proficient": 0
       },
       "int": {
-        "value": 2,
+        "value": 1,
         "proficient": 0
       },
       "wis": {
@@ -26,7 +26,7 @@
         "proficient": 0
       },
       "cha": {
-        "value": 4,
+        "value": 2,
         "proficient": 0
       }
     },
@@ -37,20 +37,20 @@
         "formula": ""
       },
       "hp": {
-        "value": 18,
-        "max": 18,
+        "value": 22,
+        "max": 22,
         "temp": null,
         "tempmax": null,
-        "formula": "4d8"
+        "formula": "4d8 + 4"
       },
       "movement": {
         "walk": 10,
-        "fly": 50,
-        "swim": 0,
+        "fly": 0,
+        "swim": 40,
         "climb": 0,
         "burrow": 0,
         "units": "ft",
-        "hover": true
+        "hover": false
       },
       "senses": {
         "darkvision": 0,
@@ -63,7 +63,7 @@
     },
     "details": {
       "biography": {
-        "value": "<p><strong>Shallow Sea.</strong> A shrimp-like hunter from the first seas, with spiny grasping limbs and a round mouth. It swims through the air as if it were water.</p>",
+        "value": "<p><strong>Shallow Sea.</strong> A shrimp-like hunter of the first seas, about a yard long, with spiny grasping limbs and a round, plated mouth.</p>",
         "public": ""
       },
       "alignment": "Unaligned",
@@ -73,7 +73,7 @@
         "swarm": "",
         "custom": ""
       },
-      "cr": 1,
+      "cr": 0.5,
       "environment": "Shallow Sea"
     },
     "traits": {
@@ -142,9 +142,9 @@
   },
   "items": [
     {
-      "_id": "FSmdQyoNzZZXOY6h",
-      "name": "Air Swimmer",
-      "img": "icons/magic/water/orb-water-bubbles.webp",
+      "_id": "6yZssYhTb5bD1Sxo",
+      "name": "Compound Eyes",
+      "img": "icons/creatures/eyes/lizard-single-slit-blue.webp",
       "effects": [],
       "folder": null,
       "sort": 100000,
@@ -152,11 +152,11 @@
         "default": 0
       },
       "flags": {},
-      "_key": "!actors.items!v4VjFIOFHDhZGJqi.FSmdQyoNzZZXOY6h",
+      "_key": "!actors.items!v4VjFIOFHDhZGJqi.6yZssYhTb5bD1Sxo",
       "type": "feat",
       "system": {
         "description": {
-          "value": "<p>It swims through the air as if it were water.</p>",
+          "value": "<p>It has advantage on Wisdom (Perception) checks that rely on sight.</p>",
           "chat": ""
         },
         "source": {
@@ -179,7 +179,7 @@
         "requirements": "",
         "properties": [],
         "activities": {},
-        "identifier": "air-swimmer"
+        "identifier": "compound-eyes"
       }
     },
     {
@@ -197,7 +197,7 @@
       "type": "weapon",
       "system": {
         "description": {
-          "value": "<p>[[/attack extended]]. [[/damage extended]]. The target is &Reference[grappled] (escape DC 12). Until this grapple ends, the target's speed is 0.</p>",
+          "value": "<p>[[/attack extended]]. [[/damage extended]]. The target is &Reference[grappled] (escape DC 12). Until the grapple ends, the target's speed is 0.</p>",
           "chat": ""
         },
         "source": {
@@ -221,7 +221,7 @@
         "damage": {
           "base": {
             "number": 1,
-            "denomination": 10,
+            "denomination": 8,
             "bonus": "",
             "types": [
               "slashing"
@@ -253,6 +253,138 @@
         "activities": {
           "ylyStqaAvoC2Bhxg": {
             "_id": "ylyStqaAvoC2Bhxg",
+            "type": "attack",
+            "name": "",
+            "sort": 100000,
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": "",
+              "override": false
+            },
+            "range": {
+              "value": "5",
+              "units": "ft",
+              "special": "",
+              "override": false
+            },
+            "target": {
+              "affects": {
+                "count": "",
+                "type": "",
+                "choice": false,
+                "special": ""
+              },
+              "override": false,
+              "prompt": true
+            },
+            "attack": {
+              "ability": "",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "uses": {
+              "spent": 0,
+              "max": "",
+              "recovery": []
+            }
+          }
+        }
+      }
+    },
+    {
+      "_id": "sUgFHFQmESRBXCYr",
+      "name": "Round Mouth",
+      "img": "icons/creatures/abilities/mouth-teeth-rows-red.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 300000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
+      "_key": "!actors.items!v4VjFIOFHDhZGJqi.sUgFHFQmESRBXCYr",
+      "type": "weapon",
+      "system": {
+        "description": {
+          "value": "<p>[[/attack extended]]. [[/damage extended]]. Only against a creature it is grappling.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "The Epoch Descent",
+          "book": "",
+          "page": "",
+          "license": "",
+          "rules": "2014",
+          "revision": 1
+        },
+        "quantity": 1,
+        "identified": true,
+        "equipped": true,
+        "proficient": null,
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "ft",
+          "reach": null
+        },
+        "damage": {
+          "base": {
+            "number": 1,
+            "denomination": 6,
+            "bonus": "",
+            "types": [
+              "piercing"
+            ],
+            "custom": {
+              "enabled": false,
+              "formula": ""
+            },
+            "scaling": {
+              "mode": "",
+              "number": null,
+              "formula": ""
+            }
+          }
+        },
+        "properties": [
+          "fin"
+        ],
+        "type": {
+          "value": "natural",
+          "baseItem": ""
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "identifier": "round-mouth",
+        "activities": {
+          "OyMNyZCRDjugae76": {
+            "_id": "OyMNyZCRDjugae76",
             "type": "attack",
             "name": "",
             "sort": 100000,

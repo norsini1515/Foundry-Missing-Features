@@ -1,20 +1,20 @@
 {
-  "_id": "Rcnk16FRp2ZtFfRJ",
-  "name": "Glyptodont",
+  "_id": "K0W92tA5IIjQlzHA",
+  "name": "Gliding Lizard",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
   "system": {
     "abilities": {
       "str": {
-        "value": 17,
+        "value": 3,
         "proficient": 0
       },
       "dex": {
-        "value": 10,
+        "value": 14,
         "proficient": 0
       },
       "con": {
-        "value": 14,
+        "value": 10,
         "proficient": 0
       },
       "int": {
@@ -22,7 +22,7 @@
         "proficient": 0
       },
       "wis": {
-        "value": 10,
+        "value": 12,
         "proficient": 0
       },
       "cha": {
@@ -32,22 +32,22 @@
     },
     "attributes": {
       "ac": {
-        "flat": 15,
+        "flat": 13,
         "calc": "flat",
         "formula": ""
       },
       "hp": {
-        "value": 45,
-        "max": 45,
+        "value": 5,
+        "max": 5,
         "temp": null,
         "tempmax": null,
-        "formula": "6d10 + 12"
+        "formula": "2d4"
       },
       "movement": {
-        "walk": 25,
-        "fly": 0,
+        "walk": 20,
+        "fly": 30,
         "swim": 0,
-        "climb": 0,
+        "climb": 20,
         "burrow": 0,
         "units": "ft",
         "hover": false
@@ -63,7 +63,7 @@
     },
     "details": {
       "biography": {
-        "value": "<p><strong>Meadow.</strong> A giant armadillo in a domed shell, with a club on the end of its tail.</p>",
+        "value": "<p><strong>Rolling Hills.</strong> A small lizard with skin-wings stretched along its ribs. It glides from rise to rise.</p>",
         "public": ""
       },
       "alignment": "Unaligned",
@@ -73,11 +73,11 @@
         "swarm": "",
         "custom": ""
       },
-      "cr": 2,
-      "environment": "Meadow"
+      "cr": 0.125,
+      "environment": "Rolling Hills"
     },
     "traits": {
-      "size": "lg",
+      "size": "tiny",
       "di": {
         "value": [],
         "bypasses": [],
@@ -117,11 +117,11 @@
     }
   },
   "prototypeToken": {
-    "name": "Glyptodont",
+    "name": "Gliding Lizard",
     "displayName": 20,
     "actorLink": false,
-    "width": 2,
-    "height": 2,
+    "width": 1,
+    "height": 1,
     "disposition": -1,
     "displayBars": 20,
     "bar1": {
@@ -142,9 +142,9 @@
   },
   "items": [
     {
-      "_id": "ADR1WLUUL1vvRrFB",
-      "name": "Shell",
-      "img": "icons/magic/defensive/barrier-shield-dome-pink.webp",
+      "_id": "ptECAgQpaeMlyC36",
+      "name": "Glide",
+      "img": "icons/creatures/abilities/wings-birdlike-blue.webp",
       "effects": [],
       "folder": null,
       "sort": 100000,
@@ -152,11 +152,11 @@
         "default": 0
       },
       "flags": {},
-      "_key": "!actors.items!Rcnk16FRp2ZtFfRJ.ADR1WLUUL1vvRrFB",
+      "_key": "!actors.items!K0W92tA5IIjQlzHA.ptECAgQpaeMlyC36",
       "type": "feat",
       "system": {
         "description": {
-          "value": "<p>When it doesn't move on its turn, its AC is 18 until its next turn.</p>",
+          "value": "<p>It can fly only downward or level, and only if it started its turn above the ground. It takes no falling damage.</p>",
           "chat": ""
         },
         "source": {
@@ -179,13 +179,13 @@
         "requirements": "",
         "properties": [],
         "activities": {},
-        "identifier": "shell"
+        "identifier": "glide"
       }
     },
     {
-      "_id": "l175OJ9pnHS4jYS0",
-      "name": "Tail Sweep (Recharge 5-6)",
-      "img": "icons/creatures/abilities/tail-swipe-green.webp",
+      "_id": "gDJ3ixOvsZ4PiVJ4",
+      "name": "Bite",
+      "img": "icons/creatures/abilities/mouth-teeth-rows-red.webp",
       "effects": [],
       "folder": null,
       "sort": 200000,
@@ -193,48 +193,7 @@
         "default": 0
       },
       "flags": {},
-      "_key": "!actors.items!Rcnk16FRp2ZtFfRJ.l175OJ9pnHS4jYS0",
-      "type": "feat",
-      "system": {
-        "description": {
-          "value": "<p>Each creature within 10 feet makes a [[/save dex 13]] or takes [[/damage 2d8+3 bludgeoning]].</p>",
-          "chat": ""
-        },
-        "source": {
-          "custom": "The Epoch Descent",
-          "book": "",
-          "page": "",
-          "license": "",
-          "rules": "2014",
-          "revision": 1
-        },
-        "uses": {
-          "max": "",
-          "spent": 0,
-          "recovery": []
-        },
-        "type": {
-          "value": "monster",
-          "subtype": ""
-        },
-        "requirements": "",
-        "properties": [],
-        "activities": {},
-        "identifier": "tail-sweep-recharge-5-6"
-      }
-    },
-    {
-      "_id": "bE5d8U42UophNsOn",
-      "name": "Tail Club",
-      "img": "icons/creatures/abilities/tail-strike-bone-orange.webp",
-      "effects": [],
-      "folder": null,
-      "sort": 300000,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_key": "!actors.items!Rcnk16FRp2ZtFfRJ.bE5d8U42UophNsOn",
+      "_key": "!actors.items!K0W92tA5IIjQlzHA.gDJ3ixOvsZ4PiVJ4",
       "type": "weapon",
       "system": {
         "description": {
@@ -261,11 +220,11 @@
         },
         "damage": {
           "base": {
-            "number": 2,
-            "denomination": 8,
+            "number": 1,
+            "denomination": 4,
             "bonus": "",
             "types": [
-              "bludgeoning"
+              "piercing"
             ],
             "custom": {
               "enabled": false,
@@ -278,7 +237,9 @@
             }
           }
         },
-        "properties": [],
+        "properties": [
+          "fin"
+        ],
         "type": {
           "value": "natural",
           "baseItem": ""
@@ -288,10 +249,10 @@
           "spent": 0,
           "recovery": []
         },
-        "identifier": "tail-club",
+        "identifier": "bite",
         "activities": {
-          "ktpVxxqSg0NrFrBO": {
-            "_id": "ktpVxxqSg0NrFrBO",
+          "gJ42ofA8BpYfyrY0": {
+            "_id": "gJ42ofA8BpYfyrY0",
             "type": "attack",
             "name": "",
             "sort": 100000,
@@ -355,11 +316,11 @@
     }
   ],
   "effects": [],
-  "folder": null,
+  "folder": "j6hXLcv3EFoJpnFY",
   "sort": 0,
   "ownership": {
     "default": 0
   },
   "flags": {},
-  "_key": "!actors!Rcnk16FRp2ZtFfRJ"
+  "_key": "!actors!K0W92tA5IIjQlzHA"
 }

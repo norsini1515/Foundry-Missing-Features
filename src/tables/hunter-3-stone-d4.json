@@ -10,8 +10,8 @@
     {
       "_id": "aG3pPoqyYmMeJVfC",
       "type": "text",
-      "text": "Crack-Mites (fast)",
-      "description": "Crack-Mites (fast)",
+      "text": "Crack-Mites [fast]",
+      "description": "Crack-Mites [fast]",
       "name": "",
       "img": "icons/svg/d20-black.svg",
       "weight": 1,
@@ -26,8 +26,8 @@
     {
       "_id": "BtExETARcHmResOB",
       "type": "text",
-      "text": "Lichen-Crawler (fast)",
-      "description": "Lichen-Crawler (fast)",
+      "text": "Lichen-Crawler [fast]",
+      "description": "Lichen-Crawler [fast]",
       "name": "",
       "img": "icons/svg/d20-black.svg",
       "weight": 1,
@@ -42,8 +42,8 @@
     {
       "_id": "OLOBHAMtu47wM9OC",
       "type": "text",
-      "text": "The Quilted (tank)",
-      "description": "The Quilted (tank)",
+      "text": "The Quilted [tank]",
+      "description": "The Quilted [tank]",
       "name": "",
       "img": "icons/svg/d20-black.svg",
       "weight": 1,
@@ -58,8 +58,8 @@
     {
       "_id": "QGggCNzcJSBhRqMA",
       "type": "text",
-      "text": "Stromatolite Mound (tank)",
-      "description": "Stromatolite Mound (tank)",
+      "text": "Stromatolite Mound [tank]",
+      "description": "Stromatolite Mound [tank]",
       "name": "",
       "img": "icons/svg/d20-black.svg",
       "weight": 1,

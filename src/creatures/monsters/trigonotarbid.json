@@ -6,11 +6,11 @@
   "system": {
     "abilities": {
       "str": {
-        "value": 14,
+        "value": 12,
         "proficient": 0
       },
       "dex": {
-        "value": 16,
+        "value": 15,
         "proficient": 0
       },
       "con": {
@@ -18,15 +18,15 @@
         "proficient": 0
       },
       "int": {
-        "value": 2,
+        "value": 1,
         "proficient": 0
       },
       "wis": {
-        "value": 12,
+        "value": 10,
         "proficient": 0
       },
       "cha": {
-        "value": 4,
+        "value": 2,
         "proficient": 0
       }
     },
@@ -44,10 +44,10 @@
         "formula": "4d8"
       },
       "movement": {
-        "walk": 50,
+        "walk": 30,
         "fly": 0,
         "swim": 0,
-        "climb": 50,
+        "climb": 30,
         "burrow": 0,
         "units": "ft",
         "hover": false
@@ -63,7 +63,7 @@
     },
     "details": {
       "biography": {
-        "value": "<p><strong>First Forest.</strong> A dog-sized proto-spider of the first forests, with no silk and no venom.</p>",
+        "value": "<p><strong>First Forest.</strong> A dog-sized proto-spider of the first forests. No silk and no venom, just fangs and patience.</p>",
         "public": ""
       },
       "alignment": "Unaligned",
@@ -73,7 +73,7 @@
         "swarm": "",
         "custom": ""
       },
-      "cr": 1,
+      "cr": 0.5,
       "environment": "First Forest"
     },
     "traits": {
@@ -104,7 +104,7 @@
     },
     "skills": {
       "prc": {
-        "value": 1
+        "value": 0
       }
     },
     "source": {
@@ -142,8 +142,8 @@
   },
   "items": [
     {
-      "_id": "JBHWTAAXr7TbGJGn",
-      "name": "Trunk Leaper",
+      "_id": "Lbn4HB39JSIdafpr",
+      "name": "Spider Climb",
       "img": "icons/creatures/invertebrates/spider-mandibles-brown.webp",
       "effects": [],
       "folder": null,
@@ -152,11 +152,52 @@
         "default": 0
       },
       "flags": {},
+      "_key": "!actors.items!CvjUQRI7FiijcpZb.Lbn4HB39JSIdafpr",
+      "type": "feat",
+      "system": {
+        "description": {
+          "value": "<p>It can climb difficult surfaces, including ceilings, without a check.</p>",
+          "chat": ""
+        },
+        "source": {
+          "custom": "The Epoch Descent",
+          "book": "",
+          "page": "",
+          "license": "",
+          "rules": "2014",
+          "revision": 1
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "",
+        "properties": [],
+        "activities": {},
+        "identifier": "spider-climb"
+      }
+    },
+    {
+      "_id": "JBHWTAAXr7TbGJGn",
+      "name": "Trunk Leaper",
+      "img": "icons/creatures/invertebrates/spider-mandibles-brown.webp",
+      "effects": [],
+      "folder": null,
+      "sort": 200000,
+      "ownership": {
+        "default": 0
+      },
+      "flags": {},
       "_key": "!actors.items!CvjUQRI7FiijcpZb.JBHWTAAXr7TbGJGn",
       "type": "feat",
       "system": {
         "description": {
-          "value": "<p>It doesn't provoke opportunity attacks and can leap up to 30 feet between trees or rises.</p>",
+          "value": "<p>It can leap up to 30 feet between trunks and doesn't provoke opportunity attacks when it does.</p>",
           "chat": ""
         },
         "source": {
@@ -188,7 +229,7 @@
       "img": "icons/creatures/invertebrates/spider-mandibles-brown.webp",
       "effects": [],
       "folder": null,
-      "sort": 200000,
+      "sort": 300000,
       "ownership": {
         "default": 0
       },
@@ -221,7 +262,7 @@
         "damage": {
           "base": {
             "number": 1,
-            "denomination": 10,
+            "denomination": 8,
             "bonus": "",
             "types": [
               "piercing"
