@@ -1,6 +1,6 @@
 {
   "_id": "o4r99zEXLYcvxZMm",
-  "name": "Syraa",
+  "name": "Syraa (Moon Child)",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
   "system": {
@@ -260,7 +260,7 @@
     }
   ],
   "effects": [],
-  "folder": null,
+  "folder": "gClGXQ73A3F2wDa5",
   "sort": 0,
   "ownership": {
     "default": 0

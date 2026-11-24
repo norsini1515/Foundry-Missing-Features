@@ -2,7 +2,7 @@
 // Validates every document first and checks every compiled pack afterward, because compilePack
 // silently produces an empty pack when documents are missing "_key".
 import { compilePack, extractPack } from "@foundryvtt/foundryvtt-cli";
-import { readdirSync, readFileSync, rmSync, mkdtempSync } from "node:fs";
+import { readdirSync, readFileSync, rmSync, mkdtempSync, statSync } from "node:fs";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
 
@@ -12,7 +12,9 @@ const PACKS = [
   ...["subclasses", "class-features", "spells", "items", "backgrounds", "feats"].map((p) => ({ dir: p, pack: p, coll: "items" })),
   { dir: "features", pack: "features", coll: "items" },
   { dir: "creatures/monsters", pack: "monsters", coll: "actors", embedded: { items: "items" } },
-  { dir: "creatures/npcs", pack: "npcs", coll: "actors", embedded: { items: "items" } },
+  // One folder per character, one file per version; each character folder has a _folder.json (a compendium folder)
+  { dir: "npcs", pack: "npcs", coll: "actors", embedded: { items: "items" }, recursive: true },
+  { dir: "encounters/tag/actors", pack: "encounter-actors", coll: "actors", embedded: { items: "items" } },
   { dir: "tables", pack: "tables", coll: "tables", embedded: { results: "results" } },
   { dir: "scenes", pack: "scenes", coll: "scenes" },
   { dir: "macros", pack: "macros", coll: "macros" },
@@ -23,14 +25,24 @@ const errors = [];
 const allIds = new Map(); // _id -> "category/file"
 const docs = {};
 
-// 1. Validate sources, including embedded documents (actor items, table results)
-for (const { dir, pack, coll, embedded = {} } of PACKS) {
+// JSON files in a folder, and in its subfolders when recursive
+const jsonFiles = (dir, recursive) =>
+  readdirSync(dir).flatMap((f) => {
+    const p = join(dir, f);
+    if (statSync(p).isDirectory()) return recursive ? jsonFiles(p, true) : [];
+    return f.endsWith(".json") ? [p] : [];
+  });
+
+// 1. Validate sources, including embedded documents (actor items, table results) and compendium folders
+for (const { dir, pack, coll, embedded = {}, recursive = false } of PACKS) {
   docs[pack] = [];
-  for (const file of readdirSync(`src/${dir}`).filter((f) => f.endsWith(".json"))) {
-    const where = `src/${dir}/${file}`;
+  for (const where of jsonFiles(`src/${dir}`, recursive)) {
     const doc = JSON.parse(readFileSync(where, "utf8"));
+    const file = where.slice(`src/${dir}/`.length);
+    const isFolder = file.endsWith("_folder.json");
+    const keyColl = isFolder ? "folders" : coll;
     if (!ID_RE.test(doc._id ?? "")) errors.push(`${where}: _id must be 16 alphanumeric chars`);
-    if (doc._key !== `!${coll}!${doc._id}`) errors.push(`${where}: _key must be "!${coll}!${doc._id}"`);
+    if (doc._key !== `!${keyColl}!${doc._id}`) errors.push(`${where}: _key must be "!${keyColl}!${doc._id}"`);
     if (allIds.has(doc._id)) errors.push(`${where}: duplicate _id, also in ${allIds.get(doc._id)}`);
     allIds.set(doc._id, `${pack}/${file}`);
     for (const [field, sub] of Object.entries(embedded)) {
@@ -64,10 +76,10 @@ if (errors.length) {
 }
 
 // 3. Compile, then extract to a temp dir and confirm the document count matches
-for (const { dir, pack: cat } of PACKS) {
+for (const { dir, pack: cat, recursive = false } of PACKS) {
   const dest = `packs/${cat}`;
   rmSync(dest, { recursive: true, force: true });
-  await compilePack(`src/${dir}`, dest);
+  await compilePack(`src/${dir}`, dest, { recursive });
   const check = mkdtempSync(join(tmpdir(), `${cat}-`));
   await extractPack(dest, check);
   const got = readdirSync(check).filter((f) => f.endsWith(".json")).length;

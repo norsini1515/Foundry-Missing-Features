@@ -124,6 +124,17 @@
       "system": "dnd5e"
     },
     {
+      "name": "encounter-actors",
+      "label": "Encounter Actors",
+      "path": "packs/encounter-actors",
+      "type": "Actor",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
       "name": "tables",
       "label": "Roll Tables",
       "path": "packs/tables",
@@ -174,6 +185,7 @@
         "features",
         "monsters",
         "npcs",
+        "encounter-actors",
         "tables",
         "scenes",
         "macros"

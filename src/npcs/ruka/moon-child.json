@@ -1,6 +1,6 @@
 {
   "_id": "kAl6dJ9NvNoPmvPz",
-  "name": "Ruka",
+  "name": "Ruka (Moon Child)",
   "type": "npc",
   "img": "icons/svg/mystery-man.svg",
   "system": {
@@ -472,7 +472,7 @@
     }
   ],
   "effects": [],
-  "folder": null,
+  "folder": "qcNibuwWeOS2nDDD",
   "sort": 0,
   "ownership": {
     "default": 0
