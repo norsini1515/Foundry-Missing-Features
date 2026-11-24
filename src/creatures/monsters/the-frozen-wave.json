@@ -2,7 +2,7 @@
   "_id": "t6oYHKHCgX8j93TZ",
   "name": "The Frozen Wave",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "modules/missing-features/assets/portraits/the-frozen-wave.webp",
   "system": {
     "abilities": {
       "str": {
@@ -140,7 +140,7 @@
       "attribute": null
     },
     "texture": {
-      "src": "icons/svg/mystery-man.svg",
+      "src": "modules/missing-features/assets/tokens/the-frozen-wave.webp",
       "scaleX": 1,
       "scaleY": 1,
       "fit": "contain"

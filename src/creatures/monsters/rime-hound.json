@@ -2,7 +2,7 @@
   "_id": "XYqmbk16haBBuoMP",
   "name": "Rime-Hound",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "modules/missing-features/assets/portraits/rime-hound.webp",
   "system": {
     "abilities": {
       "str": {
@@ -139,7 +139,7 @@
       "attribute": null
     },
     "texture": {
-      "src": "icons/svg/mystery-man.svg",
+      "src": "modules/missing-features/assets/tokens/rime-hound.webp",
       "scaleX": 1,
       "scaleY": 1,
       "fit": "contain"

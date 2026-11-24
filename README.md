@@ -67,7 +67,7 @@ Hunters are hidden tokens: Foundry can't show a token to only one player, so rev
 | `src/scenes/`      | Scenes      |
 | `src/macros/`      | Macros      |
 
-Map images live in `assets/maps/` and ship in the release zip.
+Map images live in `assets/maps/`, token art in `assets/tokens/` and portraits in `assets/portraits/`; all ship in the release zip. Sources and licenses for the art are in `CREDITS.md`. A creature without art yet uses Foundry's default token.
 
 One JSON file per document. Each needs a unique 16-character `_id` and a `_key` for its collection: `!items!<_id>`, `!actors!<_id>`, `!tables!<_id>`, `!scenes!<_id>` or `!macros!<_id>`. Embedded documents need their own: actor items use `!actors.items!<actorId>.<itemId>` and table results use `!tables.results!<tableId>.<resultId>`. The build checks all of these.
 

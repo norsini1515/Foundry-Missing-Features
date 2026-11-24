@@ -2,7 +2,7 @@
   "_id": "WRmLZQcAEGCosT4t",
   "name": "Skitterfrost",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "modules/missing-features/assets/portraits/skitterfrost.webp",
   "system": {
     "abilities": {
       "str": {
@@ -135,7 +135,7 @@
       "attribute": null
     },
     "texture": {
-      "src": "icons/svg/mystery-man.svg",
+      "src": "modules/missing-features/assets/tokens/skitterfrost.webp",
       "scaleX": 1,
       "scaleY": 1,
       "fit": "contain"

@@ -2,7 +2,7 @@
   "_id": "ryZXigXjkCBVwC1T",
   "name": "Orthocone",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "modules/missing-features/assets/portraits/orthocone.webp",
   "system": {
     "abilities": {
       "str": {
@@ -131,7 +131,7 @@
       "attribute": null
     },
     "texture": {
-      "src": "icons/svg/mystery-man.svg",
+      "src": "modules/missing-features/assets/tokens/orthocone.webp",
       "scaleX": 1,
       "scaleY": 1,
       "fit": "contain"

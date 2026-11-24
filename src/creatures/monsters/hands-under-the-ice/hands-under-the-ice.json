@@ -2,7 +2,7 @@
   "_id": "4JqiWCqCnvclR45c",
   "name": "Hands Under the Ice",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "modules/missing-features/assets/portraits/hands-under-the-ice.webp",
   "system": {
     "abilities": {
       "str": {
@@ -135,7 +135,7 @@
       "attribute": null
     },
     "texture": {
-      "src": "icons/svg/mystery-man.svg",
+      "src": "modules/missing-features/assets/tokens/hands-under-the-ice.webp",
       "scaleX": 1,
       "scaleY": 1,
       "fit": "contain"

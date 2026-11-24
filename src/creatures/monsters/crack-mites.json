@@ -2,7 +2,7 @@
   "_id": "9EVQbBzUh0dnP6oa",
   "name": "Crack-Mites",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "modules/missing-features/assets/portraits/crack-mites.webp",
   "system": {
     "abilities": {
       "str": {
@@ -131,7 +131,7 @@
       "attribute": null
     },
     "texture": {
-      "src": "icons/svg/mystery-man.svg",
+      "src": "modules/missing-features/assets/tokens/crack-mites.webp",
       "scaleX": 1,
       "scaleY": 1,
       "fit": "contain"

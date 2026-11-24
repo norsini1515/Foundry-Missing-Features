@@ -2,7 +2,7 @@
   "_id": "YpMoBjlOWbBuYNSl",
   "name": "Mud-Walker",
   "type": "npc",
-  "img": "icons/svg/mystery-man.svg",
+  "img": "modules/missing-features/assets/portraits/mud-walker.webp",
   "system": {
     "abilities": {
       "str": {
@@ -134,7 +134,7 @@
       "attribute": null
     },
     "texture": {
-      "src": "icons/svg/mystery-man.svg",
+      "src": "modules/missing-features/assets/tokens/mud-walker.webp",
       "scaleX": 1,
       "scaleY": 1,
       "fit": "contain"
