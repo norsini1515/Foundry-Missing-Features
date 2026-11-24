@@ -63,7 +63,7 @@
     },
     "details": {
       "biography": {
-        "value": "<p><strong>Hunter, Bare Stone.</strong> Slow and tanky. If your party is light on damage, drop it to 35 HP.</p>",
+        "value": "<p><strong>Bare Stone.</strong> Quilted fronds that rise like sails. No mouth and no eyes. Older than anything with either.</p>",
         "public": ""
       },
       "alignment": "Unaligned",
@@ -74,7 +74,7 @@
         "custom": ""
       },
       "cr": 2,
-      "environment": ""
+      "environment": "Bare Stone"
     },
     "traits": {
       "size": "lg",
@@ -183,53 +183,12 @@
       }
     },
     {
-      "_id": "RWvYCApnwkqDMUwG",
-      "name": "Out of Time",
-      "img": "icons/magic/symbols/ring-circle-smoke-blue.webp",
-      "effects": [],
-      "folder": null,
-      "sort": 200000,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_key": "!actors.items!t3mA8ZypkfhRexIt.RWvYCApnwkqDMUwG",
-      "type": "feat",
-      "system": {
-        "description": {
-          "value": "<p>Only the creature it hunts, and anyone who shares that creature's home epoch, can see it, unless the field roll matches its epoch. Creatures that can't see it attack it with disadvantage and deal half damage. It sinks back into its epoch at the end of its second round. Killing it clears one curse step for the creature it was hunting.</p>",
-          "chat": ""
-        },
-        "source": {
-          "custom": "The Epoch Descent",
-          "book": "",
-          "page": "",
-          "license": "",
-          "rules": "2014",
-          "revision": 1
-        },
-        "uses": {
-          "max": "",
-          "spent": 0,
-          "recovery": []
-        },
-        "type": {
-          "value": "monster",
-          "subtype": ""
-        },
-        "requirements": "",
-        "properties": [],
-        "activities": {},
-        "identifier": "out-of-time"
-      }
-    },
-    {
       "_id": "Xp7AgFKCJwuctsEH",
       "name": "Smother",
       "img": "icons/creatures/abilities/tail-swipe-green.webp",
       "effects": [],
       "folder": null,
-      "sort": 300000,
+      "sort": 200000,
       "ownership": {
         "default": 0
       },

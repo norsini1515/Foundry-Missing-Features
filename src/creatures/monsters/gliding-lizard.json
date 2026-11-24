@@ -63,7 +63,7 @@
     },
     "details": {
       "biography": {
-        "value": "<p><strong>Hunter, Rolling Hills.</strong> Fast and fragile. Rolled from the Rolling Hills hunter table when whoever is it has the Rolling Hills as their home epoch.</p>",
+        "value": "<p><strong>Rolling Hills.</strong> A small lizard with skin-wings stretched along its ribs. Usually seen in pairs.</p>",
         "public": ""
       },
       "alignment": "Unaligned",
@@ -74,7 +74,7 @@
         "custom": ""
       },
       "cr": 0.25,
-      "environment": ""
+      "environment": "Rolling Hills"
     },
     "traits": {
       "size": "sm",
@@ -156,7 +156,7 @@
       "type": "feat",
       "system": {
         "description": {
-          "value": "<p>Two appear together and count as one hunter.</p>",
+          "value": "<p>Usually seen in pairs.</p>",
           "chat": ""
         },
         "source": {
@@ -224,53 +224,12 @@
       }
     },
     {
-      "_id": "nvNErCd3IoWm9EeD",
-      "name": "Out of Time",
-      "img": "icons/magic/symbols/ring-circle-smoke-blue.webp",
-      "effects": [],
-      "folder": null,
-      "sort": 300000,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_key": "!actors.items!K0W92tA5IIjQlzHA.nvNErCd3IoWm9EeD",
-      "type": "feat",
-      "system": {
-        "description": {
-          "value": "<p>Only the creature it hunts, and anyone who shares that creature's home epoch, can see it, unless the field roll matches its epoch. Creatures that can't see it attack it with disadvantage and deal half damage. It sinks back into its epoch at the end of its second round. Killing it clears one curse step for the creature it was hunting.</p>",
-          "chat": ""
-        },
-        "source": {
-          "custom": "The Epoch Descent",
-          "book": "",
-          "page": "",
-          "license": "",
-          "rules": "2014",
-          "revision": 1
-        },
-        "uses": {
-          "max": "",
-          "spent": 0,
-          "recovery": []
-        },
-        "type": {
-          "value": "monster",
-          "subtype": ""
-        },
-        "requirements": "",
-        "properties": [],
-        "activities": {},
-        "identifier": "out-of-time"
-      }
-    },
-    {
       "_id": "gDJ3ixOvsZ4PiVJ4",
       "name": "Bite",
       "img": "icons/creatures/abilities/mouth-teeth-rows-red.webp",
       "effects": [],
       "folder": null,
-      "sort": 400000,
+      "sort": 300000,
       "ownership": {
         "default": 0
       },

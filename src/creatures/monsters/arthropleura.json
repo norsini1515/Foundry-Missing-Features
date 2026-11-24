@@ -63,7 +63,7 @@
     },
     "details": {
       "biography": {
-        "value": "<p><strong>Swamp Crossing.</strong> From the Danger table. Survive or escape, not clear.</p>",
+        "value": "<p><strong>Swamp.</strong> A millipede as long as a rowboat. Not a hunter; it just crosses your path.</p>",
         "public": ""
       },
       "alignment": "Unaligned",
@@ -74,7 +74,7 @@
         "custom": ""
       },
       "cr": 1,
-      "environment": ""
+      "environment": "Swamp"
     },
     "traits": {
       "size": "lg",

@@ -10,6 +10,7 @@ const MODULE_ID = "missing-features";
 // src folder, pack name, document collection, and the embedded collections to validate.
 const PACKS = [
   ...["subclasses", "class-features", "spells", "items", "backgrounds", "feats"].map((p) => ({ dir: p, pack: p, coll: "items" })),
+  { dir: "features", pack: "features", coll: "items" },
   { dir: "creatures/monsters", pack: "monsters", coll: "actors", embedded: { items: "items" } },
   { dir: "creatures/npcs", pack: "npcs", coll: "actors", embedded: { items: "items" } },
   { dir: "tables", pack: "tables", coll: "tables", embedded: { results: "results" } },

@@ -63,7 +63,7 @@
     },
     "details": {
       "biography": {
-        "value": "<p><strong>Hunter, Ice.</strong> Fast and fragile. Rolled from the Ice hunter table when whoever is it has the Ice as their home epoch.</p>",
+        "value": "<p><strong>Ice.</strong> A hound-shaped gust of blowing snow with nothing inside.</p>",
         "public": ""
       },
       "alignment": "Unaligned",
@@ -74,7 +74,7 @@
         "custom": ""
       },
       "cr": 1,
-      "environment": ""
+      "environment": "Ice"
     },
     "traits": {
       "size": "med",
@@ -183,53 +183,12 @@
       }
     },
     {
-      "_id": "3xbw5iOy7tP4scLW",
-      "name": "Out of Time",
-      "img": "icons/magic/symbols/ring-circle-smoke-blue.webp",
-      "effects": [],
-      "folder": null,
-      "sort": 200000,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_key": "!actors.items!XYqmbk16haBBuoMP.3xbw5iOy7tP4scLW",
-      "type": "feat",
-      "system": {
-        "description": {
-          "value": "<p>Only the creature it hunts, and anyone who shares that creature's home epoch, can see it, unless the field roll matches its epoch. Creatures that can't see it attack it with disadvantage and deal half damage. It sinks back into its epoch at the end of its second round. Killing it clears one curse step for the creature it was hunting.</p>",
-          "chat": ""
-        },
-        "source": {
-          "custom": "The Epoch Descent",
-          "book": "",
-          "page": "",
-          "license": "",
-          "rules": "2014",
-          "revision": 1
-        },
-        "uses": {
-          "max": "",
-          "spent": 0,
-          "recovery": []
-        },
-        "type": {
-          "value": "monster",
-          "subtype": ""
-        },
-        "requirements": "",
-        "properties": [],
-        "activities": {},
-        "identifier": "out-of-time"
-      }
-    },
-    {
       "_id": "BLOSTGakjIJePFar",
       "name": "Bite",
       "img": "icons/creatures/abilities/mouth-teeth-rows-red.webp",
       "effects": [],
       "folder": null,
-      "sort": 300000,
+      "sort": 200000,
       "ownership": {
         "default": 0
       },

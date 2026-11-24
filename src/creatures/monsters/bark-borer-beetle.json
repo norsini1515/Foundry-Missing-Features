@@ -63,7 +63,7 @@
     },
     "details": {
       "biography": {
-        "value": "<p><strong>Swamp Crossing.</strong> From the Danger table. Survive or escape, not clear.</p>",
+        "value": "<p><strong>Swamp.</strong> A dog-sized beetle that lives inside rotten trunks and bursts out of them.</p>",
         "public": ""
       },
       "alignment": "Unaligned",
@@ -74,7 +74,7 @@
         "custom": ""
       },
       "cr": 1,
-      "environment": ""
+      "environment": "Swamp"
     },
     "traits": {
       "size": "med",

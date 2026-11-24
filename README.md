@@ -25,7 +25,8 @@ https://github.com/<owner>/Foundry-Missing-Features/releases/latest/download/mod
 
 | Compendium | Contents |
 |------------|----------|
-| Monsters   | 24 meadow hunters (four per epoch: two fast, two tanks) and the 7 Swamp Crossing creatures |
+| Encounter Features | Out of Time: rules an encounter adds to a creature it pulls out of its epoch, not part of any stat block |
+| Monsters   | 24 creatures from the vision's epochs (four per epoch: two fast, two tanks) and the 7 swamp creatures. Plain monsters, reusable anywhere |
 | NPCs       | Ruka, Syraa, Lyra, the Grandfather, and The Field (an initiative placeholder) |
 | Roll Tables | Tag: field, fold glitch, both fold visions, Ruka's tricks, the six hunter tables, extinction by epoch, the Grandfather's small talk and the girls' lines |
 | Scenes     | The Meadow: Tag (28 x 28 grid, 100 px, 5 ft) |
@@ -36,7 +37,7 @@ https://github.com/<owner>/Foundry-Missing-Features/releases/latest/download/mod
 1. Import **The Meadow: Tag** from Scenes and view it.
 2. Run **Tag: Set Up the Meadow**. It imports the tables and NPCs into "Tag" folders, places the Grandfather, Lyra, Syraa and Ruka, outlines the folds and lag patches (GM only), and creates the encounter with The Field on initiative 99 and Ruka. It skips anything already there, so it's safe to run twice.
 3. Add the player tokens to the tracker, roll initiative, and Begin Combat.
-4. On The Field's turn each round, run **Tag: Start of Round**. It describes the sun, whispers you the clock, and rolls the field. On rounds 2 and 4 it asks whose home epoch is it, rolls that hunter table privately, imports the hunter and places it hidden at the field's edge, right after Ruka in initiative. At the start of round 4 it removes hunter #1.
+4. On The Field's turn each round, run **Tag: Start of Round**. It describes the sun, whispers you the clock, and rolls the field. On rounds 2 and 4 it asks whose home epoch is it, rolls that hunter table privately, imports the hunter, places it hidden at the field's edge right after Ruka in initiative, and gives that token Out of Time. At the start of round 4 it removes hunter #1.
 5. When someone steps into a fold, run **Tag: Fold**. A 7 or 8 also rolls the vision privately.
 
 Hunters are hidden tokens: Foundry can't show a token to only one player, so reveal it when the field matches its epoch or someone reveals it, and tell the hunted player privately until then.
@@ -57,6 +58,7 @@ Hunters are hidden tokens: Foundry can't show a token to only one player, so rev
 | `src/items/`       | Items       |
 | `src/backgrounds/` | Backgrounds |
 | `src/feats/`       | Feats       |
+| `src/features/`    | Encounter Features |
 | `src/creatures/monsters/` | Monsters (Actor) |
 | `src/creatures/npcs/` | NPCs (Actor) |
 | `src/tables/`      | Roll Tables |

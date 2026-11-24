@@ -63,7 +63,7 @@
     },
     "details": {
       "biography": {
-        "value": "<p><strong>Swamp Crossing.</strong> From the Danger table. Survive or escape, not clear.</p>",
+        "value": "<p><strong>Swamp.</strong> A dragonfly with wings as wide as a man's arms, diving out of the fog.</p>",
         "public": ""
       },
       "alignment": "Unaligned",
@@ -74,7 +74,7 @@
         "custom": ""
       },
       "cr": 0.5,
-      "environment": ""
+      "environment": "Swamp"
     },
     "traits": {
       "size": "sm",

@@ -63,7 +63,7 @@
     },
     "details": {
       "biography": {
-        "value": "<p><strong>Hunter, Shallow Sea.</strong> Fast and fragile. Rolled from the Shallow Sea hunter table when whoever is it has the Shallow Sea as their home epoch.</p>",
+        "value": "<p><strong>Shallow Sea.</strong> A shrimp-like hunter from the first seas, with spiny grasping limbs and a round mouth. It swims through the air as if it were water.</p>",
         "public": ""
       },
       "alignment": "Unaligned",
@@ -74,7 +74,7 @@
         "custom": ""
       },
       "cr": 1,
-      "environment": ""
+      "environment": "Shallow Sea"
     },
     "traits": {
       "size": "med",
@@ -183,53 +183,12 @@
       }
     },
     {
-      "_id": "zFwrT1CGaf7i1gdC",
-      "name": "Out of Time",
-      "img": "icons/magic/symbols/ring-circle-smoke-blue.webp",
-      "effects": [],
-      "folder": null,
-      "sort": 200000,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_key": "!actors.items!v4VjFIOFHDhZGJqi.zFwrT1CGaf7i1gdC",
-      "type": "feat",
-      "system": {
-        "description": {
-          "value": "<p>Only the creature it hunts, and anyone who shares that creature's home epoch, can see it, unless the field roll matches its epoch. Creatures that can't see it attack it with disadvantage and deal half damage. It sinks back into its epoch at the end of its second round. Killing it clears one curse step for the creature it was hunting.</p>",
-          "chat": ""
-        },
-        "source": {
-          "custom": "The Epoch Descent",
-          "book": "",
-          "page": "",
-          "license": "",
-          "rules": "2014",
-          "revision": 1
-        },
-        "uses": {
-          "max": "",
-          "spent": 0,
-          "recovery": []
-        },
-        "type": {
-          "value": "monster",
-          "subtype": ""
-        },
-        "requirements": "",
-        "properties": [],
-        "activities": {},
-        "identifier": "out-of-time"
-      }
-    },
-    {
       "_id": "BDvJ7xxgGpkSEQSB",
       "name": "Grasping Limbs",
       "img": "icons/creatures/claws/claw-talons-yellow-red.webp",
       "effects": [],
       "folder": null,
-      "sort": 300000,
+      "sort": 200000,
       "ownership": {
         "default": 0
       },
@@ -238,7 +197,7 @@
       "type": "weapon",
       "system": {
         "description": {
-          "value": "<p>[[/attack extended]]. [[/damage extended]]. The target is &Reference[grappled] (escape DC 12). A grappled target can't run in tag.</p>",
+          "value": "<p>[[/attack extended]]. [[/damage extended]]. The target is &Reference[grappled] (escape DC 12). Until this grapple ends, the target's speed is 0.</p>",
           "chat": ""
         },
         "source": {

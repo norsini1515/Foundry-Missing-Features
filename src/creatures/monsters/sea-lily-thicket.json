@@ -63,7 +63,7 @@
     },
     "details": {
       "biography": {
-        "value": "<p><strong>Hunter, Shallow Sea.</strong> Slow and tanky. If your party is light on damage, drop it to 35 HP.</p>",
+        "value": "<p><strong>Shallow Sea.</strong> A forest of crinoid stalks and feathered arms that moves by withering behind and growing ahead.</p>",
         "public": ""
       },
       "alignment": "Unaligned",
@@ -74,7 +74,7 @@
         "custom": ""
       },
       "cr": 2,
-      "environment": ""
+      "environment": "Shallow Sea"
     },
     "traits": {
       "size": "lg",
@@ -224,53 +224,12 @@
       }
     },
     {
-      "_id": "6F8nchox1LllQOr6",
-      "name": "Out of Time",
-      "img": "icons/magic/symbols/ring-circle-smoke-blue.webp",
-      "effects": [],
-      "folder": null,
-      "sort": 300000,
-      "ownership": {
-        "default": 0
-      },
-      "flags": {},
-      "_key": "!actors.items!YM6rdSA16FbEgrev.6F8nchox1LllQOr6",
-      "type": "feat",
-      "system": {
-        "description": {
-          "value": "<p>Only the creature it hunts, and anyone who shares that creature's home epoch, can see it, unless the field roll matches its epoch. Creatures that can't see it attack it with disadvantage and deal half damage. It sinks back into its epoch at the end of its second round. Killing it clears one curse step for the creature it was hunting.</p>",
-          "chat": ""
-        },
-        "source": {
-          "custom": "The Epoch Descent",
-          "book": "",
-          "page": "",
-          "license": "",
-          "rules": "2014",
-          "revision": 1
-        },
-        "uses": {
-          "max": "",
-          "spent": 0,
-          "recovery": []
-        },
-        "type": {
-          "value": "monster",
-          "subtype": ""
-        },
-        "requirements": "",
-        "properties": [],
-        "activities": {},
-        "identifier": "out-of-time"
-      }
-    },
-    {
       "_id": "i8lRSAi4jdUgEcbJ",
       "name": "Wrap",
       "img": "icons/creatures/abilities/tail-swipe-green.webp",
       "effects": [],
       "folder": null,
-      "sort": 400000,
+      "sort": 300000,
       "ownership": {
         "default": 0
       },

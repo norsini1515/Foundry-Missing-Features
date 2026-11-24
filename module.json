@@ -91,6 +91,17 @@
       }
     },
     {
+      "name": "features",
+      "label": "Encounter Features",
+      "path": "packs/features",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
       "name": "monsters",
       "label": "Monsters",
       "path": "packs/monsters",
@@ -160,6 +171,7 @@
       "name": "The Epoch Descent",
       "sorting": "m",
       "packs": [
+        "features",
         "monsters",
         "npcs",
         "tables",

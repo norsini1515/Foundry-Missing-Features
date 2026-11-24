@@ -63,7 +63,7 @@
     },
     "details": {
       "biography": {
-        "value": "<p><strong>Swamp Crossing.</strong> From the Danger table. Survive or escape, not clear.</p>",
+        "value": "<p><strong>Swamp.</strong> A thick, slow swamp snake that wraps its prey.</p>",
         "public": ""
       },
       "alignment": "Unaligned",
@@ -74,7 +74,7 @@
         "custom": ""
       },
       "cr": 0.25,
-      "environment": ""
+      "environment": "Swamp"
     },
     "traits": {
       "size": "lg",
