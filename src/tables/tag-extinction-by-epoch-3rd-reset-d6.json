@@ -1,0 +1,114 @@
+{
+  "_id": "XFPKqjFdgQHbLF0q",
+  "name": "Tag - Extinction by Epoch (3rd reset, d6)",
+  "img": "icons/svg/d20-black.svg",
+  "description": "",
+  "formula": "1d6",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "_id": "91dFDjdGy1kEHRKD",
+      "type": "text",
+      "text": "Shallow sea. The water goes black and airless. Dead things float up.",
+      "description": "Shallow sea. The water goes black and airless. Dead things float up.",
+      "name": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!XFPKqjFdgQHbLF0q.91dFDjdGy1kEHRKD"
+    },
+    {
+      "_id": "ciRySiZNAlFZCZHE",
+      "type": "text",
+      "text": "Ice. The ice spreads. Frozen shapes are visible underneath.",
+      "description": "Ice. The ice spreads. Frozen shapes are visible underneath.",
+      "name": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!XFPKqjFdgQHbLF0q.ciRySiZNAlFZCZHE"
+    },
+    {
+      "_id": "YYE15xgnfN8mH7TJ",
+      "type": "text",
+      "text": "Bare stone. Cracks open with heat beneath: lava pools.",
+      "description": "Bare stone. Cracks open with heat beneath: lava pools.",
+      "name": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!XFPKqjFdgQHbLF0q.YYE15xgnfN8mH7TJ"
+    },
+    {
+      "_id": "djD0OriilvS8JtrQ",
+      "type": "text",
+      "text": "First forest. Trunks fall. Dead fish in the mud at their roots.",
+      "description": "First forest. Trunks fall. Dead fish in the mud at their roots.",
+      "name": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!XFPKqjFdgQHbLF0q.djD0OriilvS8JtrQ"
+    },
+    {
+      "_id": "b9IrOmNevYbx9ASG",
+      "type": "text",
+      "text": "Rolling hills. Ash drifts. The hills smoke.",
+      "description": "Rolling hills. Ash drifts. The hills smoke.",
+      "name": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!XFPKqjFdgQHbLF0q.b9IrOmNevYbx9ASG"
+    },
+    {
+      "_id": "dUHWAbByZLW0hisz",
+      "type": "text",
+      "text": "Meadow. The grass burns at the edges. The sky goes orange.",
+      "description": "Meadow. The grass burns at the edges. The sky goes orange.",
+      "name": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!XFPKqjFdgQHbLF0q.dUHWAbByZLW0hisz"
+    }
+  ],
+  "folder": null,
+  "sort": 1200000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!tables!XFPKqjFdgQHbLF0q"
+}

@@ -1,0 +1,82 @@
+{
+  "_id": "PerQgY16SExkZVUF",
+  "name": "Fold Vision - The Hunt (d4)",
+  "img": "icons/svg/d20-black.svg",
+  "description": "",
+  "formula": "1d4",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "_id": "1mS1EM9Rlt3lw2Ni",
+      "type": "text",
+      "text": "From very high: a vast shape of heat, older than any god, curled on a seabed like a sleeping animal. A bird circles above it, patient. The titan opens one eye and looks at you.",
+      "description": "From very high: a vast shape of heat, older than any god, curled on a seabed like a sleeping animal. A bird circles above it, patient. The titan opens one eye and looks at you.",
+      "name": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!PerQgY16SExkZVUF.1mS1EM9Rlt3lw2Ni"
+    },
+    {
+      "_id": "vTj8zbohocJv2Dve",
+      "type": "text",
+      "text": "A titan made of the weight of deep water crawls across a dark plain. Something small and bird-shaped rides its back, pecking. Where it pecks, the titan goes quiet. It turns its head toward you.",
+      "description": "A titan made of the weight of deep water crawls across a dark plain. Something small and bird-shaped rides its back, pecking. Where it pecks, the titan goes quiet. It turns its head toward you.",
+      "name": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!PerQgY16SExkZVUF.vTj8zbohocJv2Dve"
+    },
+    {
+      "_id": "OXTw2KgCqtrMseH8",
+      "type": "text",
+      "text": "Time itself as a creature, long and many-jointed, threading between stars. Something follows it with no shape at all, only borrowed voices. The titan stops and looks at you.",
+      "description": "Time itself as a creature, long and many-jointed, threading between stars. Something follows it with no shape at all, only borrowed voices. The titan stops and looks at you.",
+      "name": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!PerQgY16SExkZVUF.OXTw2KgCqtrMseH8"
+    },
+    {
+      "_id": "SH5h7dg7huPifp31",
+      "type": "text",
+      "text": "A titan of weight, everything around it falling toward it, half buried and gnawed down to a stump. Wisps feed at the wound. A bird sits on what is left, cleaning its beak. Only the titan sees you.",
+      "description": "A titan of weight, everything around it falling toward it, half buried and gnawed down to a stump. Wisps feed at the wound. A bird sits on what is left, cleaning its beak. Only the titan sees you.",
+      "name": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!PerQgY16SExkZVUF.SH5h7dg7huPifp31"
+    }
+  ],
+  "folder": null,
+  "sort": 400000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!tables!PerQgY16SExkZVUF"
+}

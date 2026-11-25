@@ -1,0 +1,82 @@
+{
+  "_id": "fbHktbC4vG0oEnx1",
+  "name": "Hunter 6 - Meadow (d4)",
+  "img": "icons/svg/d20-black.svg",
+  "description": "",
+  "formula": "1d4",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "_id": "RTEnd0tvBFocaIs9",
+      "type": "text",
+      "text": "Terror Bird [fast]",
+      "description": "Terror Bird [fast]",
+      "name": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!fbHktbC4vG0oEnx1.RTEnd0tvBFocaIs9"
+    },
+    {
+      "_id": "1qGNcxprgn5D6pdh",
+      "type": "text",
+      "text": "Hyaenodon [fast, pair]",
+      "description": "Hyaenodon [fast, pair]",
+      "name": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!fbHktbC4vG0oEnx1.1qGNcxprgn5D6pdh"
+    },
+    {
+      "_id": "VhHjujqhNtYDdSYd",
+      "type": "text",
+      "text": "Glyptodont [tank]",
+      "description": "Glyptodont [tank]",
+      "name": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!fbHktbC4vG0oEnx1.VhHjujqhNtYDdSYd"
+    },
+    {
+      "_id": "5gHiUm0KCYHhG8Df",
+      "type": "text",
+      "text": "Giant Sloth (Mylodon) [tank]",
+      "description": "Giant Sloth (Mylodon) [tank]",
+      "name": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!fbHktbC4vG0oEnx1.5gHiUm0KCYHhG8Df"
+    }
+  ],
+  "folder": null,
+  "sort": 1100000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!tables!fbHktbC4vG0oEnx1"
+}

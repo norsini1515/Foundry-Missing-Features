@@ -1,0 +1,82 @@
+{
+  "_id": "T0XCgJ0Lqh4l95mM",
+  "name": "Hunter 5 - Hills (d4)",
+  "img": "icons/svg/d20-black.svg",
+  "description": "",
+  "formula": "1d4",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "_id": "l9uc2rDbHFIiprqU",
+      "type": "text",
+      "text": "Gorgonopsid [fast]",
+      "description": "Gorgonopsid [fast]",
+      "name": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!T0XCgJ0Lqh4l95mM.l9uc2rDbHFIiprqU"
+    },
+    {
+      "_id": "XWJERYRyBIaJIwee",
+      "type": "text",
+      "text": "Gliding Lizard (Flock) [fast]",
+      "description": "Gliding Lizard (Flock) [fast]",
+      "name": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!T0XCgJ0Lqh4l95mM.XWJERYRyBIaJIwee"
+    },
+    {
+      "_id": "RfOYvFqml2yVRg0R",
+      "type": "text",
+      "text": "Scutosaur [tank]",
+      "description": "Scutosaur [tank]",
+      "name": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!T0XCgJ0Lqh4l95mM.RfOYvFqml2yVRg0R"
+    },
+    {
+      "_id": "1GAS8V0r7dYKRgmo",
+      "type": "text",
+      "text": "Dimetrodon [tank]",
+      "description": "Dimetrodon [tank]",
+      "name": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!T0XCgJ0Lqh4l95mM.1GAS8V0r7dYKRgmo"
+    }
+  ],
+  "folder": null,
+  "sort": 1000000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!tables!T0XCgJ0Lqh4l95mM"
+}

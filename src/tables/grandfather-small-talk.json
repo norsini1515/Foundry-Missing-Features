@@ -1,0 +1,114 @@
+{
+  "_id": "eqfIzcvGArnzT1oZ",
+  "name": "Grandfather - Small Talk",
+  "img": "icons/svg/d20-black.svg",
+  "description": "",
+  "formula": "1d6",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "_id": "2EcLcC4oV0ZF1bbe",
+      "type": "text",
+      "text": "Lovely weather for it.",
+      "description": "Lovely weather for it.",
+      "name": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!eqfIzcvGArnzT1oZ.2EcLcC4oV0ZF1bbe"
+    },
+    {
+      "_id": "fGXAt0i7j7TYwT22",
+      "type": "text",
+      "text": "Are you here for the festival? I do hope it doesn't rain.",
+      "description": "Are you here for the festival? I do hope it doesn't rain.",
+      "name": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!eqfIzcvGArnzT1oZ.fGXAt0i7j7TYwT22"
+    },
+    {
+      "_id": "E7I4J2nypnLreJXn",
+      "type": "text",
+      "text": "I remember when he was small. Well. I remember some of it.",
+      "description": "I remember when he was small. Well. I remember some of it.",
+      "name": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!eqfIzcvGArnzT1oZ.E7I4J2nypnLreJXn"
+    },
+    {
+      "_id": "cCbcp6ha2l9KFjdo",
+      "type": "text",
+      "text": "He gets his stubbornness from me. He'll take his time.",
+      "description": "He gets his stubbornness from me. He'll take his time.",
+      "name": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!eqfIzcvGArnzT1oZ.cCbcp6ha2l9KFjdo"
+    },
+    {
+      "_id": "WAkKQkBaVDhV2yt7",
+      "type": "text",
+      "text": "Days are getting shorter, aren't they.",
+      "description": "Days are getting shorter, aren't they.",
+      "name": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!eqfIzcvGArnzT1oZ.WAkKQkBaVDhV2yt7"
+    },
+    {
+      "_id": "ucNnr1aP8VjID1vA",
+      "type": "text",
+      "text": "You'll want to eat before the bells. Everyone forgets to eat.",
+      "description": "You'll want to eat before the bells. Everyone forgets to eat.",
+      "name": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!eqfIzcvGArnzT1oZ.ucNnr1aP8VjID1vA"
+    }
+  ],
+  "folder": null,
+  "sort": 1300000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!tables!eqfIzcvGArnzT1oZ"
+}

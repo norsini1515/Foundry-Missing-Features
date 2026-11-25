@@ -1,0 +1,41 @@
+{
+  "_id": "wXcefeDRktCkALBD",
+  "name": "Out of Time",
+  "type": "feat",
+  "img": "icons/magic/symbols/ring-circle-smoke-blue.webp",
+  "system": {
+    "description": {
+      "value": "<p>It moves through any epoch as through its own: a swimmer swims through the air, a burrower burrows through whatever ground it stands on. Only the creature it hunts, and anyone who shares that creature's home epoch, can see it, unless the field roll matches its epoch. Creatures that can't see it attack it with disadvantage and deal half damage. It sinks back into its epoch at the end of its second round. Killing it clears one curse step for the creature it was hunting.</p><p><em>Added to a creature by the encounter that summons it out of its epoch (in tag, by the Tag: Start of Round macro). Not part of any creature's own stat block.</em></p>",
+      "chat": ""
+    },
+    "source": {
+      "custom": "The Epoch Descent",
+      "book": "",
+      "page": "",
+      "license": "",
+      "rules": "2014",
+      "revision": 1
+    },
+    "uses": {
+      "max": "",
+      "spent": 0,
+      "recovery": []
+    },
+    "type": {
+      "value": "monster",
+      "subtype": ""
+    },
+    "requirements": "",
+    "properties": [],
+    "activities": {},
+    "identifier": "out-of-time"
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!items!wXcefeDRktCkALBD"
+}

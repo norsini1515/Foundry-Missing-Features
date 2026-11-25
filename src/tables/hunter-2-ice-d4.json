@@ -1,0 +1,82 @@
+{
+  "_id": "0IGLUTXzQsHAdbqR",
+  "name": "Hunter 2 - Ice (d4)",
+  "img": "icons/svg/d20-black.svg",
+  "description": "",
+  "formula": "1d4",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "_id": "xwSIGxw4u7wWu79N",
+      "type": "text",
+      "text": "Skitterfrost [fast]",
+      "description": "Skitterfrost [fast]",
+      "name": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!0IGLUTXzQsHAdbqR.xwSIGxw4u7wWu79N"
+    },
+    {
+      "_id": "CDFnq22733ubT9G3",
+      "type": "text",
+      "text": "Rime-Hound [fast]",
+      "description": "Rime-Hound [fast]",
+      "name": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!0IGLUTXzQsHAdbqR.CDFnq22733ubT9G3"
+    },
+    {
+      "_id": "4zLV0X9yvBIX8kAj",
+      "type": "text",
+      "text": "Hands Under the Ice (Single Hand) [tank]",
+      "description": "Hands Under the Ice (Single Hand) [tank]",
+      "name": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!0IGLUTXzQsHAdbqR.4zLV0X9yvBIX8kAj"
+    },
+    {
+      "_id": "CPuQ6QFvb5NKXZDl",
+      "type": "text",
+      "text": "The Frozen Wave [tank]",
+      "description": "The Frozen Wave [tank]",
+      "name": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!0IGLUTXzQsHAdbqR.CPuQ6QFvb5NKXZDl"
+    }
+  ],
+  "folder": null,
+  "sort": 700000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!tables!0IGLUTXzQsHAdbqR"
+}

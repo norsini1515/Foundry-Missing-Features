@@ -36,7 +36,7 @@ jobs:
           ' module.json > module.tmp && mv module.tmp module.json
 
       - name: Package
-        run: zip -r module.zip module.json packs README.md
+        run: zip -r module.zip module.json packs assets README.md
 
       - uses: softprops/action-gh-release@v2
         with:

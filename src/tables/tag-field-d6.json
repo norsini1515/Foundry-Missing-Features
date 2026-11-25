@@ -1,0 +1,114 @@
+{
+  "_id": "YbOncZZvKN56ww3q",
+  "name": "Tag - Field (d6)",
+  "img": "icons/svg/d20-black.svg",
+  "description": "",
+  "formula": "1d6",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "_id": "nAdnT3VZMazZQxl7",
+      "type": "text",
+      "text": "Shallow sea. A deep channel splits the field. Swim it (Athletics) or go around and lose the round.",
+      "description": "Shallow sea. A deep channel splits the field. Swim it (Athletics) or go around and lose the round.",
+      "name": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!YbOncZZvKN56ww3q.nAdnT3VZMazZQxl7"
+    },
+    {
+      "_id": "YDEvGONIy0pCkRvc",
+      "type": "text",
+      "text": "Ice. The ice cracks under whoever is it. Dex save or fall through to the waist.",
+      "description": "Ice. The ice cracks under whoever is it. Dex save or fall through to the waist.",
+      "name": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!YbOncZZvKN56ww3q.YDEvGONIy0pCkRvc"
+    },
+    {
+      "_id": "g9d1JYgd12kTTcy3",
+      "type": "text",
+      "text": "Bare stone. No cover anywhere. Ruka is visible but fast: +2 this round.",
+      "description": "Bare stone. No cover anywhere. Ruka is visible but fast: +2 this round.",
+      "name": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!YbOncZZvKN56ww3q.g9d1JYgd12kTTcy3"
+    },
+    {
+      "_id": "XPqR09Zeljc2qPiN",
+      "type": "text",
+      "text": "First forest. The trunks make a maze. Perception to keep sight of Ruka, or she is hidden.",
+      "description": "First forest. The trunks make a maze. Perception to keep sight of Ruka, or she is hidden.",
+      "name": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!YbOncZZvKN56ww3q.XPqR09Zeljc2qPiN"
+    },
+    {
+      "_id": "Vd3SLAP65tJzBofD",
+      "type": "text",
+      "text": "Rolling hills. High ground gives advantage. Ruka goes for it. (Home field: Norm, Gideon)",
+      "description": "Rolling hills. High ground gives advantage. Ruka goes for it. (Home field: Norm, Gideon)",
+      "name": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!YbOncZZvKN56ww3q.Vd3SLAP65tJzBofD"
+    },
+    {
+      "_id": "RautqPcNaNnqAd6Q",
+      "type": "text",
+      "text": "Meadow. Tall grass. Perception to hear her laugh. (Home field: Earl)",
+      "description": "Meadow. Tall grass. Perception to hear her laugh. (Home field: Earl)",
+      "name": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!YbOncZZvKN56ww3q.RautqPcNaNnqAd6Q"
+    }
+  ],
+  "folder": null,
+  "sort": 100000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!tables!YbOncZZvKN56ww3q"
+}

@@ -1,0 +1,82 @@
+{
+  "_id": "eroSvHYAPq7NBK7O",
+  "name": "Hunter 3 - Stone (d4)",
+  "img": "icons/svg/d20-black.svg",
+  "description": "",
+  "formula": "1d4",
+  "replacement": true,
+  "displayRoll": true,
+  "results": [
+    {
+      "_id": "aG3pPoqyYmMeJVfC",
+      "type": "text",
+      "text": "Crack-Mites [fast]",
+      "description": "Crack-Mites [fast]",
+      "name": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!eroSvHYAPq7NBK7O.aG3pPoqyYmMeJVfC"
+    },
+    {
+      "_id": "BtExETARcHmResOB",
+      "type": "text",
+      "text": "Lichen-Crawler [fast]",
+      "description": "Lichen-Crawler [fast]",
+      "name": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!eroSvHYAPq7NBK7O.BtExETARcHmResOB"
+    },
+    {
+      "_id": "OLOBHAMtu47wM9OC",
+      "type": "text",
+      "text": "The Quilted [tank]",
+      "description": "The Quilted [tank]",
+      "name": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!eroSvHYAPq7NBK7O.OLOBHAMtu47wM9OC"
+    },
+    {
+      "_id": "QGggCNzcJSBhRqMA",
+      "type": "text",
+      "text": "Stromatolite Mound [tank]",
+      "description": "Stromatolite Mound [tank]",
+      "name": "",
+      "img": "icons/svg/d20-black.svg",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "flags": {},
+      "_key": "!tables.results!eroSvHYAPq7NBK7O.QGggCNzcJSBhRqMA"
+    }
+  ],
+  "folder": null,
+  "sort": 800000,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_key": "!tables!eroSvHYAPq7NBK7O"
+}
